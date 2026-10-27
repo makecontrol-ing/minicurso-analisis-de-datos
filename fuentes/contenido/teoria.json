@@ -1,0 +1,221 @@
+[
+  {
+    "id": "portada",
+    "layout": "portada",
+    "titulo": "Introducción al análisis de datos\ncon Python",
+    "etiqueta": "MINICURSO · DE LOS DATOS CRUDOS A LAS GRÁFICAS",
+    "autores": "Andrés David Galeano Quintero",
+    "nota": "Taller práctico en Google Colab con pandas y matplotlib: solo se necesita un navegador y una cuenta de Google.",
+    "notas": "[0:00 – 0:01] Saludo y presentación: soy Andrés, estudiante de la Facultad de Minas. En 90 minutos vamos a pasar de una base de datos sucia a gráficas que responden preguntas. Mientras hablo, pedir que abran Google Colab (colab.research.google.com) con su cuenta de Google y que descarguen los dos archivos de la carpeta «taller» del enlace, que está en la diapositiva 2: no hay que instalar nada. Pregunta rápida (a mano alzada, 10 s): ¿quién ha usado Python o Excel para analizar datos alguna vez?"
+  },
+  {
+    "id": "agenda",
+    "layout": "tabla",
+    "titulo": "Noventa minutos: de los datos crudos a las gráficas",
+    "etiqueta": "AGENDA",
+    "columnas": ["Bloque", "Tiempo", "Qué haremos"],
+    "filas": [
+      ["1. Por qué y para qué", "0:00 – 0:12", "Qué es analizar datos, por qué limpiar y qué tipos de variables hay"],
+      ["2. Tipos de gráficas", "0:12 – 0:30", "Qué pregunta responde cada gráfica y cómo leerla sin engañarse"],
+      ["3. Taller ETL", "0:30 – 1:05", "En Colab: extraer, corregir 7 errores y cargar la base de «Pan de Datos»"],
+      ["4. Análisis gráfico", "1:05 – 1:22", "Cinco gráficas sobre la base limpia, cada una con su pregunta"],
+      ["5. Cierre", "1:22 – 1:30", "Resumen de métodos, lista de chequeo de limpieza y preguntas"]
+    ],
+    "nota": "Primero las ideas (30 min); después, 52 min de práctica en el cuaderno (notebook) de Colab y 8 de cierre. Archivos del taller: {enlace}",
+    "notas": "[0:01 – 0:02] Recorrer la agenda: 30 minutos de ideas (por qué analizar datos y cómo elegir una gráfica), 35 minutos de taller ETL en Colab, 17 de análisis gráfico y 8 de cierre. Aclarar la dinámica del taller: en cada paso la diapositiva muestra el método exacto que deben escribir en el hueco ___ de su cuaderno (notebook) de Colab. Dejar el enlace a la vista unos segundos: quien ya pueda, que descargue los archivos de la carpeta «taller»."
+  },
+  {
+    "id": "que-es-analizar",
+    "layout": "tarjetas",
+    "titulo": "Analizar datos es responder preguntas con evidencia",
+    "etiqueta": "BLOQUE 1 · POR QUÉ Y PARA QUÉ",
+    "tarjetas": [
+      {"titulo": "1. Una pregunta", "texto": "Todo empieza con algo que queremos saber: ¿a qué hora se llena la cafetería?, ¿qué materia tiene más reprobados? Sin pregunta, los datos son solo números."},
+      {"titulo": "2. Evidencia", "texto": "Reunimos, limpiamos y resumimos los datos que responden la pregunta: conteos, promedios, tendencias y gráficas."},
+      {"titulo": "3. Una decisión", "texto": "La respuesta sirve para actuar: abrir otra caja en la cafetería, reforzar monitorías o mover un horario."}
+    ],
+    "destacado": {"etiqueta": "EN UNA FRASE", "texto": "Analizar datos es ir de una pregunta a una decisión, apoyados en evidencia."},
+    "notas": "[0:02 – 0:04] Explicar que analizar datos no es «hacer gráficas bonitas»: es pasar de una pregunta a una decisión con evidencia. Recorrer las tres tarjetas con el ejemplo de la cafetería: pregunta (¿a qué hora se llena?), evidencia (conteo de personas por hora), decisión (abrir otra caja a esa hora). Pregunta abierta (1 min como máximo): ¿qué decisión de su semana podría apoyarse en datos? (horarios, rutas, en qué materia estudiar más)."
+  },
+  {
+    "id": "para-que-sirve",
+    "layout": "tarjetas",
+    "titulo": "Los datos bien leídos ya cambiaron decisiones reales",
+    "etiqueta": "BLOQUE 1 · PARA QUÉ SIRVE",
+    "tarjetas": [
+      {"titulo": "Cólera · Londres, 1854", "texto": "John Snow registró dónde ocurrían las muertes por cólera y vio que se concentraban alrededor de una bomba de agua de Broad Street. Con esa evidencia, las autoridades retiraron la manija."},
+      {"titulo": "Hospitales · Crimea", "texto": "Florence Nightingale mostró con gráficas que más soldados morían por enfermedades evitables que por heridas de combate. Su análisis impulsó reformas de higiene en los hospitales militares."},
+      {"titulo": "Deporte · Oakland, 2002", "texto": "Con uno de los presupuestos más bajos de las Grandes Ligas, los Oakland Athletics usaron estadísticas que otros equipos subvaloraban para fichar jugadores baratos. Es la historia de «Moneyball»."},
+      {"titulo": "Aire · Valle de Aburrá", "texto": "En un proyecto final de curso que hice en equipo, con datos del SIATA, un modelo Random Forest anticipó 47 de los 56 días de aire dañino del conjunto de prueba: el 84 %."}
+    ],
+    "destacado": {"etiqueta": "LO QUE TIENEN EN COMÚN", "texto": "Una pregunta clara, datos confiables y una forma sencilla de mostrar la respuesta."},
+    "notas": "[0:04 – 0:06] Cuatro ejemplos verificables. Snow (Londres, 1854) y Nightingale (Guerra de Crimea) muestran que contar y graficar bien puede salvar vidas; «Moneyball» muestra que los datos dan ventaja aun sin presupuesto. Cerrar con el proyecto final que hice en equipo para el curso Introducción a la Gestión de Datos Geocientíficos: con datos horarios del SIATA, un Random Forest anticipó 47 de los 56 días de aire dañino del conjunto de prueba (84 %). Para leerlo con ojo crítico: el modelo también dio falsas alarmas; de los 81 días que marcó como dañinos, 47 lo fueron (precisión de 0,58). Antes del modelo hubo que limpiar mucho: eso es lo que practicaremos hoy. Pregunta retórica (10 s; si nadie responde, dar un ejemplo y seguir): ¿en qué problema de Medellín usarían datos?"
+  },
+  {
+    "id": "basura-entra-basura-sale",
+    "layout": "cifras",
+    "titulo": "Basura entra, basura sale: un error cambia la conclusión",
+    "etiqueta": "BLOQUE 1 · POR QUÉ LIMPIAR",
+    "cifras": [
+      {"valor": "42,5 min", "leyenda": "promedio real de cuatro viajes: 35, 40, 45 y 50 min"},
+      {"valor": "155 min", "leyenda": "el mismo promedio si el 50 se digita como 500"},
+      {"valor": "2 en vez de 1", "leyenda": "municipios que cuenta pandas si aparecen «Medellín» y «medellin»"}
+    ],
+    "texto": "Un solo cero de más cambia la conclusión de «menos de una hora» a «más de dos horas y media». Si los datos están mal, el análisis más elegante da una respuesta equivocada: por eso en el taller limpiamos antes de graficar.",
+    "notas": "[0:06 – 0:08] Hacer la cuenta en voz alta: (35 + 40 + 45 + 50) / 4 = 42,5 minutos; si el 50 se escribe 500, (35 + 40 + 45 + 500) / 4 = 155 minutos. Un solo dato mal digitado cambia la historia. Con el texto pasa igual: para el computador «Medellín» y «medellin» son dos valores distintos, así que un conteo por municipio sale partido en dos. Pregunta abierta (1 min como máximo): ¿qué otros errores de digitación se imaginan en una base real? (espacios de más, tildes, fechas, celdas vacías, filas repetidas)."
+  },
+  {
+    "id": "ciclo-del-analisis",
+    "layout": "flujo",
+    "titulo": "El análisis es un ciclo; en el taller recorremos el ETL",
+    "etiqueta": "BLOQUE 1 · EL CICLO DEL ANÁLISIS",
+    "pasos": [
+      {"titulo": "Pregunta", "texto": "Qué queremos saber y qué decisión apoya."},
+      {"titulo": "Extraer", "texto": "Leer los datos de su fuente: un CSV, una hoja de cálculo, una base."},
+      {"titulo": "Transformar", "texto": "Limpiar nombres, duplicados, textos, tipos, faltantes e imposibles."},
+      {"titulo": "Cargar", "texto": "Guardar la base limpia, lista para usar."},
+      {"titulo": "Analizar", "texto": "Resumir y graficar para responder la pregunta."},
+      {"titulo": "Comunicar", "texto": "Contar el hallazgo con una gráfica clara y una recomendación."}
+    ],
+    "resaltar": [2, 3, 4],
+    "ciclo": true,
+    "nota": "Extraer, Transformar y Cargar forman el ETL (por sus siglas en inglés): es lo que haremos en el taller con «Pan de Datos».",
+    "notas": "[0:08 – 0:10] Recorrer el ciclo de izquierda a derecha. Resaltar que Extraer, Transformar y Cargar (ETL, de Extract, Transform, Load) es exactamente lo que haremos en el taller: leer el CSV, corregir siete errores y guardar la base limpia. Analizar y comunicar será el bloque 4. Insistir en que todo arranca con una pregunta y que el ciclo se repite: cada respuesta trae preguntas nuevas. Pregunta retórica (10 s; responderla uno mismo): ¿en cuál paso creen que se gasta más tiempo en un proyecto real? (en limpiar y preparar los datos, justo lo que practicaremos hoy)"
+  },
+  {
+    "id": "tipos-de-variables",
+    "layout": "tabla",
+    "titulo": "El tipo de variable decide qué gráfica usar",
+    "etiqueta": "BLOQUE 1 · TIPOS DE VARIABLES",
+    "columnas": ["Tipo", "Qué es", "Ejemplo en «Pan de Datos»", "Gráfica típica"],
+    "filas": [
+      ["Numérica continua", "Medición que admite decimales", "Distancia del domicilio: 2,5 km", "Histograma, dispersión, caja"],
+      ["Numérica discreta", "Conteo con números enteros", "Unidades pedidas: de 1 a 6", "Barras o histograma"],
+      ["Categórica nominal", "Grupos sin orden", "Municipio, producto, método de pago", "Barras"],
+      ["Categórica ordinal", "Grupos con un orden natural", "Calificación del cliente: de 1 a 5", "Barras en su orden"],
+      ["Fecha", "Momento en el tiempo", "Fecha del pedido: 14/03/2025", "Líneas"]
+    ],
+    "nota": "«Pan de Datos» es una panadería ficticia del Valle de Aburrá: sus datos son sintéticos, creados para este curso.",
+    "notas": "[0:10 – 0:12] Antes de graficar hay que saber qué tipo de dato tenemos, porque el tipo decide la gráfica. Presentar la panadería ficticia «Pan de Datos» (datos sintéticos, creados para el curso) que usaremos en el taller y recorrer la tabla con sus columnas. Aclarar la trampa: no todo lo que se escribe con números es numérico; un número de pedido no tiene sentido promediarlo. Pregunta retórica (10 s): la edad del cliente, ¿qué tipo de variable es? (numérica; se trata como continua)."
+  },
+  {
+    "id": "pregunta-a-grafica",
+    "layout": "tabla",
+    "titulo": "Cada gráfica responde una pregunta distinta",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "columnas": ["Si la pregunta es…", "Gráfica", "Variables que necesita"],
+    "filas": [
+      ["¿Qué grupo tiene más y cuál menos?", "Barras", "Una categórica y un conteo o total"],
+      ["¿Cómo cambia algo con el tiempo?", "Líneas", "Una fecha y una numérica"],
+      ["¿Cómo se reparten los valores? ¿Dónde se concentran?", "Histograma", "Una numérica"],
+      ["¿Se mueven juntas dos medidas?", "Dispersión", "Dos numéricas"],
+      ["¿Cómo se comparan el centro y los extremos entre grupos?", "Caja y bigotes", "Una numérica y una categórica"]
+    ],
+    "nota": "Primero la pregunta, después la gráfica: la misma base puede necesitar cinco gráficas distintas.",
+    "notas": "[0:12 – 0:14] Arranca el bloque 2. La regla: primero la pregunta, después la gráfica. Leer la tabla fila por fila y conectarla con los tipos de variable de la diapositiva anterior (la última columna). Pregunta retórica (10 s): si quiero ver cómo cambió el precio del pasaje del metro año a año, ¿qué gráfica uso? (líneas: una fecha y una numérica)."
+  },
+  {
+    "id": "grafica-barras",
+    "layout": "texto_figura",
+    "titulo": "Barras: comparar cantidades entre categorías",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "parrafos": [
+      {"negrita": "Responde:", "texto": "¿qué grupo tiene más y cuál menos? Compara cantidades entre categorías."},
+      {"negrita": "Cómo se lee:", "texto": "1) ver qué cuenta el eje; 2) comparar el largo de las barras; 3) ubicar la mayor y la menor."},
+      {"negrita": "Error típico:", "texto": "empezar el eje en un valor distinto de cero: el largo deja de ser proporcional al valor."},
+      {"negrita": "Consejo:", "texto": "ordenar de mayor a menor y usar barras horizontales si los nombres son largos."}
+    ],
+    "figura": "figuras/teoria_barras.png",
+    "pie": "Datos ilustrativos, no reales: encuesta ficticia a 200 estudiantes.",
+    "notas": "[0:14 – 0:16] Leer la figura juntos: el eje cuenta estudiantes; la barra más larga es Metro (68) y la más corta, Carro (12). Mostrar que están ordenadas de mayor a menor y que son horizontales para que los nombres se lean completos. Recordar que son datos ilustrativos, no una encuesta real. Pregunta retórica (10 s): si esta gráfica fuera real, ¿qué decisión podría tomar la universidad? (p. ej., coordinar horarios con el metro o ampliar parqueaderos de bicicletas)."
+  },
+  {
+    "id": "grafica-lineas",
+    "layout": "texto_figura",
+    "titulo": "Líneas: ver cómo cambia algo en el tiempo",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "parrafos": [
+      {"negrita": "Responde:", "texto": "¿cómo cambia una medida con el tiempo? ¿Sube, baja o se repite en ciclos?"},
+      {"negrita": "Cómo se lee:", "texto": "1) el tiempo va en el eje horizontal; 2) seguir la pendiente; 3) buscar picos, valles y ciclos."},
+      {"negrita": "Error típico:", "texto": "unir con una línea categorías sin orden, como carreras o municipios: la línea inventa una tendencia."}
+    ],
+    "figura": "figuras/teoria_lineas.png",
+    "pie": "Datos ilustrativos, no reales: un estudiante ficticio durante un semestre de 16 semanas.",
+    "notas": "[0:16 – 0:18] Seguir la línea de izquierda a derecha: las horas suben hasta parciales (semana 8), caen y vuelven a subir hasta finales (semana 15). Recalcar que el eje horizontal es tiempo y tiene orden; por eso unir los puntos tiene sentido. Error típico: líneas entre categorías sin orden. Pregunta retórica (10 s): ¿qué forma tendría la línea de pasajeros del metro en un día normal, hora por hora? (dos picos: mañana y tarde)."
+  },
+  {
+    "id": "grafica-histograma",
+    "layout": "texto_figura",
+    "titulo": "Histograma: ver cómo se reparten los valores",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "parrafos": [
+      {"negrita": "Responde:", "texto": "¿cómo se reparten los valores de una variable numérica? ¿Dónde se concentran?"},
+      {"negrita": "Cómo se lee:", "texto": "1) cada barra es un intervalo de 10 min; 2) su altura cuenta cuántos caen ahí; 3) mirar la forma y la cola."},
+      {"negrita": "Histograma vs. barras:", "texto": "las barras comparan categorías; el histograma corta una variable numérica en intervalos que se tocan."},
+      {"negrita": "Error típico:", "texto": "elegir mal los intervalos (bins): muy pocos esconden la forma; demasiados la vuelven ruido."}
+    ],
+    "figura": "figuras/teoria_histograma.png",
+    "pie": "Datos ilustrativos, no reales: 300 estudiantes ficticios, en intervalos de 10 minutos.",
+    "notas": "[0:18 – 0:20] Cada barra es un intervalo de 10 minutos y su altura dice cuántos estudiantes caen ahí. La mayoría tarda entre 20 y 50 minutos y hay una cola a la derecha: solo 5 de 300 tardan más de 90. Diferencia clave con las barras: en el histograma el eje horizontal es UNA variable numérica cortada en intervalos seguidos, por eso las barras se tocan y no se pueden reordenar; en barras, cada barra es una categoría y el orden lo elegimos. Pregunta retórica (10 s): ¿qué pasaría con la forma si usáramos solo 3 intervalos? (se pierde el detalle)."
+  },
+  {
+    "id": "grafica-dispersion",
+    "layout": "texto_figura",
+    "titulo": "Dispersión: ver si dos variables se mueven juntas",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "parrafos": [
+      {"negrita": "Responde:", "texto": "¿se mueven juntas dos variables numéricas? Cuando una sube, ¿la otra también?"},
+      {"negrita": "Cómo se lee:", "texto": "1) cada punto es una observación; 2) ver si la nube sube, baja o no tiene forma; 3) revisar puntos lejanos."},
+      {"negrita": "Correlación no es causalidad:", "texto": "que dos variables suban juntas no prueba que una cause la otra; puede haber una tercera detrás."},
+      {"negrita": "Error típico:", "texto": "concluir una causa mirando la nube, o borrar los puntos lejanos sin revisarlos."}
+    ],
+    "figura": "figuras/teoria_dispersion.png",
+    "pie": "Datos ilustrativos, no reales: 60 estudiantes ficticios; cada punto es un estudiante.",
+    "notas": "[0:20 – 0:22] Cada punto es un estudiante (datos ilustrativos). La nube sube de izquierda a derecha: en promedio, más horas de estudio van con mejor nota, pero hay mucha variación entre estudiantes con las mismas horas. Correlación no es causalidad: si las ventas de paraguas y las consultas por gripa subieran juntas, no sería porque los paraguas enferman, sino porque ambas pueden responder a la lluvia. Pregunta abierta (1 min como máximo): en esta gráfica, ¿qué otra variable podría explicar a la vez las horas y la nota? (interés, asistencia, bases previas)."
+  },
+  {
+    "id": "grafica-caja",
+    "layout": "texto_figura",
+    "titulo": "Caja y bigotes: la mitad central y los extremos",
+    "etiqueta": "BLOQUE 2 · TIPOS DE GRÁFICAS",
+    "parrafos": [
+      {"negrita": "Responde:", "texto": "¿dónde está la mitad central de los datos y qué tan dispersos están? Ideal para comparar grupos."},
+      {"negrita": "Mediana:", "texto": "la línea dentro de la caja (aquí, más gruesa); la mitad de los datos queda por debajo y la otra mitad por encima."},
+      {"negrita": "Caja (Q1 a Q3):", "texto": "Q1 deja abajo el 25 % de los datos y Q3 el 75 %; la caja guarda el 50 % central."},
+      {"negrita": "Bigotes y atípicos:", "texto": "RIC = Q3 − Q1. Los bigotes llegan al último dato a menos de 1,5 × RIC de la caja; más allá, atípicos."},
+      {"negrita": "Error típico:", "texto": "borrar todo atípico como si fuera un error: puede ser un dato real, como un día de aguacero."}
+    ],
+    "figura": "figuras/teoria_caja.png",
+    "pie": "Datos ilustrativos, no reales: 31 almuerzos ficticios. Límite superior: 16,5 + 1,5 × 7,5 = 27,75 min.",
+    "notas": "[0:22 – 0:25] Explicar la anatomía con la figura. La línea dentro de la caja, aquí más gruesa, es la mediana (12 min): en la mitad de los almuerzos la fila duró 12 minutos o menos. La caja va de Q1 (9) a Q3 (16,5): ahí está el 50 % central y su largo es el rango intercuartílico, RIC = 7,5. Los bigotes llegan hasta el último dato que no pasa el límite de 1,5 × RIC desde la caja (arriba: 16,5 + 11,25 = 27,75; por eso el bigote termina en 27); los puntos de 36 y 42 quedan por fuera y se dibujan como atípicos. Un atípico no es automáticamente un error: hay que revisarlo antes de borrarlo. Pregunta abierta (1 min como máximo): si comparamos dos cafeterías, ¿qué significa que una tenga la caja mucho más larga? (sus tiempos son más variables, menos predecibles)."
+  },
+  {
+    "id": "graficas-enganosas",
+    "layout": "texto_figura",
+    "titulo": "Los mismos datos, dos historias: cuidado con el eje",
+    "etiqueta": "BLOQUE 2 · GRÁFICAS QUE ENGAÑAN",
+    "figura_ancha": true,
+    "parrafos": [
+      {"negrita": "Mismos datos:", "texto": "A aprobó 78 % y B 82 %. Si el eje empieza en 76 %, la barra de B mide el triple que la de A."},
+      {"negrita": "Regla:", "texto": "en barras, el eje empieza en cero. Ojo también con tortas de muchas tajadas: mejor barras ordenadas."}
+    ],
+    "figura": "figuras/teoria_enganosa.png",
+    "pie": "Datos ilustrativos, no reales: porcentaje de aprobación de dos grupos ficticios de Cálculo I.",
+    "notas": "[0:25 – 0:27] Mismos datos en los dos paneles: 78 % y 82 %. A la izquierda el eje empieza en 76 %, así que la barra de B mide 6 y la de A mide 2: B parece el triple. A la derecha el eje empieza en cero y se ve lo que es: 4 puntos de diferencia. Regla: en barras, el eje siempre empieza en cero. Mencionar la torta con demasiadas categorías: el ojo no compara bien ángulos parecidos; con más de cinco o seis tajadas es mejor usar barras ordenadas. Pregunta abierta (1 min como máximo): ¿dónde han visto gráficas así? (noticias, campañas, publicidad)."
+  },
+  {
+    "id": "leer-una-grafica",
+    "layout": "lista_numerada",
+    "titulo": "Seis preguntas para leer cualquier gráfica",
+    "etiqueta": "BLOQUE 2 · CÓMO LEER UNA GRÁFICA",
+    "items": [
+      {"negrita": "Título.", "texto": "¿Dice qué se muestra, de quién y cuándo?"},
+      {"negrita": "Ejes y unidades.", "texto": "¿Qué mide cada eje y en qué unidad: minutos, pesos, porcentaje?"},
+      {"negrita": "Escala.", "texto": "¿Empieza en cero? ¿Es la misma en las gráficas que se comparan?"},
+      {"negrita": "Fuente.", "texto": "¿De dónde salen los datos y cuántos son? ¿Son reales o de ejemplo?"},
+      {"negrita": "¿Qué pregunta responde?", "texto": "Si no se puede decir en una frase, la gráfica no está clara."},
+      {"negrita": "¿Qué decisión sugiere?", "texto": "¿Qué haría distinto alguien que la mira? Ahí está su valor."}
+    ],
+    "notas": "[0:27 – 0:30] Cerrar la teoría con esta lista: sirve para cualquier gráfica, en un artículo, en las noticias o en su propio trabajo. Aplicarla en voz alta a la gráfica de caja: título (sí), ejes y unidades (minutos), escala (desde 0), fuente (datos ilustrativos), pregunta (¿cuánto dura la fila?), decisión (abrir otra caja si la fila es larga). Anunciar el cambio de bloque: ahora vamos al taller; tengan abierto Colab y a mano los dos archivos de la carpeta «taller» del enlace."
+  }
+]

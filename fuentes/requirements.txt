@@ -1,0 +1,9 @@
+numpy
+pandas>=2.2
+matplotlib>=3.8
+python-pptx>=1.0
+nbformat
+nbclient
+ipykernel
+pymupdf
+pillow

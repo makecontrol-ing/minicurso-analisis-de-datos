@@ -1,0 +1,1251 @@
+﻿ID Pedido; Fecha;Municipio ;PRODUCTO;Cantidad;Precio Unitario;Metodo Pago;Distancia KM;Tiempo Entrega;Edad Cliente;Calificacion
+1001;03/01/2025;Bello;Almojábana;5;$2.800;Nequi;7,1;64;23;4
+1002;03/01/2025;Bello;Jugo natural;2;$6.000;Tarjeta;5,9;34;36;4
+1003;03/01/2025;Medellín;Pan de bono;1;$2.500;tarjeta;2,6;16;24;5
+1004;03/01/2025;Bello;Jugo natural;4;$6.000;Nequi;6,8;47;67;4
+1005;04/01/2025;Envigado;Café;3;$3.200;Daviplata;3,3;23;40;5
+1006;04/01/2025;Medellín;Café;1;$3.200;nequi;4,8;30;22;5
+1007;05/01/2025;Bello;Pan de bono;1;$2.500;efectivo;8,4;59;38;3
+1002;03/01/2025;Bello;Jugo natural;2;$6.000;Tarjeta;5,9;34;36;4
+1008;05/01/2025;Medellín;Almojábana;2;$2.800;Nequi;5,9;32;25;5
+1009;05/01/2025;Envigado;Torta de chocolate;5;;NEQUI;3,8;28;42;5
+1010;05/01/2025;Medellin;Croissant;2;$4.500;Nequi;4,8;30;26;5
+1011;05/01/2025;Envigado;Buñuelo;2;$2.000;Tarjeta;5,8;34;36;4
+1012;06/01/2025;Medellín;Almojábana;1;$2.800;EFECTIVO;5,9;35;43;5
+1013;07/01/2025;Itagüí;Croissant;2;$4.500;Nequi;3,2;21;47;5
+1014;07/01/2025;Medellín;Café;1;$3.200;Nequi;3,2;24;21;4
+1015;07/01/2025;Bello;Jugo natural;2;$6.000;Efectivo;8,8;57;51;3
+1016;08/01/2025;Envigado;Pan de bono;5;$2.500;Nequi;4,3;21;;5
+1017;08/01/2025;Sabaneta;Pan de bono;3;$2.500;Tarjeta;7,2;36;34;4
+1018;09/01/2025;Itagüí;Buñuelo;6;2.000;Daviplata;3,8;20;73;5
+1013;07/01/2025;Itagüí;Croissant;2;$4.500;Nequi;3,2;21;47;5
+1019;10/01/2025;Medellín;Buñuelo;2;$2.000;;1,7;17;20;5
+1020;10/01/2025;Medellin;Buñuelo;3;$2.000;Daviplata;1,7;14;22;5
+1021;10/01/2025;SABANETA;Café;2;$3.200;Tarjeta;5,1;33;28;4
+1022;10/01/2025;Sabaneta;Jugo natural;5;$6.000;Nequi;6,1;36;40;4
+1023;10/01/2025;Medellín;Buñuelo;1;$2.000;Tarjeta;4,9;34;18;5
+1024;10/01/2025;Envigado;Pan de bono;1;$2.500;daviplata;3,9;27;67;4
+1025;11/01/2025;itagui;Buñuelo;6;$2.000;Nequi;4,2;24;22;5
+1026;11/01/2025;Medellín;Café;4;$3.200;DaviPlata;3,4;20;25;4
+1027;11/01/2025;Bello;Sándwich;3;$9.500;Tarjeta;8,5;42;22;4
+1028;12/01/2025;Envigado;Torta de chocolate;2;$7.500;Efectivo;6,6;30;22;5
+1029;12/01/2025;Itagüí;Jugo natural;4;$6.000;Tarjeta;5,2;27;39;5
+1030;12/01/2025;Sabaneta;Sándwich;4;$9.500;Daviplata;6,5;34;;5
+1031;12/01/2025;Itagüí;Pan de bono;5;$2.500;Efectivo;6,6;40;49;3
+1032;12/01/2025;Bello;Pan de bono;3;$2.500;EFECTIVO;8,2;68;25;4
+1033;13/01/2025;Medellín;Almojábana;2;$2.800;nequi;3,3;27;17;4
+1034;13/01/2025;Envigado;Pan de bono;3;$2.500;tarjeta;4,5;17;;5
+1033;13/01/2025;Medellín;Almojábana;2;$2.800;nequi;3,3;27;17;4
+1035;15/01/2025;Medellín;Torta de chocolate;4;$7.500;Efectivo;2,9;17;39;4
+1036;15/01/2025;Medellín;Torta de chocolate;2;$7.500;efectivo;6,1;39;39;3
+1037;16/01/2025;itagui;Croissant;3;$4.500;Efectivo;6,5;35;20;5
+1038;16/01/2025;Medellín;Pan de bono;2;2.500;Efectivo;1,7;12;39;5
+1039;16/01/2025;Medellín;Pan de bono;6;$2.500;Tarjeta;3,3;20;56;4
+1040;16/01/2025;Envigado;Café;1;$3.200;;4,2;25;20;5
+1041;16/01/2025;medellin;Almojábana;4;2.800;Nequi;4,8;32;41;10
+1042;17/01/2025;Envigado;Buñuelo;5;$2.000;DaviPlata;5,0;28;57;5
+1043;18/01/2025;Envigado;Jugo natural;3;$6.000;EFECTIVO;4,6;26;40;5
+1044;18/01/2025;Envigado;Pan de bono;3;$2.500;Tarjeta;4,4;31;70;5
+1045;18/01/2025;Medellín;Café;1;$3.200;Nequi;3,8;28;26;5
+1046;18/01/2025;Sabaneta;Pan de bono;2;$2.500;Efectivo;7,0;35;44;4
+1047;18/01/2025;Itagüí;Croissant;3;$4.500;DAVIPLATA;4,6;26;20;4
+1048;18/01/2025; Medellín ;Pan de bono;3;$2.500;Nequi;6,7;36;21;3
+1049;19/01/2025;Medellín;Sándwich;2;$9.500;nequi;3,2;25;21;5
+1050;19/01/2025;Medellín;Café;1;$3.200;Efectivo;6,3;39;17;4
+1051;19/01/2025;Itagüí;Pan de bono;2;$2.500;Efectivo;5,2;999;36;4
+1052;20/01/2025;Medellín;Croissant;1;4.500;DAVIPLATA;5,8;29;36;5
+1053;21/01/2025;Medellín;Pan de bono;2;$2.500;Efectivo;4,8;34;20;5
+1054;21/01/2025;envigado;Torta de chocolate;1;$7.500;Efectivo;6,1;22;36;5
+1055;21/01/2025;itagui;Café;1;$3.200;Efectivo;3,6;27;44;5
+1056;23/01/2025;Bello;Pan de bono;3;$2.500;Efectivo;10,3;72;48;3
+1057;24/01/2025;Envigado;Almojábana;2;2.800;efectivo;6,5;34;39;4
+1058;24/01/2025;Sabaneta;Sándwich;3;$9.500;Efectivo;5,4;27;41;5
+1059;24/01/2025;medellin;Almojábana;3;2.800;TARJETA;6,5;37;53;4
+1060;24/01/2025;Medellín;Café;3;$3.200;Efectivo;1,7;21;65;5
+1061;25/01/2025;Medellín;Sándwich;1;$9.500;;2,6;25;40;5
+1062;25/01/2025;medellin;Almojábana;2;$2.800;Nequi;4,8;29;22;5
+1063;25/01/2025;Medellín;Pan de bono;1;$2.500;nequi;2,1;13;22;5
+1064;25/01/2025;Envigado;Buñuelo;5;$2.000;EFECTIVO;4,2;30;22;5
+1065;26/01/2025;Medellín;Sándwich;2;$9.500;Nequi ;4,4;22;27;4
+1066;26/01/2025;Medellín;Sándwich;1;9.500;Nequi;3,2;24;35;4
+1067;26/01/2025;Sabaneta;Croissant;6;$4.500;Efectivo;7,0;40;39;4
+1068;26/01/2025;Medellín;Pan de bono;1;$2.500;EFECTIVO;2,9;14;44;5
+1069;26/01/2025;Medellín;Café;3;$3.200;Nequi;2,2;14;17;5
+1070;26/01/2025;Envigado;Café;3;3.200;Nequi;5,2;38;44;5
+1071;26/01/2025;Medellín;Almojábana;4;$2.800;tarjeta;4,6;34;21;3
+1072;28/01/2025;itagui;Sándwich;5;;Nequi;4,7;27;20;5
+1073;28/01/2025;Envigado;Jugo natural;4;$6.000;Nequi;3,6;22;42;5
+1074;29/01/2025;Itagüí;Buñuelo;4;$2.000;nequi;6,0;39;18;3
+1075;29/01/2025;Medellín;Almojábana;2;$2.800;Tarjeta;1,7;16;50;5
+1076;29/01/2025;medellin;Jugo natural;4;$6.000;Nequi ;3,0;22;71;5
+1077;30/01/2025;Envigado;Buñuelo;1;2.000;daviplata;5,7;28;65;5
+1078;30/01/2025;ITAGUI;Pan de bono;2;$2.500;Nequi;6,5;40;40;5
+1079;30/01/2025;Bello;Sándwich;2;9.500;Tarjeta;8,0;37;40;4
+1080;31/01/2025;Medellín;Buñuelo;1;$2.000;Nequi;4,7;22;21;5
+1081;31/01/2025;Envigado;Buñuelo;1;$2.000;Daviplata;4,4;29;22;5
+1082;31/01/2025;Sabaneta;Jugo natural;4;$6.000;Nequi;5,4;35;48;4
+1083;31/01/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;6,0;27;40;3
+1084;31/01/2025;Medellín;Pan de bono;2;$2.500;efectivo;5,2;29;23;4
+1085;31/01/2025;Sabaneta;Sándwich;2;$9.500;Tarjeta;5,1;30;34;4
+1086;31/01/2025;Envigado;Buñuelo;6;2.000;nequi;5,0;28;22;4
+1087;31/01/2025;Bello;Croissant;3;$4.500;efectivo;8,5;48;20;3
+1088;31/01/2025;Medellín;Almojábana;2;$2.800;Nequi;3,9;21;40;5
+1089;01/02/2025;Envigado;Buñuelo;2;2.000;Efectivo;3,3;24;49;5
+1090;01/02/2025;Bello;Sándwich;2;$9.500;daviplata;7,0;38;20;4
+1091;01/02/2025;Envigado;Torta de chocolate;1;$7.500;tarjeta;3,2;26;41;5
+1092;01/02/2025;Sabaneta;Buñuelo;2;$2.000;Efectivo;5,2;35;28;3
+1093;01/02/2025;Envigado;Café;2;$3.200;Nequi;5,7;38;22;4
+1094;02/02/2025;Sabaneta;Croissant;1;$4.500;;5,1;34;22;4
+1095;02/02/2025;Medellín;Café;4;$3.200;Nequi;1,7;19;18;5
+1096;03/02/2025;Bello;Croissant;1;$4.500;Nequi;9,0;41;59;4
+1097;03/02/2025;BELLO ;Buñuelo;6;2.000;;6,2;41;22;4
+1098;04/02/2025;Medellín;Buñuelo;3;2.000;Tarjeta;4,0;29;20;5
+1099;04/02/2025;bello;Torta de chocolate;1;7.500;Nequi;8,6;54;27;4
+1100;04/02/2025;Medellín;Pan de bono;5;$2.500;Nequi;3,4;24;20;4
+1101;06/02/2025;Itagüí;Sándwich;1;$9.500;nequi;5,2;35;24;4
+1102;06/02/2025;Itagüí;Pan de bono;2;$2.500;Tarjeta;6,0;34;19;5
+1103;06/02/2025;Envigado;Jugo natural;4;$6.000;Nequi;6,1;39;20;4
+1104;07/02/2025;Medellín;Café;4;$3.200;Daviplata;1,5;19;51;5
+1105;07/02/2025;Medellín;Café;1;$3.200;Daviplata;2,0;16;21;4
+1106;08/02/2025;medellin;Almojábana;3;$2.800;Tarjeta;5,8;30;20;5
+1107;08/02/2025;medellin;Sándwich;3;$9.500;Nequi;2,3;24;22;5
+1108;09/02/2025;Envigado;Buñuelo;1;$2.000;Efectivo;3,6;21;47;5
+1107;08/02/2025;medellin;Sándwich;3;$9.500;Nequi;2,3;24;22;5
+1109;09/02/2025;Medellín;Torta de chocolate;4;$7.500;Efectivo;0,7;11;70;5
+1110;10/02/2025;Medellín;Pan de bono;1;$2.500;efectivo;4,8;0;66;2
+1111;10/02/2025;Medellín;Pan de bono;1;$2.500;tarjeta;2,6;17;37;5
+1112;11/02/2025;MEDELLIN;Croissant;5;4.500;Tarjeta;5,0;22;18;5
+1113;12/02/2025;Medellín;Almojábana;2;$2.800;TARJETA;7,1;40;36;3
+1114;13/02/2025;Sabaneta;Buñuelo;2;$2.000;;4,3;25;26;5
+1115;13/02/2025;Medellín;Sándwich;1;$9.500;Nequi;4,3;26;46;5
+1116;14/02/2025;Envigado;Pan de bono;1;$2.500;TARJETA;6,1;32;23;5
+1117;14/02/2025;Bello;Buñuelo;5;$2.000;Efectivo;7,9;38;51;5
+1118;14/02/2025;Medellín;Jugo natural;2;$6.000;Nequi;2,5;13;;5
+1119;14/02/2025;Medellín;Buñuelo;4;$2.000;Tarjeta;3,8;18;;5
+1120;14/02/2025;Sabaneta;Sándwich;4;$9.500;Efectivo;7,8;40;51;0
+1121;14/02/2025;bello;Almojábana;4;$2.800;Nequi ;7,6;55;63;4
+1122;14/02/2025;Bello;Almojábana;3;$2.800;Daviplata;5,5;47;21;3
+1123;14/02/2025;ITAGUI;Pan de bono;1;$2.500;Nequi;7,2;43;75;4
+1124;15/02/2025;Envigado;Croissant;6;4.500;Daviplata;3,6;25;60;5
+1125;15/02/2025;Envigado;Café;2;$3.200;DaviPlata;6,2;39;17;5
+1126;15/02/2025; Medellín ;Sándwich;6;$9.500;Efectivo;2,2;12;24;5
+1127;16/02/2025;Medellín;Sándwich;2;$9.500;Tarjeta;1,2;15;19;5
+1128;16/02/2025;Medellín;Jugo natural;3;$6.000;Tarjeta;5,3;33;48;5
+1129;16/02/2025;Envigado;Pan de bono;3;$2.500;Nequi;4,6;27;34;5
+1130;17/02/2025;Medellín;Café;2;$3.200;Nequi;3,1;21;69;4
+1131;18/02/2025;Medellín;Almojábana;1;$2.800;Nequi;3,7;20;23;5
+1132;18/02/2025;Medellín;Almojábana;3;$2.800;Daviplata;4,2;23;72;5
+1133;18/02/2025;Itagui;Pan de bono;3;$2.500;efectivo;5,7;26;44;4
+1134;19/02/2025;Itagüí;Torta de chocolate;2;$7.500;Nequi;6,5;42;56;4
+1135;19/02/2025;Bello;Pan de bono;2;$2.500;tarjeta;8,9;43;36;5
+1136;19/02/2025;Envigado;Buñuelo;1;$2.000;Tarjeta;4,8;29;29;4
+1137;19/02/2025;Bello;Pan de bono;3;$2.500;Daviplata;9,9;55;20;3
+1138;20/02/2025;Sabaneta;Jugo natural;2;;EFECTIVO;6,2;37;21;4
+1139;21/02/2025;Medellín;Buñuelo;3;$2.000;Efectivo;5,9;30;;5
+1140;21/02/2025;Medellín;Café;5;$3.200;Daviplata;3,7;32;42;5
+1141;21/02/2025;Medellín;Pan de bono;4;$2.500;Efectivo;2,0;18;44;3
+1142;22/02/2025;ENVIGADO;Pan de bono;2;$2.500;Efectivo;4,1;29;27;5
+1143;22/02/2025;Bello;Almojábana;1;$2.800;Tarjeta;8,9;49;47;4
+1144;23/02/2025;ITAGUI;Jugo natural;2;$6.000;Daviplata;3,9;21;21;5
+1145;25/02/2025;medellin;Pan de bono;5;$2.500;Tarjeta;3,2;999;17;4
+1146;26/02/2025;Envigado;Almojábana;3;2.800;tarjeta;3,3;23;41;5
+1147;26/02/2025;medellin;Café;6;$3.200;Nequi;3,9;25;17;4
+1148;27/02/2025;Medellín;Café;3;$3.200;Efectivo;2,1;21;41;5
+1149;27/02/2025;Envigado;Croissant;3;$4.500;Efectivo;4,3;21;18;5
+1150;27/02/2025;Medellín;Pan de bono;2;$2.500;Efectivo;4,0;24;;5
+1151;27/02/2025;Medellín;Jugo natural;5;$6.000;Nequi;4,2;24;22;5
+1152;28/02/2025;Sabaneta;Pan de bono;2;$2.500;DaviPlata;5,6;39;24;4
+1153;01/03/2025; Medellín ;Pan de bono;4;$2.500;Nequi;4,3;31;42;5
+1154;01/03/2025;Bello;Almojábana;3;$2.800;Efectivo;7,2;49;48;3
+1155;01/03/2025;SABANETA;Jugo natural;2;$6.000;Tarjeta;7,5;35;56;4
+1156;01/03/2025;Itagüí;Café;2;$3.200;nequi;4,8;31;;5
+1157;02/03/2025;Sabaneta;Almojábana;1;$2.800;Nequi;6,0;44;40;5
+1158;03/03/2025;Medellín;Jugo natural;1;$6.000;daviplata;5,6;38;22;4
+1159;04/03/2025;Envigado;Café;3;$3.200;Tarjeta;4,8;33;39;5
+1160;04/03/2025;Medellín;Sándwich;2;$9.500;;4,9;33;45;4
+1161;04/03/2025;Medellín;Torta de chocolate;2;$7.500;Nequi;2,6;20;25;4
+1162;05/03/2025;Medellin;Jugo natural;1;$6.000;tarjeta;3,4;21;45;5
+1163;06/03/2025;Sabaneta;Sándwich;4;$9.500;nequi;5,0;28;53;5
+1164;07/03/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;4,6;28;70;4
+1165;07/03/2025;BELLO ;Buñuelo;2;$2.000;Nequi;6,8;55;24;4
+1166;07/03/2025;medellin;Buñuelo;1;2.000;Tarjeta;5,4;37;44;4
+1167;08/03/2025;medellin;Pan de bono;3;$2.500;tarjeta;4,4;32;;5
+1168;08/03/2025;Itagüí;Buñuelo;6;$2.000;Efectivo;5,6;35;46;3
+1169;08/03/2025;Sabaneta;Café;3;$3.200;Nequi;6,2;75;20;2
+1170;08/03/2025;Medellin;Sándwich;1;$9.500;Efectivo;4,2;27;62;5
+1171;08/03/2025;Itagüí;Sándwich;3;$9.500;Tarjeta;6,7;37;22;4
+1172;09/03/2025;Itagüí;Jugo natural;1;$6.000;Tarjeta;5,9;36;15;5
+1173;09/03/2025;Sabaneta;Buñuelo;5;$2.000;Daviplata;7,4;38;39;5
+1174;09/03/2025;Medellín;Pan de bono;2;$2.500;Daviplata;3,1;25;22;5
+1175;10/03/2025;ENVIGADO;Almojábana;2;$2.800;Tarjeta;3,5;20;41;5
+1176;11/03/2025;Medellín;Croissant;2;$4.500;EFECTIVO;5,5;27;45;5
+1177;12/03/2025;Itagüí;Sándwich;3;$9.500;Daviplata;6,5;39;24;3
+1178;12/03/2025;Medellin;Jugo natural;3;6.000;Tarjeta;5,9;43;27;4
+1179;12/03/2025;Medellín;Sándwich;2;$9.500;;4,3;26;21;5
+1180;12/03/2025;Bello;Café;4;$3.200;Tarjeta;7,1;27;43;5
+1181;12/03/2025;medellín;Buñuelo;2;$2.000;daviplata;5,9;38;73;5
+1182;12/03/2025;Medellín;Pan de bono;3;$2.500;Tarjeta;5,0;33;;4
+1183;13/03/2025; Medellín ;Buñuelo;1;$2.000;Nequi;4,1;28;17;5
+1184;13/03/2025;Bello;Buñuelo;2;$2.000;Efectivo;7,0;50;45;5
+1185;13/03/2025;Envigado;Croissant;3;$4.500;DaviPlata;5,3;36;34;4
+1186;14/03/2025;envigado;Pan de bono;2;$2.500;Efectivo;3,7;20;56;5
+1187;14/03/2025;Sabaneta;Sándwich;1;$9.500;Efectivo;5,9;33;48;5
+1188;14/03/2025;Sabaneta;Café;3;$3.200;EFECTIVO;5,4;27;21;5
+1189;14/03/2025;Medellín;Almojábana;6;$2.800;Efectivo;3,0;21;47;4
+1190;14/03/2025;envigado;Pan de bono;5;$2.500;Tarjeta;3,5;21;37;5
+1191;15/03/2025;Sabaneta;Almojábana;6;$2.800;TARJETA;6,2;35;43;5
+1192;15/03/2025;Medellín;Jugo natural;5;$6.000;nequi;3,6;28;64;3
+1193;15/03/2025;Itagüí;Café;1;$3.200;Tarjeta;4,7;30;41;5
+1194;16/03/2025;medellin;Torta de chocolate;3;$7.500;Tarjeta;2,7;17;73;5
+1195;17/03/2025;Itagui;Buñuelo;3;$2.000;TARJETA;6,5;41;17;3
+1196;19/03/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;5,7;28;52;5
+1197;20/03/2025; Medellín ;Jugo natural;5;$6.000;tarjeta;2,3;20;71;5
+1197;20/03/2025; Medellín ;Jugo natural;5;$6.000;tarjeta;2,3;20;71;5
+1198;20/03/2025;envigado;Café;3;$3.200;Daviplata;7,2;34;48;5
+1195;17/03/2025;Itagui;Buñuelo;3;$2.000;TARJETA;6,5;41;17;3
+1199;20/03/2025;Envigado;Café;2;$3.200;Efectivo;6,6;37;67;4
+1200;20/03/2025;Bello;Pan de bono;3;$2.500;Efectivo;8,1;58;40;10
+1201;21/03/2025;bello;Café;3;$3.200;DaviPlata;7,1;53;27;3
+1202;21/03/2025;medellin;Buñuelo;2;$2.000;Efectivo;1,1;13;46;5
+1203;21/03/2025;itagui;Buñuelo;3;$2.000;TARJETA;4,5;37;21;5
+1204;21/03/2025;MEDELLIN;Sándwich;5;$9.500;Daviplata;3,0;18;47;4
+1205;22/03/2025;Bello;Buñuelo;3;$2.000;Tarjeta;7,6;39;55;4
+1206;22/03/2025;Bello;Pan de bono;1;$2.500;Tarjeta;9,6;68;56;2
+1207;22/03/2025;Medellín;Almojábana;1;$2.800;Nequi;2,7;28;35;4
+1208;22/03/2025;BELLO ;Pan de bono;2;$2.500;Daviplata;8,2;59;17;2
+1209;22/03/2025;Bello;Almojábana;2;$2.800;Nequi;9,0;61;19;4
+1210;23/03/2025;Sabaneta;Croissant;2;$4.500;Nequi;8,8;45;60;3
+1211;23/03/2025;Itagüí;Café;1;$3.200;Efectivo;5,9;38;45;3
+1212;24/03/2025;Bello;Pan de bono;4;$2.500;Tarjeta;7,1;52;23;4
+1213;25/03/2025;Medellín;Sándwich;4;$9.500;efectivo;6,2;37;47;4
+1214;25/03/2025;Itagüí;Torta de chocolate;2;$7.500;Nequi;3,7;30;24;4
+1215;25/03/2025;Envigado;Croissant;5;$4.500;Nequi;6,0;26;17;4
+1216;26/03/2025;Bello;Pan de bono;6;$2.500;Tarjeta;8,4;55;51;4
+1217;26/03/2025;Bello;Almojábana;1;$2.800;nequi;8,5;47;18;4
+1218;26/03/2025;MEDELLIN;Almojábana;5;$2.800;Nequi;4,3;28;25;3
+1219;26/03/2025;Itagüí;Pan de bono;1;$2.500;Tarjeta;4,8;29;41;5
+1220;27/03/2025;Bello;Almojábana;1;$2.800;Efectivo;10,7;66;33;4
+1221;27/03/2025;Itagüí;Sándwich;2;$9.500;Tarjeta;4,8;32;40;4
+1222;27/03/2025;Medellín;Pan de bono;4;$2.500;Daviplata;2,9;15;23;5
+1223;28/03/2025;ITAGUI;Torta de chocolate;1;$7.500;Efectivo;5,8;25;;5
+1224;28/03/2025;Sabaneta;Croissant;1;$4.500;TARJETA;6,9;43;56;3
+1225;28/03/2025;Sabaneta;Pan de bono;5;$2.500;Tarjeta;6,0;34;69;3
+1226;28/03/2025;Bello;Pan de bono;2;$2.500;EFECTIVO;5,5;19;22;5
+1227;28/03/2025;Envigado;Croissant;2;$4.500;Tarjeta;6,8;38;44;3
+1228;29/03/2025;Itagüí;Jugo natural;4;$6.000;Efectivo;7,0;33;45;5
+1229;29/03/2025;Itagüí;Pan de bono;2;$2.500;;6,4;36;33;4
+1230;29/03/2025;Bello;Buñuelo;6;$2.000;Efectivo;11,1;65;47;3
+1231;29/03/2025;Bello;Buñuelo;4;$2.000;Nequi;7,3;68;22;2
+1232;29/03/2025;Bello;Café;2;$3.200;Nequi;9,4;49;45;4
+1233;30/03/2025;Sabaneta;Café;4;$3.200;daviplata;7,6;39;64;3
+1234;30/03/2025;Sabaneta;Croissant;1;$4.500;Efectivo;6,2;37;24;5
+1235;30/03/2025;Medellín;Pan de bono;1;;Efectivo;6,6;41;50;4
+1236;31/03/2025;Medellín;Almojábana;2;$2.800;Tarjeta;2,6;23;22;5
+1237;31/03/2025;Envigado;Pan de bono;4;$2.500;Nequi;5,2;23;40;3
+1238;31/03/2025;Medellín;Torta de chocolate;4;$7.500;Efectivo;2,1;17;47;5
+1239;01/04/2025;Itagüí;Café;4;3.200;Efectivo;5,8;36;20;4
+1240;01/04/2025;Envigado;Buñuelo;3;$2.000;Efectivo;5,2;37;23;5
+1241;01/04/2025;bello;Torta de chocolate;2;$7.500;Efectivo;5,9;38;21;5
+1242;02/04/2025;Medellín;Torta de chocolate;2;$7.500;Efectivo;2,7;18;20;4
+1243;02/04/2025;Medellín;Pan de bono;3;$2.500;TARJETA;2,8;27;20;4
+1244;02/04/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;1,5;11;23;4
+1245;03/04/2025;Envigado;Croissant;5;$4.500;Nequi;4,9;22;21;5
+1246;03/04/2025;Envigado;Sándwich;2;$9.500;Nequi;4,4;23;19;5
+1247;03/04/2025;Medellín;Pan de bono;4;$2.500;Tarjeta;4,8;25;38;5
+1248;03/04/2025;Sabaneta;Croissant;5;$4.500;Efectivo;6,7;30;22;5
+1249;03/04/2025;Medellín;Almojábana;2;$2.800;Tarjeta;4,7;30;20;5
+1250;03/04/2025;Bello;Buñuelo;1;$2.000;Efectivo;10,0;43;54;4
+1251;04/04/2025;BELLO ;Sándwich;2;$9.500;Nequi;8,7;90;20;2
+1252;04/04/2025;Envigado;Almojábana;4;$2.800;Tarjeta;2,9;17;22;5
+1253;06/04/2025;medellin;Café;1;$3.200;Nequi;5,6;32;69;5
+1252;04/04/2025;Envigado;Almojábana;4;$2.800;Tarjeta;2,9;17;22;5
+1254;06/04/2025;Sabaneta;Jugo natural;3;$6.000;Efectivo;4,3;36;46;5
+1255;06/04/2025;Itagüí;Sándwich;5;$9.500;Nequi;5,0;18;42;5
+1256;06/04/2025;Sabaneta;Almojábana;3;$2.800;Tarjeta;6,0;30;23;4
+1257;06/04/2025;envigado;Buñuelo;1;$2.000;Tarjeta;5,0;27;39;5
+1258;07/04/2025;ENVIGADO;Pan de bono;3;$2.500;Nequi;3,2;20;;5
+1259;07/04/2025;BELLO ;Buñuelo;2;$2.000;nequi;5,9;63;44;2
+1260;07/04/2025;Envigado;Pan de bono;4;$2.500;daviplata;7,0;41;21;4
+1261;07/04/2025;Itagüí;Almojábana;3;2.800;Nequi;4,0;32;50;4
+1262;08/04/2025;itagui;Buñuelo;6;$2.000;Efectivo;5,8;43;54;4
+1263;08/04/2025;Medellín;Almojábana;2;$2.800;Nequi;1,3;17;22;5
+1264;08/04/2025;MEDELLIN;Jugo natural;5;$6.000;Efectivo;6,5;43;45;4
+1265;09/04/2025;Itagüí;Pan de bono;1;$2.500;Nequi ;5,7;36;70;4
+1266;10/04/2025;Medellín;Sándwich;1;$9.500;Daviplata;6,2;29;31;4
+1261;07/04/2025;Itagüí;Almojábana;3;2.800;Nequi;4,0;32;50;4
+1267;10/04/2025;Bello;Buñuelo;1;$2.000;DAVIPLATA;7,5;46;41;5
+1268;11/04/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;6,2;39;43;5
+1269;11/04/2025;Medellín;Croissant;2;$4.500;efectivo;3,6;20;50;5
+1270;11/04/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;3,7;31;23;5
+1271;11/04/2025;Medellín;Jugo natural;1;$6.000;daviplata;4,2;30;24;5
+1272;11/04/2025;sabaneta ;Almojábana;3;$2.800;Nequi;4,9;33;62;4
+1273;12/04/2025;medellin;Almojábana;5;$2.800;Efectivo;5,8;36;62;4
+1274;12/04/2025;Medellín;Sándwich;1;$9.500;tarjeta;4,2;28;70;5
+1275;12/04/2025;Medellín;Pan de bono;2;2.500;Efectivo;2,4;26;50;5
+1276;12/04/2025; Medellín ;Pan de bono;1;$2.500;Nequi;1,4;23;41;5
+1277;12/04/2025;Itagüí;Croissant;1;$4.500;nequi;5,1;34;20;5
+1278;12/04/2025;Itagüí;Pan de bono;6;$2.500;;7,9;36;20;5
+1279;12/04/2025;Sabaneta;Buñuelo;3;$2.000;Tarjeta;7,3;37;;3
+1280;12/04/2025;Medellín;Pan de bono;2;$2.500;Daviplata;4,4;29;26;5
+1281;13/04/2025;Envigado;Buñuelo;2;2.000;Efectivo;5,9;38;23;4
+1282;13/04/2025;ENVIGADO;Croissant;3;$4.500;nequi;5,8;34;46;4
+1283;14/04/2025;Itagüí;Almojábana;4;$2.800;nequi;6,4;43;20;4
+1284;14/04/2025;Medellín;Torta de chocolate;1;$7.500;Efectivo;2,6;17;20;5
+1285;15/04/2025;Medellín;Jugo natural;1;$6.000;tarjeta;3,2;23;52;5
+1286;15/04/2025;Medellín;Buñuelo;6;$2.000;tarjeta;5,1;32;19;5
+1287;15/04/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;5,2;35;36;5
+1288;16/04/2025;Medellín;Jugo natural;4;$6.000;Nequi;4,9;30;20;5
+1289;16/04/2025;Itagüí;Café;1;3.200;NEQUI;3,3;20;45;5
+1290;16/04/2025;Medellín;Sándwich;3;$9.500;Nequi;4,6;25;;4
+1291;16/04/2025;Bello;Pan de bono;1;$2.500;Tarjeta;6,3;45;40;5
+1292;16/04/2025;ENVIGADO;Café;1;$3.200;Efectivo;6,3;31;66;5
+1293;16/04/2025;Medellín;Pan de bono;2;$2.500;EFECTIVO;1,8;14;42;5
+1294;16/04/2025;Bello;Pan de bono;1;$2.500;Daviplata;8,3;57;20;3
+1295;17/04/2025;Itagüí;Torta de chocolate;1;$7.500;Efectivo;5,9;39;18;5
+1296;17/04/2025;Bello;Sándwich;2;$9.500;Nequi;8,7;55;22;4
+1297;17/04/2025;Medellín;Café;1;$3.200;NEQUI;5,6;34;24;4
+1298;18/04/2025;Medellin;Jugo natural;3;$6.000;Tarjeta;5,6;27;48;5
+1299;19/04/2025;ITAGUI;Buñuelo;5;$2.000;;7,5;49;20;3
+1300;19/04/2025;ENVIGADO;Croissant;2;$4.500;Nequi ;4,0;25;33;5
+1301;20/04/2025;Envigado;Sándwich;6;$9.500;DAVIPLATA;2,8;31;;5
+1302;20/04/2025;Envigado;Buñuelo;3;$2.000;Daviplata;4,0;30;22;5
+1303;20/04/2025;Sabaneta;Café;3;3.200;Efectivo;4,2;27;22;4
+1304;20/04/2025;itagui;Café;3;$3.200;tarjeta;4,8;31;23;5
+1305;21/04/2025;Bello;Café;3;3.200;Daviplata;7,1;46;23;5
+1306;21/04/2025;medellín;Buñuelo;4;2.000;daviplata;3,1;25;25;5
+1307;22/04/2025;Itagui;Pan de bono;2;$2.500;EFECTIVO;4,0;23;45;5
+1308;22/04/2025;Sabaneta;Sándwich;2;$9.500;Efectivo;7,1;38;31;4
+1309;23/04/2025;Bello;Almojábana;5;$2.800;Nequi;5,5;28;45;4
+1310;23/04/2025;medellin;Café;4;$3.200;Nequi;1,6;16;23;5
+1311;23/04/2025;Medellín;Almojábana;3;$2.800;Tarjeta;3,5;23;43;5
+1312;24/04/2025;Sabaneta;Almojábana;3;2.800;EFECTIVO;5,1;33;73;4
+1313;24/04/2025;Medellín;Torta de chocolate;3;$7.500;Nequi;1,4;13;51;5
+1314;24/04/2025;Itagüí;Café;4;$3.200;Efectivo;5,2;31;68;5
+1315;24/04/2025;medellin;Café;2;$3.200;Efectivo;3,7;28;46;5
+1316;25/04/2025;envigado;Jugo natural;2;6.000;Nequi;6,0;29;25;5
+1317;25/04/2025;medellín;Jugo natural;4;$6.000;Daviplata;4,9;31;21;5
+1318;25/04/2025;Medellín;Pan de bono;2;$2.500;Daviplata;5,6;35;21;3
+1319;25/04/2025;Itagüí;Pan de bono;4;$2.500;Nequi;4,6;32;18;5
+1320;26/04/2025;Medellín;Jugo natural;5;$6.000;Efectivo;4,9;30;40;4
+1319;25/04/2025;Itagüí;Pan de bono;4;$2.500;Nequi;4,6;32;18;5
+1321;27/04/2025;ENVIGADO;Buñuelo;2;$2.000;Efectivo;7,5;38;19;3
+1322;28/04/2025;Medellín;Croissant;2;$4.500;Nequi;4,2;27;23;4
+1323;28/04/2025;Itagüí;Pan de bono;1;$2.500;Nequi;5,2;30;22;3
+1323;28/04/2025;Itagüí;Pan de bono;1;$2.500;Nequi;5,2;30;22;3
+1324;29/04/2025;Medellín;Sándwich;1;$9.500;Nequi;1,7;20;22;5
+1325;30/04/2025;Sabaneta;Café;2;3.200;Nequi ;8,5;42;46;3
+1326;30/04/2025;Envigado;Pan de bono;6;$2.500;Nequi;4,6;34;49;4
+1327;01/05/2025;Medellín;Torta de chocolate;2;$7.500;nequi;2,8;26;24;5
+1328;01/05/2025;BELLO ;Café;4;$3.200;Daviplata;9,3;55;24;4
+1329;01/05/2025;Medellín;Pan de bono;3;$2.500;Nequi;4,9;30;21;5
+1330;01/05/2025;Envigado;Pan de bono;6;$2.500;Nequi;2,9;25;43;5
+1331;02/05/2025;Medellín;Croissant;3;$4.500;Efectivo;1,6;17;;5
+1332;02/05/2025;BELLO ;Café;1;$3.200;Nequi;7,3;36;48;5
+1333;02/05/2025;MEDELLIN;Almojábana;2;$2.800;Nequi;2,3;22;17;5
+1334;03/05/2025;SABANETA;Pan de bono;2;$2.500;NEQUI;5,9;38;24;4
+1335;03/05/2025;bello;Croissant;2;4.500;Nequi;10,0;61;20;3
+1336;04/05/2025;Envigado;Sándwich;3;$9.500;Daviplata;3,0;19;34;4
+1337;04/05/2025;itagui;Buñuelo;1;$2.000;Efectivo;4,6;32;47;3
+1338;04/05/2025;MEDELLIN;Sándwich;4;$9.500;Efectivo;5,6;29;34;5
+1337;04/05/2025;itagui;Buñuelo;1;$2.000;Efectivo;4,6;32;47;3
+1339;04/05/2025;Medellín;Almojábana;1;$2.800;tarjeta;2,0;0;43;4
+1340;05/05/2025;Itagüí;Buñuelo;2;$2.000;EFECTIVO;6,1;37;37;4
+1341;05/05/2025;Bello;Pan de bono;2;$2.500;EFECTIVO;9,0;69;54;4
+1342;05/05/2025;Medellín;Almojábana;2;$2.800;Nequi;3,2;22;17;4
+1343;05/05/2025;BELLO ;Buñuelo;1;$2.000;Nequi ;8,2;41;55;5
+1344;06/05/2025;Envigado;Croissant;2;$4.500;NEQUI;3,9;28;47;4
+1345;06/05/2025; Medellín ;Pan de bono;4;$2.500;Tarjeta;4,1;22;38;5
+1346;06/05/2025;Itagüí;Buñuelo;5;$2.000;efectivo;4,1;20;35;5
+1347;06/05/2025;medellín;Torta de chocolate;1;$7.500;;1,8;18;39;5
+1348;06/05/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;5,0;33;24;5
+1349;06/05/2025;Medellín;Café;3;$3.200;Nequi;4,5;23;16;5
+1349;06/05/2025;Medellín;Café;3;$3.200;Nequi;4,5;23;16;5
+1350;06/05/2025; Medellín ;Croissant;4;4.500;Efectivo;3,2;23;39;4
+1351;07/05/2025;Medellín;Almojábana;1;$2.800;NEQUI;1,9;18;31;4
+1352;07/05/2025;Itagüí;Buñuelo;5;$2.000;Efectivo;5,9;37;42;4
+1353;07/05/2025;Medellín;Pan de bono;6;2.500;Daviplata;4,9;35;21;5
+1354;07/05/2025;Medellín;Croissant;1;$4.500;Nequi;3,5;23;18;5
+1355;07/05/2025;Bello;Buñuelo;3;$2.000;Tarjeta;6,3;53;46;3
+1356;09/05/2025;envigado;Sándwich;3;9.500;Daviplata;3,2;30;21;5
+1357;09/05/2025;Medellín;Jugo natural;3;$6.000;Tarjeta;4,1;21;;4
+1358;10/05/2025;Medellín;Almojábana;3;$2.800;Nequi;5,8;38;46;4
+1359;10/05/2025;Medellín;Buñuelo;1;$2.000;Tarjeta;3,9;33;44;5
+1360;10/05/2025;Itagüí;Buñuelo;3;$2.000;Nequi;6,0;39;19;5
+1361;10/05/2025;MEDELLIN;Almojábana;6;$2.800;efectivo;4,9;42;32;3
+1362;11/05/2025;Medellín;Almojábana;2;$2.800;Nequi;6,0;40;40;5
+1363;12/05/2025;itagui;Pan de bono;6;$2.500;Daviplata;6,5;34;47;4
+1364;12/05/2025; Medellín ;Café;2;$3.200;efectivo;5,0;32;43;5
+1365;13/05/2025;Medellín;Café;6;$3.200;Efectivo;1,6;14;59;4
+1366;13/05/2025;Bello;Croissant;1;$4.500;Nequi;6,8;47;22;4
+1367;14/05/2025;Medellín;Buñuelo;1;$2.000;Nequi;2,2;19;25;5
+1368;14/05/2025;Medellín;Buñuelo;2;2.000;Nequi;5,9;35;18;3
+1369;14/05/2025;Medellín;Jugo natural;4;$6.000;Nequi;4,2;32;24;5
+1370;15/05/2025;Bello;Almojábana;4;$2.800;Daviplata;8,1;69;23;3
+1371;15/05/2025;Medellín;Café;4;3.200;EFECTIVO;3,8;24;39;5
+1372;15/05/2025;Envigado;Torta de chocolate;2;$7.500;Tarjeta;5,2;28;;5
+1373;15/05/2025;itagui;Jugo natural;1;6.000;Efectivo;7,7;37;21;4
+1374;15/05/2025;Medellín;Almojábana;2;$2.800;Tarjeta;4,0;31;44;5
+1375;16/05/2025;MEDELLIN;Jugo natural;2;$6.000;Efectivo;5,0;24;38;5
+1376;16/05/2025;Sabaneta;Buñuelo;3;$2.000;Nequi;6,7;40;21;4
+1377;16/05/2025;Envigado;Torta de chocolate;2;$7.500;Efectivo;5,3;34;37;5
+1378;16/05/2025;Medellín;Jugo natural;2;$6.000;efectivo;2,5;20;35;5
+1379;17/05/2025;Medellín;Sándwich;1;$9.500;nequi;4,3;26;19;5
+1380;17/05/2025;Envigado;Pan de bono;1;$2.500;Nequi;4,9;27;21;5
+1381;17/05/2025;Sabaneta;Sándwich;3;$9.500;Nequi;4,4;34;24;5
+1382;17/05/2025;Bello;Café;1;$3.200;Efectivo;9,4;67;43;3
+1383;18/05/2025;Bello;Sándwich;3;$9.500;Nequi;7,9;71;39;3
+1384;18/05/2025;Medellín;Jugo natural;2;$6.000;Nequi;6,4;37;60;4
+1385;18/05/2025;Medellín;Jugo natural;2;$6.000;Daviplata;2,9;18;19;5
+1386;19/05/2025;Bello;Pan de bono;1;2.500;Nequi;7,6;49;23;3
+1387;19/05/2025;Envigado;Sándwich;1;$9.500;Nequi ;3,3;26;19;5
+1388;19/05/2025;Bello;Sándwich;5;$9.500;DaviPlata;7,7;52;18;5
+1389;20/05/2025;Bello;Pan de bono;4;$2.500;Efectivo;7,6;60;44;4
+1384;18/05/2025;Medellín;Jugo natural;2;$6.000;Nequi;6,4;37;60;4
+1390;21/05/2025;Itagui;Pan de bono;5;$2.500;Tarjeta;5,4;39;49;3
+1391;21/05/2025;medellin;Almojábana;1;$2.800;Efectivo;2,9;19;46;5
+1392;21/05/2025;MEDELLIN;Café;4;$3.200;Tarjeta;5,1;30;68;5
+1393;21/05/2025;Medellín;Café;5;$3.200;Nequi;3,3;21;23;5
+1394;22/05/2025;Envigado;Café;4;$3.200;Nequi;6,0;44;18;5
+1395;22/05/2025;Sabaneta;Croissant;1;$4.500;Nequi;6,1;36;23;4
+1396;24/05/2025;Sabaneta;Jugo natural;1;$6.000;nequi;6,2;33;44;4
+1397;24/05/2025;sabaneta ;Almojábana;3;$2.800;Nequi;5,8;38;49;4
+1398;24/05/2025;Medellín;Torta de chocolate;5;$7.500;TARJETA;6,5;28;22;5
+1399;24/05/2025;itagui;Buñuelo;2;$2.000;Nequi;4,2;34;45;5
+1400;25/05/2025;Medellín;Pan de bono;5;$2.500;DaviPlata;3,2;27;23;4
+1401;25/05/2025; Medellín ;Café;3;$3.200;Efectivo;4,6;22;42;5
+1402;25/05/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;5,7;34;22;4
+1403;26/05/2025;Itagüí;Sándwich;2;$9.500;Efectivo;4,4;24;47;4
+1404;26/05/2025;Bello;Buñuelo;2;$2.000;NEQUI;7,9;35;22;4
+1405;26/05/2025;Medellín;Torta de chocolate;2;$7.500;Nequi;2,4;18;55;5
+1406;27/05/2025;Itagüí;Pan de bono;3;$2.500;Efectivo;6,8;38;36;5
+1407;27/05/2025;sabaneta ;Jugo natural;2;$6.000;Tarjeta;6,6;36;22;4
+1408;28/05/2025;ENVIGADO;Pan de bono;6;$2.500;Efectivo;5,3;27;19;5
+1409;28/05/2025;ITAGUI;Pan de bono;5;$2.500;Nequi;5,9;35;50;4
+1410;28/05/2025;ENVIGADO;Buñuelo;2;$2.000;Nequi;6,9;39;19;5
+1411;28/05/2025;Itagüí;Pan de bono;2;$2.500;nequi;7,1;37;18;5
+1412;29/05/2025;Sabaneta;Pan de bono;4;$2.500;;7,2;39;26;4
+1413;30/05/2025;Medellín;Sándwich;1;$9.500;Efectivo;6,2;39;34;4
+1414;30/05/2025;Itagüí;Café;3;$3.200;Efectivo;6,3;39;47;4
+1415;30/05/2025;sabaneta ;Café;3;$3.200;DAVIPLATA;4,4;21;51;5
+1416;31/05/2025;Sabaneta;Pan de bono;1;$2.500;nequi;5,5;34;21;4
+1417;31/05/2025;Medellín;Pan de bono;4;$2.500;Efectivo;2,7;25;47;5
+1418;31/05/2025;Medellín;Pan de bono;3;$2.500;EFECTIVO;3,4;26;26;5
+1419;01/06/2025;Medellín;Buñuelo;2;$2.000;Nequi;4,6;31;18;5
+1420;01/06/2025;Medellín;Pan de bono;5;$2.500;Tarjeta;1,4;17;43;5
+1421;01/06/2025;Itagüí;Pan de bono;2;$2.500;efectivo;7,5;43;48;4
+1422;01/06/2025;Itagüí;Almojábana;5;$2.800;Tarjeta;5,8;31;41;5
+1423;01/06/2025;Envigado;Almojábana;5;$2.800;Nequi;5,7;35;42;3
+1424;01/06/2025;medellín;Almojábana;2;$2.800;Efectivo;1,9;22;50;5
+1425;01/06/2025;Medellín;Pan de bono;4;$2.500;EFECTIVO;2,3;13;59;5
+1426;01/06/2025;bello;Almojábana;5;$2.800;Nequi;10,2;66;45;3
+1427;02/06/2025;Medellín;Buñuelo;1;2.000;Nequi;2,7;19;19;5
+1428;02/06/2025;Medellín;Torta de chocolate;5;$7.500;Tarjeta;2,4;17;39;5
+1429;03/06/2025;Envigado;Jugo natural;2;$6.000;Efectivo;2,7;17;41;5
+1430;03/06/2025;medellin;Pan de bono;2;$2.500;Tarjeta;2,8;26;45;4
+1431;03/06/2025;Medellin;Buñuelo;3;$2.000;;2,6;14;17;5
+1432;03/06/2025;envigado;Almojábana;2;$2.800;Nequi;7,2;31;20;5
+1433;03/06/2025;Medellín;Croissant;2;$4.500;NEQUI;1,2;13;23;5
+1434;03/06/2025;medellín;Pan de bono;3;$2.500;nequi;4,8;25;22;4
+1435;04/06/2025;Envigado;Torta de chocolate;3;$7.500;;3,9;26;53;4
+1436;05/06/2025;Sabaneta;Café;2;$3.200;Tarjeta;7,1;33;40;5
+1437;05/06/2025;MEDELLIN;Buñuelo;4;$2.000;;3,8;31;20;5
+1438;05/06/2025;medellin;Torta de chocolate;2;7.500;Daviplata;2,2;14;43;5
+1439;06/06/2025;medellín;Jugo natural;5;$6.000;Tarjeta;2,6;13;39;5
+1440;07/06/2025;Medellín;Croissant;1;$4.500;Nequi;5,7;30;20;4
+1441;07/06/2025;Medellín;Torta de chocolate;5;$7.500;nequi;3,4;25;30;5
+1442;07/06/2025;bello;Croissant;2;$4.500;Tarjeta;6,2;51;41;4
+1443;07/06/2025;itagui;Buñuelo;3;$2.000;TARJETA;6,8;41;24;4
+1444;07/06/2025;SABANETA;Pan de bono;3;$2.500;Efectivo;6,4;43;18;2
+1445;08/06/2025;Medellín;Café;2;$3.200;Tarjeta;1,8;17;34;5
+1446;08/06/2025;Medellín;Pan de bono;1;$2.500;Nequi;3,4;22;43;5
+1447;08/06/2025;Itagüí;Almojábana;5;2.800;efectivo;4,7;34;45;5
+1448;08/06/2025;Bello;Pan de bono;3;$2.500;DAVIPLATA;6,8;49;56;4
+1449;08/06/2025;Medellín;Pan de bono;4;$2.500;nequi;5,8;30;46;4
+1450;09/06/2025;Bello;Pan de bono;5;$2.500;Nequi;10,2;75;30;2
+1451;09/06/2025;Envigado;Almojábana;4;$2.800;Tarjeta;7,4;44;32;5
+1452;09/06/2025;Medellín;Almojábana;3;$2.800;Efectivo;4,5;29;45;5
+1453;09/06/2025;Medellin;Café;3;;Nequi;5,5;29;31;4
+1454;09/06/2025;Envigado;Sándwich;3;$9.500;NEQUI;5,6;31;20;4
+1455;10/06/2025;Medellín;Jugo natural;1;$6.000;TARJETA;3,0;22;40;5
+1456;10/06/2025;Medellín;Buñuelo;6;$2.000;Efectivo;2,0;19;42;5
+1457;10/06/2025;Bello;Pan de bono;4;2.500;Nequi;8,1;75;;2
+1458;10/06/2025;Bello;Pan de bono;5;$2.500;DAVIPLATA;5,6;48;41;5
+1459;10/06/2025;Sabaneta;Café;1;$3.200;Efectivo;5,9;30;47;4
+1460;10/06/2025;Medellín;Pan de bono;4;$2.500;Daviplata;2,6;20;41;5
+1461;10/06/2025;Itagüí;Café;1;$3.200;Nequi;6,1;34;45;5
+1462;12/06/2025;Itagüí;Pan de bono;2;$2.500;Efectivo;6,6;36;51;4
+1463;12/06/2025;Sabaneta;Sándwich;2;$9.500;Tarjeta;4,3;31;45;3
+1464;12/06/2025;Envigado;Pan de bono;1;$2.500;NEQUI;5,1;-15;24;5
+1465;12/06/2025;Medellín;Pan de bono;2;$2.500;TARJETA;1,0;25;21;5
+1466;12/06/2025;Medellín;Pan de bono;6;2.500;Tarjeta;2,8;22;63;4
+1467;12/06/2025;envigado;Pan de bono;2;$2.500;Tarjeta;4,8;30;29;5
+1468;13/06/2025;Medellín;Croissant;4;$4.500;Nequi;1,7;23;39;5
+1469;13/06/2025;Itagüí;Café;3;3.200;efectivo;4,5;37;16;5
+1470;14/06/2025;Bello;Sándwich;4;$9.500;Tarjeta;7,1;58;49;3
+1469;13/06/2025;Itagüí;Café;3;3.200;efectivo;4,5;37;16;5
+1471;14/06/2025;Medellín;Jugo natural;2;$6.000;Nequi;4,1;22;24;5
+1472;14/06/2025;Medellín;Jugo natural;3;$6.000;DaviPlata;5,9;34;50;5
+1473;14/06/2025;BELLO ;Pan de bono;3;$2.500;Nequi;9,7;98;42;2
+1474;14/06/2025;Envigado;Sándwich;1;$9.500;Nequi;4,4;29;23;4
+1475;14/06/2025;Medellín;Almojábana;3;$2.800;Daviplata;1,0;18;20;4
+1476;15/06/2025;Medellín;Buñuelo;1;$2.000;Efectivo;5,5;37;29;4
+1477;15/06/2025;Envigado;Pan de bono;1;$2.500;Efectivo;3,2;20;31;5
+1478;15/06/2025;Envigado;Jugo natural;3;$6.000;Efectivo;5,1;-4;20;4
+1479;15/06/2025;Medellin;Café;1;$3.200;Nequi;5,9;31;18;5
+1480;16/06/2025;Sabaneta;Pan de bono;2;$2.500;Nequi;6,8;30;37;4
+1481;17/06/2025;Sabaneta;Sándwich;6;$9.500;Efectivo;5,6;29;54;5
+1482;18/06/2025;Sabaneta;Pan de bono;1;$2.500;Efectivo;4,9;27;41;5
+1483;18/06/2025;Sabaneta;Café;2;$3.200;Nequi;9,4;48;41;5
+1484;18/06/2025;Medellín;Croissant;1;$4.500;Nequi;6,2;42;23;5
+1485;19/06/2025;Bello;Almojábana;2;$2.800;Daviplata;8,7;60;40;3
+1486;19/06/2025;sabaneta ;Sándwich;2;$9.500;Nequi;5,0;24;25;4
+1481;17/06/2025;Sabaneta;Sándwich;6;$9.500;Efectivo;5,6;29;54;5
+1487;20/06/2025;Itagüí;Almojábana;4;$2.800;Tarjeta;6,8;37;48;5
+1488;20/06/2025;Medellín;Café;1;3.200;Nequi;3,6;26;19;5
+1489;20/06/2025;Itagüí;Sándwich;1;$9.500;nequi;4,0;31;51;4
+1490;20/06/2025;Medellín;Sándwich;1;$9.500;EFECTIVO;4,6;26;40;5
+1491;20/06/2025; Medellín ;Almojábana;1;$2.800;Nequi;2,6;20;15;3
+1492;21/06/2025;envigado;Jugo natural;6;$6.000;Nequi;2,4;16;19;5
+1493;21/06/2025;Medellín;Buñuelo;1;$2.000;Tarjeta;1,4;23;31;5
+1494;21/06/2025;Bello;Croissant;4;$4.500;Efectivo;7,5;84;51;2
+1495;21/06/2025;BELLO ;Almojábana;3;$2.800;efectivo;8,3;53;24;3
+1496;21/06/2025;envigado;Pan de bono;4;$2.500;efectivo;4,1;22;37;5
+1497;21/06/2025;Itagui;Buñuelo;2;$2.000;Tarjeta;6,4;37;66;5
+1498;22/06/2025;ENVIGADO;Torta de chocolate;2;$7.500;Efectivo;4,9;30;;5
+1497;21/06/2025;Itagui;Buñuelo;2;$2.000;Tarjeta;6,4;37;66;5
+1499;22/06/2025;Envigado;Almojábana;1;$2.800;EFECTIVO;3,2;25;21;5
+1500;22/06/2025;Medellín;Sándwich;2;$9.500;Daviplata;0,8;16;39;4
+1501;22/06/2025;Itagui;Almojábana;2;$2.800;Nequi;6,0;41;21;4
+1502;22/06/2025;Medellín;Croissant;1;4.500;Tarjeta;3,2;52;41;3
+1503;22/06/2025;medellin;Jugo natural;2;$6.000;NEQUI;2,3;22;;4
+1504;22/06/2025;Sabaneta;Torta de chocolate;3;$7.500;Daviplata;4,9;28;20;4
+1505;22/06/2025;Medellín;Café;1;$3.200;tarjeta;5,7;32;45;3
+1506;23/06/2025;Envigado;Sándwich;3;$9.500;Efectivo;2,9;23;40;5
+1507;23/06/2025;Itagüí;Buñuelo;3;$2.000;NEQUI;6,1;34;21;5
+1508;23/06/2025;Medellín;Café;3;3.200;Daviplata;4,2;26;25;4
+1509;23/06/2025;Medellin;Buñuelo;3;$2.000;Tarjeta;4,6;22;22;4
+1510;24/06/2025;Medellín;Café;2;$3.200;Nequi;5,2;40;23;3
+1511;24/06/2025;Envigado;Buñuelo;1;$2.000;Efectivo;2,6;15;24;5
+1512;24/06/2025;Medellín;Pan de bono;1;2.500;Tarjeta;3,8;32;65;4
+1513;24/06/2025;Itagüí;Jugo natural;2;$6.000;Nequi;6,7;31;24;4
+1514;24/06/2025;Medellín;Café;3;$3.200;Daviplata;6,4;35;30;5
+1515;25/06/2025;Medellín;Sándwich;2;$9.500;Efectivo;3,7;28;21;4
+1516;25/06/2025;Bello;Buñuelo;2;$2.000;Nequi;6,0;43;24;5
+1517;26/06/2025;Itagüí;Buñuelo;4;$2.000;Tarjeta;5,0;34;24;4
+1518;26/06/2025;Envigado;Jugo natural;3;$6.000;Efectivo;3,9;30;43;5
+1519;26/06/2025;Medellín;Café;2;$3.200;Nequi;4,5;38;18;4
+1520;26/06/2025;Itagüí;Sándwich;1;$9.500;Efectivo;4,6;25;;5
+1519;26/06/2025;Medellín;Café;2;$3.200;Nequi;4,5;38;18;4
+1521;26/06/2025;bello;Café;2;$3.200;nequi;5,5;26;22;5
+1516;25/06/2025;Bello;Buñuelo;2;$2.000;Nequi;6,0;43;24;5
+1522;26/06/2025;sabaneta ;Pan de bono;1;$2.500;Efectivo;6,8;39;70;5
+1523;27/06/2025;Medellín;Jugo natural;6;$6.000;Nequi;3,5;24;22;5
+1524;27/06/2025;ENVIGADO;Croissant;6;$4.500;Efectivo;3,2;28;38;4
+1525;28/06/2025;Bello;Torta de chocolate;1;$7.500;Tarjeta;8,1;52;;3
+1526;28/06/2025;MEDELLIN;Pan de bono;4;$2.500;Nequi;1,9;15;33;5
+1527;28/06/2025;Medellín;Croissant;4;$4.500;Nequi;2,3;15;49;4
+1528;28/06/2025;Medellín;Buñuelo;2;$2.000;Nequi;4,2;52;44;3
+1529;28/06/2025;Medellín;Buñuelo;6;$2.000;TARJETA;1,8;19;51;5
+1530;29/06/2025;Bello;Buñuelo;1;$2.000;Nequi;8,2;47;42;4
+1531;29/06/2025;Envigado;Sándwich;1;$9.500;Efectivo;5,6;35;17;4
+1532;29/06/2025;Sabaneta;Pan de bono;3;2.500;DAVIPLATA;4,4;23;19;5
+1533;30/06/2025;SABANETA;Café;4;3.200;Nequi;6,1;38;24;5
+1534;01/07/2025;MEDELLIN;Pan de bono;2;2.500;;5,1;72;55;4
+1535;02/07/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;2,6;22;;4
+1536;02/07/2025;Itagüí;Café;1;$3.200;Efectivo;6,9;35;25;4
+1537;02/07/2025;Itagui;Buñuelo;3;$2.000;;8,5;44;18;5
+1538;03/07/2025;itagui;Pan de bono;3;$2.500;Efectivo;5,7;39;47;5
+1539;03/07/2025;Medellín;Buñuelo;2;$2.000;Nequi;3,7;26;44;4
+1540;03/07/2025;Sabaneta;Torta de chocolate;3;$7.500;Nequi;7,0;43;21;4
+1541;03/07/2025;Medellín;Pan de bono;2;$2.500;Nequi;1,9;17;;5
+1538;03/07/2025;itagui;Pan de bono;3;$2.500;Efectivo;5,7;39;47;5
+1542;04/07/2025;Bello;Pan de bono;5;$2.500;Nequi;8,6;55;28;4
+1543;04/07/2025;Sabaneta;Buñuelo;2;$2.000;nequi;3,9;22;23;4
+1544;04/07/2025;MEDELLIN;Pan de bono;2;$2.500;EFECTIVO;6,0;35;21;5
+1545;05/07/2025;Medellín;Buñuelo;1;$2.000;Nequi;0,7;10;21;5
+1546;05/07/2025;Bello;Café;2;$3.200;Tarjeta;7,2;58;70;4
+1547;05/07/2025;Medellín;Café;3;$3.200;Efectivo;2,5;13;;5
+1548;05/07/2025;Bello;Pan de bono;1;2.500;Efectivo;8,5;64;20;3
+1549;05/07/2025;Itagüí;Sándwich;1;$9.500;Nequi;4,3;20;58;5
+1550;05/07/2025;Medellín;Sándwich;5;$9.500;Nequi;2,0;12;42;5
+1548;05/07/2025;Bello;Pan de bono;1;2.500;Efectivo;8,5;64;20;3
+1551;05/07/2025;Medellín;Sándwich;1;$9.500;Daviplata;5,9;33;45;5
+1552;06/07/2025;Medellín;Almojábana;2;$2.800;Nequi;4,1;31;16;5
+1553;06/07/2025;Bello;Sándwich;3;$9.500;TARJETA;9,2;59;43;3
+1554;06/07/2025;Bello;Almojábana;4;2.800;tarjeta;8,9;52;60;3
+1555;06/07/2025;ENVIGADO;Café;3;$3.200;nequi;3,0;25;18;5
+1556;07/07/2025;Envigado;Almojábana;1;$2.800;Efectivo;2,3;22;48;5
+1557;08/07/2025;Itagui;Buñuelo;3;$2.000;Efectivo;3,4;25;27;5
+1558;08/07/2025;Bello;Café;3;3.200;Nequi;10,4;59;22;3
+1559;09/07/2025;Medellín;Café;5;$3.200;Tarjeta;3,9;29;48;5
+1560;09/07/2025;Envigado;Sándwich;3;9.500;Nequi ;4,4;999;47;4
+1561;09/07/2025;Itagui;Pan de bono;2;$2.500;Tarjeta;5,5;33;29;3
+1562;10/07/2025;Itagui;Café;4;$3.200;Nequi ;6,1;27;24;4
+1563;10/07/2025;ENVIGADO;Jugo natural;2;$6.000;Efectivo;3,9;22;23;5
+1564;11/07/2025;Medellín;Croissant;6;$4.500;NEQUI;1,8;21;23;5
+1565;11/07/2025;Bello;Almojábana;3;$2.800;NEQUI;6,9;43;22;5
+1566;11/07/2025;Medellín;Sándwich;2;$9.500;Daviplata;5,8;36;56;4
+1567;11/07/2025;Envigado;Jugo natural;2;$6.000;Daviplata;3,5;28;47;5
+1568;11/07/2025;SABANETA;Pan de bono;2;$2.500;Nequi;6,3;34;24;4
+1569;11/07/2025;BELLO ;Jugo natural;1;$6.000;Efectivo;7,0;35;20;5
+1570;11/07/2025;Medellín;Pan de bono;2;$2.500;nequi;2,7;22;20;5
+1571;11/07/2025;Itagüí;Pan de bono;1;$2.500;Nequi;4,7;31;21;5
+1572;11/07/2025;Medellín;Café;1;$3.200;Nequi;2,9;23;74;5
+1573;11/07/2025;Medellín;Croissant;6;$4.500;nequi;4,2;25;18;5
+1574;12/07/2025;Itagüí;Sándwich;3;$9.500;nequi;5,7;35;22;4
+1575;12/07/2025;Itagüí;Pan de bono;2;$2.500;Daviplata;6,4;38;25;4
+1576;12/07/2025;Envigado;Café;4;$3.200;Efectivo;2,5;20;18;5
+1577;12/07/2025;Bello;Jugo natural;5;$6.000;DaviPlata;9,8;60;24;4
+1578;12/07/2025;Itagüí;Croissant;6;$4.500;efectivo;5,9;37;33;5
+1579;12/07/2025;Medellín;Pan de bono;3;$2.500;Efectivo;3,2;21;43;5
+1580;13/07/2025;SABANETA;Pan de bono;3;$2.500;Efectivo;5,6;40;64;4
+1581;13/07/2025;Medellín;Pan de bono;4;$2.500;Efectivo;3,2;22;37;5
+1582;13/07/2025;SABANETA;Café;3;$3.200;Nequi;7,8;39;36;5
+1583;13/07/2025;Medellín;Buñuelo;2;$2.000;Efectivo;2,2;25;21;5
+1584;13/07/2025;Medellin;Torta de chocolate;4;$7.500;Nequi;4,5;24;42;5
+1585;13/07/2025;Medellín;Torta de chocolate;1;$7.500;Efectivo;4,1;25;20;5
+1586;13/07/2025;Bello;Sándwich;3;$9.500;Nequi;7,5;55;21;3
+1587;13/07/2025;Medellín;Café;1;$3.200;Nequi;4,9;29;24;5
+1588;13/07/2025;Medellín;Jugo natural;2;$6.000;Nequi ;2,1;19;44;5
+1589;13/07/2025;SABANETA;Croissant;2;$4.500;Nequi;5,3;36;19;4
+1590;13/07/2025;Bello;Jugo natural;5;$6.000;Efectivo;6,1;47;19;5
+1591;13/07/2025;Medellín;Sándwich;2;;Tarjeta;3,5;28;29;5
+1592;14/07/2025;Itagüí;Almojábana;1;$2.800;Efectivo;6,0;33;;4
+1593;14/07/2025;Medellín;Buñuelo;4;2.000;Nequi;4,1;21;70;5
+1594;14/07/2025;ENVIGADO;Almojábana;1;2.800;Daviplata;5,5;27;46;5
+1595;15/07/2025;Itagüí;Buñuelo;3;$2.000;Nequi;7,7;38;49;4
+1596;15/07/2025;Sabaneta;Croissant;5;$4.500;Nequi;6,3;36;20;5
+1597;15/07/2025;Envigado;Pan de bono;5;$2.500;nequi;4,1;27;24;4
+1597;15/07/2025;Envigado;Pan de bono;5;$2.500;nequi;4,1;27;24;4
+1598;15/07/2025;Envigado;Buñuelo;5;2.000;Daviplata;4,7;30;21;4
+1599;16/07/2025;Sabaneta;Pan de bono;2;$2.500;;4,9;29;39;5
+1600;16/07/2025;Medellín;Café;2;$3.200;NEQUI;0,6;15;23;5
+1601;16/07/2025;Medellín;Croissant;4;$4.500;Tarjeta;5,5;30;21;4
+1602;16/07/2025;Medellin;Pan de bono;1;2.500;Efectivo;3,6;21;73;5
+1603;16/07/2025;Medellín;Almojábana;5;$2.800;Nequi;2,6;22;26;4
+1604;17/07/2025;medellin;Almojábana;1;$2.800;Tarjeta;2,2;16;24;5
+1605;18/07/2025;Envigado;Buñuelo;1;$2.000;nequi;6,3;41;41;4
+1606;19/07/2025;Medellín;Buñuelo;2;$2.000;Nequi;4,7;32;49;5
+1607;19/07/2025;medellin;Pan de bono;2;$2.500;Nequi;2,6;20;25;5
+1608;20/07/2025;Sabaneta;Sándwich;2;$9.500;Nequi;7,3;40;;4
+1609;20/07/2025;medellin;Sándwich;5;$9.500;NEQUI;4,9;33;40;5
+1610;20/07/2025;Sabaneta;Pan de bono;2;$2.500;efectivo;6,1;31;24;4
+1611;20/07/2025;Medellín;Croissant;1;$4.500;Daviplata;5,4;34;22;5
+1612;21/07/2025;Medellín;Pan de bono;3;$2.500;Nequi;6,5;37;45;5
+1613;21/07/2025;Medellín;Torta de chocolate;6;$7.500;Nequi;2,6;22;18;5
+1614;22/07/2025;Medellín;Buñuelo;1;$2.000;Tarjeta;5,3;33;45;4
+1615;22/07/2025;Itagüí;Pan de bono;1;$2.500;efectivo;4,9;29;49;5
+1616;22/07/2025;Bello;Pan de bono;2;;nequi;6,5;44;20;5
+1617;22/07/2025;Sabaneta;Torta de chocolate;1;$7.500;Efectivo;7,0;37;40;4
+1618;23/07/2025; Medellín ;Almojábana;2;$2.800;Nequi;1,5;13;20;5
+1619;23/07/2025;Bello;Torta de chocolate;4;$7.500;Nequi;8,7;55;42;3
+1620;23/07/2025;Medellín;Café;3;$3.200;Efectivo;2,0;21;41;5
+1621;23/07/2025;Itagüí;Jugo natural;4;$6.000;nequi;7,2;40;20;5
+1622;24/07/2025;Bello;Buñuelo;2;2.000;Efectivo;7,8;37;31;4
+1623;24/07/2025;Itagui;Buñuelo;3;$2.000;EFECTIVO;5,1;34;43;5
+1624;24/07/2025;Itagüí;Pan de bono;2;$2.500;Efectivo;6,5;35;41;45
+1625;24/07/2025;Envigado;Buñuelo;3;$2.000;Efectivo;5,8;36;20;5
+1626;24/07/2025;Medellín;Pan de bono;4;$2.500;DaviPlata;1,4;20;60;5
+1627;24/07/2025;Itagüí;Almojábana;2;$2.800;Efectivo;4,1;29;48;5
+1628;24/07/2025;Envigado;Croissant;1;$4.500;Nequi;5,1;28;24;4
+1629;25/07/2025;Envigado;Pan de bono;4;$2.500;Efectivo;5,8;38;46;3
+1630;25/07/2025;Bello;Jugo natural;3;$6.000;Nequi;6,3;49;48;4
+1631;25/07/2025;Medellin;Jugo natural;1;$6.000;Nequi;0,9;10;22;5
+1632;25/07/2025;Medellín;Pan de bono;2;$2.500;;3,6;24;22;5
+1633;25/07/2025;MEDELLIN;Jugo natural;1;$6.000;Efectivo;2,2;19;50;5
+1634;25/07/2025;Itagüí;Almojábana;3;$2.800;TARJETA;7,2;46;57;4
+1635;26/07/2025;Bello;Café;1;$3.200;Efectivo;6,5;39;20;5
+1636;26/07/2025;Medellín;Pan de bono;6;$2.500;Daviplata;4,5;32;20;4
+1637;26/07/2025;Medellín;Café;6;$3.200;NEQUI;4,3;22;42;5
+1638;26/07/2025;Medellín;Almojábana;1;$2.800;Daviplata;3,5;25;42;5
+1639;27/07/2025;Medellín;Café;2;$3.200;Efectivo;4,3;35;;4
+1640;27/07/2025;Medellín;Almojábana;2;$2.800;NEQUI;3,2;18;18;5
+1641;27/07/2025;ENVIGADO;Sándwich;4;9.500;DAVIPLATA;4,4;30;17;5
+1642;27/07/2025;Medellín;Buñuelo;5;$2.000;Efectivo;1,9;15;24;5
+1643;28/07/2025;SABANETA;Jugo natural;4;$6.000;Efectivo;7,3;38;52;4
+1644;28/07/2025;Envigado;Café;1;$3.200;Daviplata;5,0;33;23;5
+1645;28/07/2025;BELLO ;Almojábana;6;$2.800;Nequi;9,8;70;22;3
+1646;28/07/2025;Bello;Almojábana;3;$2.800;Nequi;5,6;37;49;4
+1647;29/07/2025;Itagui;Torta de chocolate;3;$7.500;Nequi;5,5;35;19;4
+1648;29/07/2025;Sabaneta;Buñuelo;4;$2.000;Nequi;7,0;37;19;5
+1649;30/07/2025;Envigado;Jugo natural;1;$6.000;NEQUI;6,0;31;44;5
+1650;30/07/2025;MEDELLIN;Croissant;2;$4.500;Nequi;2,3;16;24;5
+1651;30/07/2025;ENVIGADO;Sándwich;1;$9.500;Efectivo;6,6;40;36;4
+1652;30/07/2025;Sabaneta;Buñuelo;4;$2.000;Efectivo;5,5;38;47;5
+1653;01/08/2025;Bello;Almojábana;1;$2.800;Nequi;7,2;64;41;3
+1654;01/08/2025;Medellin;Jugo natural;1;$6.000;Nequi;5,9;38;19;4
+1655;02/08/2025;Medellín;Sándwich;1;$9.500;Tarjeta;5,5;31;37;5
+1656;02/08/2025;Itagüí;Almojábana;2;$2.800;Nequi;6,1;31;25;5
+1657;02/08/2025;Bello;Almojábana;3;$2.800;Tarjeta;8,8;45;49;4
+1658;02/08/2025;Medellín;Buñuelo;4;$2.000;Tarjeta;2,1;18;44;5
+1659;02/08/2025;Envigado;Croissant;5;4.500;Efectivo;3,1;26;23;5
+1658;02/08/2025;Medellín;Buñuelo;4;$2.000;Tarjeta;2,1;18;44;5
+1660;04/08/2025;Medellín;Café;2;$3.200;Nequi;2,6;18;39;5
+1661;04/08/2025;Envigado;Pan de bono;4;$2.500;Daviplata;4,6;23;24;5
+1662;04/08/2025;Sabaneta;Buñuelo;1;$2.000;Nequi;4,7;33;24;5
+1663;05/08/2025;Medellín;Pan de bono;3;$2.500;nequi;5,3;34;36;4
+1664;05/08/2025;Sabaneta;Buñuelo;1;$2.000;Tarjeta;7,7;47;;4
+1665;05/08/2025;medellín;Café;1;$3.200;efectivo;3,1;18;27;5
+1666;06/08/2025;medellin;Pan de bono;1;$2.500;nequi;3,3;27;26;5
+1667;06/08/2025;Medellín;Almojábana;1;$2.800;Nequi;3,9;26;47;5
+1668;06/08/2025;Medellín;Croissant;6;$4.500;Daviplata;2,4;21;68;4
+1669;07/08/2025;Bello;Croissant;1;$4.500;Nequi;7,5;39;27;5
+1670;08/08/2025;MEDELLIN;Almojábana;3;$2.800;Daviplata;1,7;20;36;5
+1671;09/08/2025;Medellín;Buñuelo;5;$2.000;Nequi;4,6;25;;5
+1672;09/08/2025;Medellín;Pan de bono;3;2.500;Nequi;2,1;14;21;5
+1673;09/08/2025;Medellín;Café;2;$3.200;Nequi;4,0;25;40;4
+1674;09/08/2025;Medellín;Pan de bono;2;$2.500;Efectivo;4,0;19;41;5
+1675;10/08/2025;ITAGUI;Buñuelo;3;$2.000;Nequi;3,7;27;45;5
+1676;10/08/2025;Envigado;Pan de bono;4;$2.500;Nequi;2,4;19;22;4
+1677;10/08/2025;Medellín;Pan de bono;4;$2.500;Tarjeta;2,3;22;26;5
+1678;11/08/2025;Envigado;Jugo natural;2;$6.000;Efectivo;3,7;30;33;5
+1679;11/08/2025;Medellín;Sándwich;5;$9.500;Nequi;3,9;19;21;5
+1680;11/08/2025;Itagüí;Jugo natural;6;$6.000;tarjeta;5,4;30;15;3
+1681;12/08/2025;Medellín;Pan de bono;1;$2.500;Nequi;3,1;22;25;5
+1682;12/08/2025;Medellín;Almojábana;4;$2.800;NEQUI;3,4;19;19;5
+1683;13/08/2025;SABANETA;Buñuelo;3;$2.000;Efectivo;8,2;47;42;3
+1684;13/08/2025;Medellín;Buñuelo;2;$2.000;Nequi;2,7;22;39;5
+1685;13/08/2025;MEDELLIN;Almojábana;2;$2.800;Nequi ;4,1;31;21;5
+1686;14/08/2025;Medellín;Buñuelo;4;$2.000;Nequi;4,6;30;41;5
+1687;15/08/2025;Bello;Buñuelo;2;$2.000;NEQUI;6,6;52;62;2
+1688;15/08/2025;Itagüí;Sándwich;3;$9.500;Tarjeta;5,1;34;25;5
+1689;15/08/2025;Envigado;Buñuelo;3;$2.000;Nequi;6,6;38;24;5
+1690;16/08/2025;Sabaneta;Jugo natural;1;$6.000;Nequi;5,5;31;45;4
+1691;16/08/2025;Sabaneta;Café;2;$3.200;Tarjeta;5,4;28;39;5
+1692;17/08/2025;Medellin;Café;6;$3.200;nequi;3,9;24;46;5
+1693;17/08/2025;Medellín;Café;3;$3.200;Efectivo;2,3;19;37;5
+1694;17/08/2025;MEDELLIN;Pan de bono;2;2.500;tarjeta;3,2;33;32;5
+1695;17/08/2025;Medellín;Jugo natural;1;$6.000;Nequi ;4,5;23;41;5
+1696;17/08/2025;Envigado;Torta de chocolate;2;$7.500;efectivo;3,1;23;44;5
+1697;17/08/2025;Medellín;Café;5;$3.200;Tarjeta;4,0;25;41;4
+1698;18/08/2025;Bello;Café;2;$3.200;NEQUI;8,0;54;23;4
+1699;18/08/2025;Medellín;Almojábana;1;2.800;nequi;5,7;31;38;5
+1700;19/08/2025;itagui;Sándwich;2;$9.500;Tarjeta;7,5;29;28;5
+1701;19/08/2025;Itagüí;Sándwich;2;9.500;Nequi;4,0;23;15;5
+1702;19/08/2025;ENVIGADO;Buñuelo;4;2.000;Tarjeta;2,8;20;;5
+1703;20/08/2025;Sabaneta;Torta de chocolate;1;$7.500;tarjeta;4,5;28;34;5
+1704;21/08/2025;Envigado;Croissant;5;$4.500;Tarjeta;4,7;21;42;4
+1705;21/08/2025;Bello;Sándwich;5;$9.500;EFECTIVO;7,6;48;56;4
+1706;21/08/2025;bello;Café;2;$3.200;Tarjeta;6,1;44;27;4
+1707;22/08/2025;Itagüí;Jugo natural;2;$6.000;Nequi;8,8;52;53;3
+1708;22/08/2025;itagui;Sándwich;2;$9.500;Nequi;7,7;37;21;4
+1709;22/08/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;3,6;31;44;5
+1710;22/08/2025;Medellín;Pan de bono;2;2.500;nequi;1,1;16;21;4
+1711;22/08/2025;Sabaneta;Pan de bono;3;$2.500;Nequi;4,6;25;25;5
+1712;23/08/2025;Medellín;Pan de bono;4;$2.500;Efectivo;2,6;23;48;5
+1713;23/08/2025;Medellín;Almojábana;5;$2.800;Efectivo;4,2;27;35;5
+1714;23/08/2025;Medellín;Croissant;1;$4.500;nequi;4,9;24;26;5
+1715;23/08/2025;Bello;Café;2;$3.200;Tarjeta;10,1;49;39;4
+1716;23/08/2025;Medellín;Almojábana;6;$2.800;Tarjeta;3,5;20;44;5
+1717;24/08/2025;Medellín;Almojábana;3;$2.800;Tarjeta;4,0;19;;5
+1718;24/08/2025;Medellín;Café;2;$3.200;Efectivo;2,1;23;36;5
+1719;25/08/2025;Medellín;Torta de chocolate;6;$7.500;Daviplata;1,1;11;48;5
+1720;25/08/2025;Itagüí;Buñuelo;2;$2.000;Nequi;4,7;27;23;5
+1719;25/08/2025;Medellín;Torta de chocolate;6;$7.500;Daviplata;1,1;11;48;5
+1721;25/08/2025;Medellín;Pan de bono;2;$2.500;Nequi;3,3;20;38;5
+1722;25/08/2025;Sabaneta;Jugo natural;3;$6.000;Nequi;4,8;27;24;5
+1722;25/08/2025;Sabaneta;Jugo natural;3;$6.000;Nequi;4,8;27;24;5
+1723;26/08/2025;Medellín;Sándwich;3;$9.500;Tarjeta;2,8;18;;4
+1724;26/08/2025;Bello;Buñuelo;6;$2.000;nequi;8,4;49;46;4
+1725;27/08/2025;BELLO ;Pan de bono;2;$2.500;NEQUI;5,8;44;20;5
+1726;27/08/2025;Itagui;Pan de bono;1;$2.500;Tarjeta;5,3;30;21;4
+1727;27/08/2025;Medellín;Jugo natural;3;$6.000;Nequi;2,5;25;19;4
+1728;28/08/2025;Medellín;Sándwich;1;$9.500;Efectivo;2,4;25;42;5
+1729;28/08/2025;SABANETA;Sándwich;2;$9.500;daviplata;5,8;23;52;4
+1730;29/08/2025; Medellín ;Torta de chocolate;3;$7.500;Tarjeta;4,0;21;22;5
+1731;29/08/2025;MEDELLIN;Sándwich;3;$9.500;Tarjeta;5,0;29;36;4
+1732;29/08/2025;Bello;Café;5;$3.200;Daviplata;7,5;37;21;5
+1733;29/08/2025;Medellín;Croissant;1;$4.500;TARJETA;5,3;28;24;5
+1731;29/08/2025;MEDELLIN;Sándwich;3;$9.500;Tarjeta;5,0;29;36;4
+1734;29/08/2025;Medellín;Torta de chocolate;3;$7.500;Nequi;5,0;31;36;4
+1735;29/08/2025;Medellín;Croissant;4;$4.500;Nequi;1,6;17;37;4
+1736;30/08/2025;Envigado;Pan de bono;3;$2.500;Efectivo;4,9;36;35;4
+1737;30/08/2025;Sabaneta;Torta de chocolate;4;$7.500;;5,3;32;22;4
+1738;30/08/2025;Medellín;Almojábana;1;$2.800;TARJETA;3,4;24;27;4
+1739;30/08/2025;Envigado;Pan de bono;1;$2.500;Nequi;2,6;19;;5
+1740;31/08/2025;Envigado;Café;3;$3.200;Efectivo;3,2;18;45;5
+1741;31/08/2025;medellin;Pan de bono;1;$2.500;Tarjeta;1,8;50;38;3
+1742;31/08/2025;Envigado;Buñuelo;2;$2.000;Nequi;4,6;28;23;4
+1743;31/08/2025;medellin;Jugo natural;1;$6.000;DAVIPLATA;2,9;24;57;5
+1744;31/08/2025;Medellin;Pan de bono;4;$2.500;Tarjeta;2,1;19;20;4
+1745;31/08/2025;Medellín;Pan de bono;1;$2.500;Efectivo;5,5;33;24;5
+1746;31/08/2025;Envigado;Pan de bono;4;$2.500;Daviplata;6,8;35;24;5
+1747;01/09/2025;ITAGUI;Sándwich;3;$9.500;Daviplata;5,7;43;49;4
+1748;01/09/2025;Itagui;Croissant;5;$4.500;Efectivo;4,0;34;20;5
+1749;02/09/2025;bello;Croissant;3;$4.500;nequi;10,3;67;59;3
+1750;02/09/2025;Medellín;Sándwich;2;$9.500;Nequi;4,0;27;47;4
+1751;04/09/2025;SABANETA;Buñuelo;2;$2.000;Nequi;7,5;38;21;5
+1752;04/09/2025;SABANETA;Pan de bono;4;$2.500;Efectivo;5,4;31;22;4
+1753;04/09/2025;Medellín;Café;2;$3.200;Efectivo;3,4;25;22;5
+1754;04/09/2025;Medellín;Pan de bono;1;$2.500;Efectivo;2,2;20;58;5
+1755;04/09/2025;bello;Almojábana;1;$2.800;Nequi;6,1;33;18;5
+1756;05/09/2025;Envigado;Torta de chocolate;2;$7.500;Daviplata;4,4;29;47;5
+1757;06/09/2025;Itagüí;Croissant;4;4.500;Daviplata;5,8;34;32;4
+1758;07/09/2025;Medellín;Jugo natural;4;$6.000;Daviplata;3,3;0;25;5
+1759;07/09/2025;Envigado;Buñuelo;2;$2.000;Tarjeta;5,9;40;18;4
+1760;07/09/2025; Medellín ;Buñuelo;3;$2.000;Efectivo;3,7;27;21;3
+1761;07/09/2025;Sabaneta;Pan de bono;3;$2.500;tarjeta;4,8;26;15;4
+1762;08/09/2025;Itagüí;Café;3;$3.200;Tarjeta;6,3;43;20;4
+1763;08/09/2025;ITAGUI;Buñuelo;5;$2.000;DAVIPLATA;6,9;40;22;4
+1764;09/09/2025;SABANETA;Sándwich;3;9.500;Daviplata;7,4;32;24;5
+1765;09/09/2025;MEDELLIN;Almojábana;5;$2.800;Efectivo;1,5;11;72;5
+1766;09/09/2025;bello;Croissant;3;$4.500;Nequi;7,3;44;16;4
+1767;10/09/2025;Envigado;Buñuelo;3;$2.000;Tarjeta;2,8;17;37;5
+1768;10/09/2025;medellin;Café;3;3.200;Tarjeta;1,2;20;66;5
+1769;11/09/2025;medellin;Croissant;2;$4.500;Tarjeta;1,4;18;20;5
+1770;11/09/2025;Sabaneta;Croissant;3;$4.500;Efectivo;7,6;42;42;4
+1771;12/09/2025;Medellín;Croissant;2;$4.500;Nequi;6,8;37;44;4
+1772;12/09/2025;Itagüí;Almojábana;4;$2.800;Nequi;8,7;37;20;5
+1773;12/09/2025;Envigado;Pan de bono;2;$2.500;Nequi;5,6;27;46;5
+1774;12/09/2025;Envigado;Jugo natural;1;$6.000;DaviPlata;4,2;32;22;4
+1775;12/09/2025;Sabaneta;Pan de bono;2;$2.500;Nequi;4,8;23;15;5
+1776;13/09/2025;Envigado;Pan de bono;3;$2.500;EFECTIVO;6,5;34;39;4
+1777;13/09/2025;medellín;Pan de bono;4;$2.500;DaviPlata;2,8;26;37;5
+1778;13/09/2025;Itagüí;Torta de chocolate;6;$7.500;Efectivo;5,4;29;41;5
+1779;13/09/2025;Medellín;Café;6;$3.200;Nequi;5,5;29;22;5
+1780;13/09/2025;Sabaneta;Buñuelo;2;$2.000;Nequi;5,0;33;22;5
+1781;14/09/2025;Medellín;Jugo natural;3;$6.000;Daviplata;1,1;13;25;5
+1782;14/09/2025;Itagui;Sándwich;6;$9.500;Efectivo;6,1;42;;5
+1783;14/09/2025;Sabaneta;Sándwich;1;$9.500;Nequi;6,8;39;21;4
+1784;14/09/2025;Medellín;Buñuelo;1;$2.000;Nequi;3,7;28;40;5
+1785;14/09/2025;Medellín;Café;5;$3.200;;5,0;34;23;5
+1786;15/09/2025;Itagüí;Pan de bono;5;$2.500;Nequi;4,2;27;22;5
+1787;15/09/2025;BELLO ;Jugo natural;3;$6.000;EFECTIVO;9,9;55;49;3
+1788;16/09/2025;Bello;Buñuelo;2;$2.000;Daviplata;9,3;57;24;3
+1789;16/09/2025;Medellín;Almojábana;2;$2.800;Nequi;3,8;29;40;4
+1790;16/09/2025;Itagui;Pan de bono;5;$2.500;Efectivo;5,6;38;21;3
+1791;17/09/2025;Medellín;Pan de bono;1;$2.500;Nequi;1,8;21;40;5
+1792;17/09/2025;Envigado;Pan de bono;4;$2.500;tarjeta;5,6;32;52;5
+1793;17/09/2025;Medellín;Almojábana;4;$2.800;Tarjeta;2,5;19;21;5
+1794;17/09/2025;Medellín;Almojábana;3;$2.800;Nequi;5,9;30;21;5
+1795;17/09/2025;Itagüí;Buñuelo;4;2.000;Daviplata;4,3;32;22;5
+1796;18/09/2025;Medellín;Sándwich;1;$9.500;Efectivo;3,2;24;55;5
+1797;18/09/2025;Medellín;Buñuelo;2;$2.000;Nequi;2,1;21;18;5
+1798;18/09/2025;Medellin;Jugo natural;5;$6.000;nequi;1,9;20;32;5
+1799;18/09/2025;Envigado;Café;2;$3.200;Efectivo;3,5;19;68;5
+1800;19/09/2025;ITAGUI;Sándwich;4;$9.500;Tarjeta;4,3;23;25;5
+1801;19/09/2025;Bello;Pan de bono;6;$2.500;Efectivo;7,6;36;18;5
+1802;19/09/2025;Medellín;Torta de chocolate;1;$7.500;Nequi;0,8;16;21;5
+1803;20/09/2025;Envigado;Pan de bono;1;$2.500;Nequi;3,2;20;20;5
+1804;20/09/2025;Medellín;Café;2;$3.200;NEQUI;1,1;14;21;5
+1805;20/09/2025;MEDELLIN;Buñuelo;1;$2.000;Nequi;1,9;29;24;5
+1805;20/09/2025;MEDELLIN;Buñuelo;1;$2.000;Nequi;1,9;29;24;5
+1806;21/09/2025;Medellín;Café;1;$3.200;NEQUI;4,4;23;21;4
+1807;21/09/2025;envigado;Jugo natural;1;$6.000;Tarjeta;3,1;21;41;5
+1808;21/09/2025;Bello;Café;1;3.200;Nequi;7,2;60;21;3
+1808;21/09/2025;Bello;Café;1;3.200;Nequi;7,2;60;21;3
+1809;22/09/2025;MEDELLIN;Café;3;$3.200;DaviPlata;2,6;22;25;5
+1810;23/09/2025;Medellín;Buñuelo;1;$2.000;Efectivo;3,0;25;48;5
+1811;24/09/2025;Medellin;Pan de bono;3;$2.500;Nequi;1,5;17;53;5
+1812;24/09/2025;Envigado;Almojábana;4;$2.800;Efectivo;4,2;22;39;4
+1813;24/09/2025;Itagui;Pan de bono;2;$2.500;Nequi;6,9;31;23;4
+1814;24/09/2025;Medellín;Torta de chocolate;2;$7.500;Nequi;5,4;38;24;3
+1815;24/09/2025;Medellín;Jugo natural;3;$6.000;Nequi;3,0;22;26;5
+1815;24/09/2025;Medellín;Jugo natural;3;$6.000;Nequi;3,0;22;26;5
+1816;24/09/2025;medellin;Sándwich;6;$9.500;Efectivo;2,0;24;;4
+1817;25/09/2025;Sabaneta;Pan de bono;2;$2.500;Nequi;5,9;32;49;5
+1818;25/09/2025;ITAGUI;Almojábana;1;$2.800;Nequi;5,5;37;23;3
+1819;25/09/2025;Bello;Pan de bono;2;;TARJETA;6,5;45;23;4
+1818;25/09/2025;ITAGUI;Almojábana;1;$2.800;Nequi;5,5;37;23;3
+1820;25/09/2025;Itagüí;Almojábana;2;$2.800;Tarjeta;4,4;34;21;4
+1821;26/09/2025;ENVIGADO;Sándwich;2;$9.500;efectivo;3,9;22;44;5
+1822;26/09/2025;Medellín;Torta de chocolate;1;$7.500;Nequi;5,2;32;19;5
+1823;26/09/2025;Medellín;Buñuelo;2;2.000;Nequi ;3,1;25;22;5
+1824;26/09/2025;Sabaneta;Café;1;$3.200;Efectivo;5,5;32;50;5
+1825;26/09/2025;Medellín;Café;1;$3.200;Daviplata;3,7;18;23;10
+1826;27/09/2025;BELLO ;Sándwich;1;$9.500;Efectivo;6,0;45;;5
+1827;28/09/2025;Envigado;Almojábana;2;$2.800;Tarjeta;2,8;21;19;5
+1828;28/09/2025;Medellin;Pan de bono;2;$2.500;Nequi;5,1;24;21;5
+1829;29/09/2025;Itagüí;Pan de bono;4;$2.500;efectivo;6,1;39;21;5
+1830;29/09/2025;Bello;Almojábana;1;$2.800;Nequi;8,7;60;21;4
+1831;29/09/2025;Bello;Pan de bono;2;$2.500;Nequi;6,9;49;35;3
+1832;30/09/2025;medellín;Café;3;$3.200;nequi;2,7;22;20;5
+1833;30/09/2025;Sabaneta;Jugo natural;5;$6.000;Nequi;7,5;42;39;5
+1834;30/09/2025;Bello;Jugo natural;4;$6.000;Nequi;8,6;48;24;4
+1835;30/09/2025;medellin;Pan de bono;1;$2.500;Nequi;4,4;31;21;5
+1836;01/10/2025;Medellín;Jugo natural;4;$6.000;Nequi;4,8;27;23;5
+1837;01/10/2025;Itagüí;Sándwich;3;$9.500;Daviplata;6,5;35;58;5
+1838;01/10/2025;BELLO ;Sándwich;4;9.500;Nequi;9,3;63;20;3
+1839;02/10/2025;Medellín;Jugo natural;2;$6.000;Efectivo;3,4;26;22;5
+1840;02/10/2025;Medellin;Pan de bono;1;$2.500;efectivo;3,7;22;;4
+1841;03/10/2025;Medellín;Pan de bono;4;$2.500;;4,3;33;54;5
+1842;03/10/2025;itagui;Croissant;4;4.500;Tarjeta;5,9;39;43;4
+1843;03/10/2025;MEDELLIN;Buñuelo;1;$2.000;Daviplata;6,6;33;20;4
+1844;03/10/2025;Bello;Buñuelo;3;$2.000;Efectivo;10,5;53;38;3
+1845;04/10/2025;Medellín;Pan de bono;6;$2.500;DaviPlata;2,8;18;18;5
+1846;04/10/2025;Medellín;Croissant;3;$4.500;efectivo;3,2;24;44;4
+1847;04/10/2025;Medellín;Pan de bono;3;$2.500;Nequi;6,1;33;16;5
+1848;04/10/2025;Medellín;Torta de chocolate;4;$7.500;efectivo;4,1;28;33;4
+1849;05/10/2025;medellin;Jugo natural;3;$6.000;Daviplata;3,9;27;21;4
+1850;05/10/2025;Medellín;Pan de bono;6;$2.500;Tarjeta;4,4;28;21;5
+1851;05/10/2025; Medellín ;Almojábana;2;$2.800;Tarjeta;2,8;20;50;5
+1852;05/10/2025;sabaneta ;Buñuelo;3;$2.000;Efectivo;6,8;35;27;5
+1853;06/10/2025;bello;Almojábana;1;$2.800;Efectivo;8,6;49;41;4
+1854;07/10/2025;Sabaneta;Café;1;$3.200;daviplata;6,4;36;26;4
+1855;07/10/2025;Medellín;Almojábana;2;$2.800;Nequi ;4,9;32;48;5
+1856;08/10/2025;Medellín;Torta de chocolate;5;$7.500;Tarjeta;4,2;26;31;4
+1857;09/10/2025;Medellin;Pan de bono;2;$2.500;Daviplata;4,3;28;44;5
+1858;10/10/2025;Envigado;Buñuelo;1;$2.000;efectivo;3,3;18;44;5
+1859;10/10/2025;Medellín;Croissant;5;$4.500;Daviplata;3,2;19;20;5
+1860;11/10/2025;Medellín;Café;2;$3.200;efectivo;3,0;23;;5
+1861;11/10/2025;Medellín;Café;2;$3.200;Daviplata;6,4;32;19;5
+1862;11/10/2025;Medellín;Buñuelo;1;$2.000;Nequi;4,6;32;21;4
+1863;11/10/2025;SABANETA;Sándwich;3;$9.500;DaviPlata;5,4;71;51;3
+1864;12/10/2025;Bello;Café;1;$3.200;Nequi;8,3;56;23;2
+1865;12/10/2025;Medellín;Café;2;3.200;;6,1;34;23;3
+1866;13/10/2025;Envigado;Buñuelo;5;$2.000;Nequi;3,6;24;;5
+1867;14/10/2025;Medellín;Buñuelo;3;$2.000;Tarjeta;3,3;20;34;5
+1868;14/10/2025; Medellín ;Torta de chocolate;2;$7.500;Nequi;6,1;36;24;5
+1869;14/10/2025;Itagüí;Jugo natural;2;$6.000;Efectivo;4,7;35;60;4
+1870;15/10/2025;Itagui;Pan de bono;4;$2.500;Tarjeta;6,6;36;47;4
+1871;15/10/2025;Medellín;Pan de bono;5;$2.500;Nequi;3,8;17;39;5
+1872;15/10/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;5,6;31;34;5
+1873;16/10/2025;MEDELLIN;Almojábana;1;$2.800;Efectivo;3,2;24;36;5
+1874;16/10/2025;Medellín;Pan de bono;6;$2.500;DaviPlata;4,1;23;45;5
+1875;16/10/2025;Medellín;Buñuelo;4;2.000;Nequi;3,4;25;21;4
+1876;16/10/2025;Medellín;Sándwich;3;9.500;Nequi;3,4;20;22;5
+1877;16/10/2025;Medellín;Pan de bono;3;$2.500;Efectivo;2,2;25;42;5
+1878;17/10/2025;Sabaneta;Almojábana;2;$2.800;nequi;7,0;37;23;5
+1879;17/10/2025;Medellín;Café;5;$3.200;Nequi;0,6;13;38;5
+1880;17/10/2025;Medellín;Croissant;3;$4.500;Tarjeta;4,9;34;;5
+1881;17/10/2025;Medellín;Café;2;$3.200;Tarjeta;4,3;29;24;5
+1882;17/10/2025;Medellín;Café;1;3.200;Tarjeta;4,0;23;39;5
+1883;17/10/2025;Medellín;Pan de bono;2;$2.500;Tarjeta;6,8;38;47;5
+1884;18/10/2025;BELLO ;Croissant;2;$4.500;Nequi;9,3;52;22;5
+1885;18/10/2025;medellín;Pan de bono;3;$2.500;Daviplata;2,0;12;;5
+1886;18/10/2025;Itagui;Almojábana;1;$2.800;Nequi;5,5;37;21;5
+1887;18/10/2025;Sabaneta;Torta de chocolate;2;$7.500;nequi;7,4;37;22;5
+1888;18/10/2025;BELLO ;Sándwich;2;$9.500;Daviplata;10,9;52;29;4
+1889;18/10/2025;Medellín;Croissant;4;$4.500;Nequi;2,9;23;19;5
+1890;19/10/2025;Medellín;Pan de bono;1;$2.500;Nequi;3,0;23;61;5
+1889;18/10/2025;Medellín;Croissant;4;$4.500;Nequi;2,9;23;19;5
+1891;19/10/2025;envigado;Buñuelo;3;2.000;Efectivo;5,5;27;44;5
+1892;19/10/2025;Medellín;Sándwich;6;$9.500;Efectivo;4,4;25;21;5
+1893;19/10/2025;ITAGUI;Café;3;$3.200;Tarjeta;5,7;36;19;4
+1894;19/10/2025;Itagüí;Sándwich;3;$9.500;Efectivo;5,6;41;48;5
+1895;19/10/2025;Envigado;Sándwich;2;$9.500;efectivo;2,2;25;21;5
+1896;20/10/2025;BELLO ;Café;4;3.200;Nequi;6,2;66;20;4
+1897;21/10/2025;Itagüí;Almojábana;4;$2.800;Nequi;7,5;70;17;3
+1898;22/10/2025;medellin;Jugo natural;2;$6.000;Tarjeta;6,8;32;40;4
+1899;22/10/2025;ENVIGADO;Torta de chocolate;6;$7.500;;4,6;21;57;5
+1900;22/10/2025;Sabaneta;Torta de chocolate;1;$7.500;Tarjeta;6,2;37;46;4
+1901;22/10/2025;Itagüí;Pan de bono;1;$2.500;Nequi;6,3;27;21;5
+1902;22/10/2025;itagui;Buñuelo;5;$2.000;NEQUI;7,6;44;51;4
+1903;23/10/2025;Envigado;Almojábana;2;$2.800;Nequi;5,4;25;24;5
+1904;23/10/2025;Medellín;Café;1;$3.200;Tarjeta;2,7;26;49;5
+1902;22/10/2025;itagui;Buñuelo;5;$2.000;NEQUI;7,6;44;51;4
+1905;23/10/2025;itagui;Buñuelo;1;$2.000;Nequi;5,3;42;22;4
+1906;23/10/2025;Envigado;Almojábana;6;$2.800;Efectivo;3,4;24;36;5
+1907;23/10/2025;Bello;Sándwich;1;$9.500;Tarjeta;8,2;41;42;4
+1908;24/10/2025;Itagüí;Pan de bono;1;$2.500;Efectivo;4,6;31;43;4
+1909;24/10/2025;Medellín;Almojábana;2;$2.800;Tarjeta;2,9;21;22;4
+1910;25/10/2025;Bello;Sándwich;3;9.500;Nequi;8,1;41;69;3
+1911;25/10/2025;itagui;Buñuelo;2;$2.000;Nequi;5,3;37;48;4
+1912;25/10/2025;Sabaneta;Croissant;5;$4.500;Daviplata;5,8;27;22;4
+1913;25/10/2025;Medellín;Café;1;$3.200;Tarjeta;1,3;19;19;5
+1914;25/10/2025;Itagüí;Buñuelo;3;$2.000;Efectivo;7,1;36;39;3
+1915;26/10/2025;Sabaneta;Croissant;5;$4.500;Tarjeta;4,8;35;;5
+1916;26/10/2025;Itagüí;Pan de bono;1;$2.500;TARJETA;7,5;42;48;4
+1917;27/10/2025;Medellín;Jugo natural;2;$6.000;Nequi;3,0;23;23;5
+1918;27/10/2025;Medellín;Buñuelo;2;$2.000;nequi;3,2;29;23;5
+1919;27/10/2025;Itagüí;Pan de bono;5;;DaviPlata;5,9;36;26;3
+1920;27/10/2025;Itagüí;Pan de bono;3;$2.500;nequi;5,1;29;22;5
+1921;28/10/2025; Medellín ;Café;4;$3.200;Nequi;4,8;33;32;4
+1922;29/10/2025;ITAGUI;Almojábana;1;$2.800;nequi;4,8;31;21;4
+1923;29/10/2025;Medellín;Almojábana;3;$2.800;Nequi;1,8;28;44;4
+1924;29/10/2025;bello;Jugo natural;1;$6.000;daviplata;7,0;49;24;5
+1925;29/10/2025;Medellín;Pan de bono;2;$2.500;Nequi;4,7;27;44;5
+1926;30/10/2025;Itagüí;Pan de bono;2;$2.500;Nequi;5,8;33;;4
+1927;30/10/2025;envigado;Sándwich;4;$9.500;Tarjeta;3,6;26;72;5
+1928;31/10/2025;Envigado;Pan de bono;2;$2.500;Efectivo;5,2;36;29;4
+1929;31/10/2025;Sabaneta;Jugo natural;2;$6.000;Efectivo;6,2;37;41;4
+1930;31/10/2025;Sabaneta;Pan de bono;2;$2.500;Efectivo;6,6;33;44;4
+1931;31/10/2025;Medellín;Jugo natural;1;$6.000;Tarjeta;2,8;16;52;5
+1932;01/11/2025;medellin;Pan de bono;4;$2.500;DAVIPLATA;3,5;21;27;5
+1933;01/11/2025;Itagüí;Pan de bono;2;2.500;NEQUI;5,6;35;42;4
+1934;01/11/2025;Envigado;Almojábana;5;$2.800;Tarjeta;7,0;43;73;4
+1935;01/11/2025;Bello;Sándwich;2;$9.500;Nequi;6,4;50;30;4
+1936;02/11/2025;Envigado;Pan de bono;1;$2.500;Daviplata;5,0;28;38;5
+1937;02/11/2025;Medellín;Buñuelo;2;$2.000;Nequi;3,7;24;24;4
+1938;02/11/2025;Itagüí;Croissant;5;$4.500;Daviplata;4,3;34;44;5
+1939;02/11/2025;Medellín;Almojábana;3;2.800;Daviplata;1,6;11;22;5
+1940;02/11/2025;Envigado;Café;2;$3.200;Nequi;5,7;26;;5
+1941;02/11/2025;Medellín;Pan de bono;2;$2.500;tarjeta;4,0;22;36;4
+1936;02/11/2025;Envigado;Pan de bono;1;$2.500;Daviplata;5,0;28;38;5
+1942;03/11/2025;Envigado;Jugo natural;2;$6.000;Efectivo;3,2;20;69;5
+1943;04/11/2025;Itagüí;Almojábana;3;$2.800;Efectivo;5,8;34;43;4
+1944;04/11/2025;Medellín;Jugo natural;2;$6.000;tarjeta;3,4;27;34;5
+1945;05/11/2025;Envigado;Jugo natural;1;$6.000;efectivo;3,5;22;38;4
+1946;05/11/2025;Envigado;Pan de bono;4;$2.500;nequi;5,9;37;23;5
+1947;05/11/2025;Medellín;Sándwich;4;$9.500;Efectivo;3,1;23;41;5
+1948;06/11/2025;Sabaneta;Pan de bono;1;$2.500;;5,1;23;18;5
+1949;06/11/2025;Itagüí;Almojábana;1;$2.800;Nequi;4,4;25;51;5
+1950;06/11/2025;envigado;Pan de bono;2;$2.500;DaviPlata;5,4;29;20;5
+1951;07/11/2025;Medellín;Jugo natural;1;$6.000;DaviPlata;4,2;27;19;4
+1952;07/11/2025;Bello;Buñuelo;2;2.000;efectivo;9,4;75;74;4
+1953;07/11/2025;Itagui;Pan de bono;3;2.500;nequi;3,2;27;33;5
+1954;07/11/2025;Medellín;Torta de chocolate;3;$7.500;Nequi;5,7;32;23;5
+1955;07/11/2025;Envigado;Café;2;$3.200;Daviplata;6,0;25;39;5
+1956;07/11/2025;Medellín;Croissant;4;$4.500;Nequi;2,9;24;18;4
+1957;08/11/2025;Envigado;Croissant;2;$4.500;Daviplata;4,9;25;45;5
+1958;08/11/2025;Medellín;Croissant;1;$4.500;Efectivo;2,7;17;19;5
+1959;08/11/2025;Sabaneta;Buñuelo;2;$2.000;Efectivo;7,5;42;44;5
+1960;09/11/2025;Medellín;Jugo natural;3;$6.000;Nequi;6,3;32;20;5
+1961;09/11/2025;Medellín;Buñuelo;3;$2.000;Nequi;6,6;35;34;4
+1962;10/11/2025;Medellín;Pan de bono;1;$2.500;Efectivo;4,0;21;36;5
+1963;11/11/2025;Medellín;Café;3;$3.200;Nequi;6,5;30;20;5
+1962;10/11/2025;Medellín;Pan de bono;1;$2.500;Efectivo;4,0;21;36;5
+1964;11/11/2025;Sabaneta;Pan de bono;3;2.500;Tarjeta;7,3;33;73;5
+1965;11/11/2025;Bello;Jugo natural;1;$6.000;Efectivo;8,8;43;50;5
+1966;11/11/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;4,8;26;23;4
+1961;09/11/2025;Medellín;Buñuelo;3;$2.000;Nequi;6,6;35;34;4
+1967;11/11/2025;Medellín;Café;4;$3.200;Efectivo;3,7;26;;5
+1968;12/11/2025;Envigado;Pan de bono;3;2.500;Nequi;4,0;33;19;4
+1969;12/11/2025;Envigado;Sándwich;1;$9.500;Nequi;5,5;33;67;5
+1970;12/11/2025;Sabaneta;Jugo natural;4;$6.000;Efectivo;6,8;41;43;3
+1971;12/11/2025;Itagui;Almojábana;2;$2.800;Daviplata;5,8;43;45;5
+1972;13/11/2025;Envigado;Croissant;1;$4.500;Nequi;4,3;28;21;5
+1973;13/11/2025;Medellín;Almojábana;2;$2.800;Nequi;3,3;999;19;5
+1974;13/11/2025;Envigado;Buñuelo;2;$2.000;;3,2;23;23;5
+1975;13/11/2025;Medellin;Café;6;$3.200;efectivo;0,7;11;42;5
+1976;13/11/2025;Medellín;Torta de chocolate;5;7.500;NEQUI;2,6;18;22;5
+1977;14/11/2025;Medellín;Pan de bono;2;2.500;daviplata;2,7;18;16;5
+1978;14/11/2025;Bello;Buñuelo;6;$2.000;Nequi;6,5;43;22;4
+1979;14/11/2025;Envigado;Croissant;2;$4.500;Nequi;4,2;23;26;5
+1980;14/11/2025;Medellín;Pan de bono;5;$2.500;Nequi;3,2;22;40;5
+1981;14/11/2025;envigado;Buñuelo;3;$2.000;Daviplata;6,4;43;19;5
+1982;16/11/2025;MEDELLIN;Almojábana;3;$2.800;Nequi;4,7;27;22;5
+1983;16/11/2025;Bello;Torta de chocolate;2;$7.500;Daviplata;8,8;59;23;4
+1984;16/11/2025;Sabaneta;Buñuelo;6;$2.000;nequi;4,1;33;38;4
+1985;16/11/2025;Bello;Croissant;3;4.500;Daviplata;6,4;58;20;4
+1986;16/11/2025;Medellín;Sándwich;2;9.500;Nequi;4,5;28;37;5
+1987;17/11/2025;Envigado;Pan de bono;6;$2.500;Efectivo;3,4;69;60;2
+1988;17/11/2025;Medellín;Sándwich;5;$9.500;Efectivo;3,3;23;42;5
+1989;17/11/2025;medellin;Café;1;$3.200;nequi;2,9;18;43;5
+1990;17/11/2025;Itagüí;Sándwich;4;$9.500;nequi;7,3;37;19;4
+1991;17/11/2025;Bello;Café;4;$3.200;Tarjeta;9,9;56;50;3
+1992;17/11/2025;Sabaneta;Pan de bono;1;$2.500;Nequi;4,3;20;26;5
+1993;19/11/2025;Medellín;Sándwich;1;$9.500;nequi;2,5;19;45;5
+1991;17/11/2025;Bello;Café;4;$3.200;Tarjeta;9,9;56;50;3
+1994;19/11/2025; Medellín ;Almojábana;1;$2.800;Efectivo;5,3;39;18;4
+1995;20/11/2025;Itagüí;Jugo natural;2;$6.000;efectivo;5,1;30;39;3
+1996;20/11/2025;Envigado;Buñuelo;3;$2.000;Nequi ;4,4;29;63;5
+1997;20/11/2025;Medellín;Sándwich;2;$9.500;Daviplata;6,0;38;;5
+1998;20/11/2025;Bello;Buñuelo;2;$2.000;Tarjeta;6,3;41;37;4
+1999;21/11/2025;itagui;Torta de chocolate;1;$7.500;Efectivo;5,2;28;20;5
+2000;21/11/2025;Itagui;Buñuelo;1;2.000;nequi;4,2;22;35;5
+2001;21/11/2025;Medellín;Croissant;2;$4.500;Tarjeta;6,4;37;21;4
+2002;22/11/2025;Envigado;Café;4;3.200;Daviplata;5,4;30;40;4
+2003;22/11/2025;Medellín;Almojábana;5;$2.800;Efectivo;2,2;24;22;5
+2004;22/11/2025;Envigado;Jugo natural;4;$6.000;Tarjeta;4,4;30;23;3
+2005;23/11/2025;Envigado;Buñuelo;3;$2.000;Efectivo;5,1;34;36;4
+2006;23/11/2025;Itagüí;Pan de bono;1;$2.500;Efectivo;5,1;29;48;4
+2007;23/11/2025;Medellín;Jugo natural;4;$6.000;Efectivo;4,5;32;38;5
+2008;23/11/2025;Envigado;Café;3;$3.200;nequi;7,1;35;26;4
+2005;23/11/2025;Envigado;Buñuelo;3;$2.000;Efectivo;5,1;34;36;4
+2009;23/11/2025;medellin;Pan de bono;1;$2.500;Nequi;4,3;27;41;5
+2010;24/11/2025;Medellín;Pan de bono;4;$2.500;Efectivo;2,4;23;50;5
+2011;24/11/2025;Bello;Café;5;$3.200;Nequi;7,1;-8;36;3
+2012;24/11/2025;Envigado;Pan de bono;2;$2.500;NEQUI;3,5;20;41;5
+2013;25/11/2025;ITAGUI;Pan de bono;1;$2.500;Nequi;4,9;31;20;5
+2014;25/11/2025;medellin;Sándwich;1;$9.500;Efectivo;4,4;26;43;5
+2015;25/11/2025;Medellín;Sándwich;2;$9.500;Efectivo;4,9;29;24;4
+2016;25/11/2025;Sabaneta;Torta de chocolate;1;$7.500;Nequi;4,9;31;36;5
+2017;25/11/2025; Medellín ;Café;3;3.200;Nequi;0,9;11;18;5
+2018;26/11/2025;Itagüí;Pan de bono;3;2.500;Efectivo;3,5;19;43;5
+2019;26/11/2025;Bello;Café;3;$3.200;;6,1;45;23;3
+2020;27/11/2025;MEDELLIN;Almojábana;2;$2.800;Nequi;2,5;27;43;5
+2021;27/11/2025;Medellín;Pan de bono;1;$2.500;Nequi;4,3;35;42;5
+2022;27/11/2025;MEDELLIN;Sándwich;3;9.500;Nequi;1,8;17;18;5
+2023;28/11/2025;Envigado;Buñuelo;4;$2.000;Nequi;2,6;13;24;5
+2024;28/11/2025;Bello;Sándwich;2;$9.500;Tarjeta;6,4;40;;4
+2025;28/11/2025;medellin;Almojábana;1;$2.800;Nequi;6,0;39;47;5
+2026;28/11/2025;Medellín;Croissant;2;$4.500;Nequi;2,5;23;36;5
+2027;29/11/2025; Medellín ;Café;4;$3.200;Efectivo;4,3;30;37;5
+2028;29/11/2025;Bello;Buñuelo;2;$2.000;Nequi ;9,9;59;20;3
+2029;29/11/2025;Bello;Buñuelo;5;$2.000;Daviplata;6,3;83;49;3
+2030;29/11/2025;ENVIGADO;Pan de bono;6;$2.500;Efectivo;4,6;29;38;5
+2031;29/11/2025;Medellín;Pan de bono;5;$2.500;daviplata;1,5;13;23;5
+2032;29/11/2025;Envigado;Almojábana;5;$2.800;Nequi;5,3;26;17;5
+2033;29/11/2025;Medellin;Café;3;$3.200;Tarjeta;5,5;34;39;5
+2034;30/11/2025;Medellín;Buñuelo;1;$2.000;Nequi;6,2;39;22;4
+2035;30/11/2025;medellin;Jugo natural;1;$6.000;Efectivo;4,5;35;55;5
+2036;30/11/2025;Envigado;Almojábana;2;$2.800;Nequi;2,2;15;21;5
+2037;30/11/2025;Medellín;Torta de chocolate;6;$7.500;Efectivo;5,8;32;21;5
+2038;30/11/2025;Itagüí;Café;3;$3.200;Nequi;7,8;43;26;0
+2039;01/12/2025;Bello;Almojábana;5;$2.800;NEQUI;7,5;52;23;4
+2040;01/12/2025;ENVIGADO;Buñuelo;2;$2.000;Daviplata;3,6;30;;4
+2041;02/12/2025;Envigado;Jugo natural;3;6.000;Tarjeta;5,3;29;;3
+2042;02/12/2025;Envigado;Pan de bono;4;;EFECTIVO;4,5;31;34;4
+2043;02/12/2025;Envigado;Jugo natural;3;$6.000;Efectivo;4,7;27;;4
+2044;02/12/2025; Medellín ;Pan de bono;2;$2.500;Daviplata;2,4;15;25;5
+2045;02/12/2025; Medellín ;Croissant;3;4.500;tarjeta;2,9;17;42;5
+2046;02/12/2025;Envigado;Torta de chocolate;3;$7.500;Nequi ;3,5;21;21;5
+2047;02/12/2025;Envigado;Pan de bono;5;$2.500;DaviPlata;2,7;27;50;5
+2048;03/12/2025;Sabaneta;Croissant;3;$4.500;tarjeta;4,8;32;24;5
+2049;03/12/2025;BELLO ;Pan de bono;3;$2.500;Daviplata;10,4;68;21;3
+2050;03/12/2025;Medellín;Jugo natural;3;$6.000;Tarjeta;3,8;32;23;4
+2051;03/12/2025;Medellín;Almojábana;1;$2.800;Nequi;4,9;31;22;4
+2052;03/12/2025;Envigado;Café;4;$3.200;Efectivo;3,4;22;22;4
+2053;03/12/2025;Medellín;Buñuelo;4;$2.000;nequi;3,0;24;19;5
+2054;04/12/2025;Bello;Pan de bono;2;$2.500;Nequi;5,6;33;22;5
+2055;04/12/2025;Medellín;Café;1;3.200;Nequi;5,3;38;23;5
+2056;04/12/2025;Medellín;Pan de bono;6;$2.500;Nequi;3,2;20;22;5
+2057;04/12/2025;Envigado;Jugo natural;3;$6.000;Tarjeta;6,3;43;34;5
+2058;05/12/2025;Envigado;Buñuelo;4;$2.000;Nequi;3,0;21;22;4
+2059;05/12/2025; Medellín ;Buñuelo;4;$2.000;Tarjeta;4,7;22;37;5
+2060;05/12/2025; Medellín ;Café;5;$3.200;Nequi;2,3;22;21;5
+2061;05/12/2025;Envigado;Buñuelo;2;$2.000;Tarjeta;5,5;41;36;5
+2062;05/12/2025;Medellín;Croissant;2;4.500;NEQUI;3,2;34;20;4
+2063;05/12/2025;Medellín;Pan de bono;1;$2.500;Nequi;1,3;14;37;5
+2063;05/12/2025;Medellín;Pan de bono;1;$2.500;Nequi;1,3;14;37;5
+2064;05/12/2025;Medellín;Pan de bono;5;2.500;Nequi;3,0;20;23;5
+2065;06/12/2025; Medellín ;Buñuelo;2;$2.000;NEQUI;3,5;22;;5
+2066;06/12/2025;Medellín;Pan de bono;3;$2.500;Nequi;1,8;16;44;5
+2067;06/12/2025;Medellín;Sándwich;1;$9.500;Nequi;4,1;29;23;4
+2068;06/12/2025;Sabaneta;Buñuelo;1;$2.000;EFECTIVO;7,1;36;68;5
+2069;07/12/2025;Itagüí;Almojábana;2;2.800;Tarjeta;4,2;34;36;5
+2070;07/12/2025;Bello;Café;2;$3.200;Nequi;6,3;58;20;4
+2071;07/12/2025;Envigado;Almojábana;2;$2.800;Nequi ;3,7;34;17;5
+2072;07/12/2025;itagui;Torta de chocolate;2;$7.500;Nequi ;5,2;37;30;5
+2073;08/12/2025;medellin;Sándwich;1;$9.500;Efectivo;4,0;27;74;5
+2074;08/12/2025;SABANETA;Pan de bono;2;$2.500;Daviplata;7,8;42;25;5
+2075;08/12/2025;Bello;Buñuelo;6;$2.000;Tarjeta;5,1;28;34;5
+2076;08/12/2025;Medellín;Pan de bono;4;2.500;Daviplata;1,7;15;25;5
+2077;08/12/2025;Medellín;Jugo natural;3;$6.000;Efectivo;2,0;21;35;0
+2078;09/12/2025;medellin;Almojábana;1;2.800;Tarjeta;2,4;19;44;5
+2079;09/12/2025;envigado;Almojábana;3;$2.800;Nequi;6,8;36;48;3
+2080;09/12/2025;Medellín;Jugo natural;2;6.000;Efectivo;1,8;24;20;5
+2081;09/12/2025;Medellín;Buñuelo;2;$2.000;Tarjeta;6,6;26;44;5
+2082;09/12/2025;Medellín;Sándwich;2;$9.500;;2,9;30;54;4
+2083;09/12/2025;Medellin;Café;3;$3.200;tarjeta;2,4;17;35;5
+2084;10/12/2025;Itagüí;Pan de bono;2;$2.500;Nequi;8,2;42;42;4
+2085;10/12/2025;Envigado;Buñuelo;3;$2.000;Tarjeta;5,6;36;52;45
+2086;11/12/2025;Medellín;Almojábana;2;$2.800;Efectivo;4,9;24;;5
+2087;12/12/2025;Medellin;Café;3;3.200;Nequi;3,9;30;39;5
+2088;12/12/2025;Medellín;Croissant;5;$4.500;Tarjeta;3,9;53;20;4
+2089;12/12/2025;Envigado;Buñuelo;1;$2.000;Daviplata;2,3;25;48;5
+2090;12/12/2025;Medellín;Buñuelo;4;2.000;Tarjeta;5,6;39;44;4
+2091;12/12/2025;Envigado;Pan de bono;4;2.500;Nequi;6,2;37;24;5
+2092;12/12/2025;Itagüí;Torta de chocolate;4;$7.500;EFECTIVO;6,3;35;;5
+2093;12/12/2025;Bello;Buñuelo;1;$2.000;Daviplata;11,2;64;42;3
+2094;13/12/2025;Envigado;Café;1;3.200;Efectivo;3,7;21;36;5
+2095;13/12/2025;Medellín;Pan de bono;2;$2.500;DaviPlata;3,9;29;39;5
+2096;13/12/2025;Medellín;Café;1;$3.200;Tarjeta;3,6;23;23;5
+2097;13/12/2025;Medellín;Sándwich;1;$9.500;EFECTIVO;5,7;33;51;4
+2098;13/12/2025;Itagüí;Pan de bono;2;$2.500;Nequi;5,3;29;20;4
+2099;13/12/2025;Medellín;Almojábana;2;$2.800;Nequi;3,5;26;44;5
+2100;13/12/2025;Medellín;Almojábana;3;$2.800;Efectivo;3,9;32;41;3
+2101;13/12/2025;ITAGUI;Croissant;6;$4.500;DaviPlata;5,5;30;36;5
+2102;13/12/2025;Envigado;Almojábana;6;$2.800;NEQUI;3,5;30;25;4
+2103;14/12/2025;Bello;Almojábana;2;$2.800;Nequi;7,6;49;50;4
+2104;14/12/2025;Sabaneta;Buñuelo;2;$2.000;nequi;6,2;39;24;4
+2105;14/12/2025;BELLO ;Buñuelo;1;$2.000;Tarjeta;8,7;60;;4
+2106;14/12/2025;Bello;Café;3;$3.200;Nequi ;9,1;49;;4
+2107;14/12/2025;Bello;Buñuelo;1;$2.000;efectivo;8,7;70;;4
+2108;15/12/2025;Bello;Jugo natural;1;$6.000;Nequi;8,2;60;69;4
+2109;15/12/2025;BELLO ;Sándwich;2;$9.500;Daviplata;11,0;64;51;3
+2110;15/12/2025;Medellín;Pan de bono;3;$2.500;DaviPlata;4,6;25;37;4
+2111;15/12/2025;Medellín;Café;5;$3.200;Nequi;5,1;29;21;5
+2112;15/12/2025;Itagui;Torta de chocolate;4;7.500;Nequi;4,3;24;24;5
+2113;15/12/2025;Medellín;Pan de bono;2;2.500;Daviplata;6,0;33;23;5
+2114;15/12/2025;Medellín;Buñuelo;1;$2.000;TARJETA;2,9;27;44;3
+2115;16/12/2025;ENVIGADO;Buñuelo;6;$2.000;Nequi;6,9;40;22;5
+2116;16/12/2025;Envigado;Sándwich;1;;Nequi ;6,9;36;40;5
+2117;16/12/2025;Medellín;Pan de bono;2;$2.500;Nequi;2,0;24;42;5
+2118;16/12/2025;Itagüí;Jugo natural;3;$6.000;Nequi;6,2;45;27;4
+2119;16/12/2025;Envigado;Buñuelo;2;$2.000;Daviplata;5,9;36;21;5
+2120;16/12/2025;Sabaneta;Buñuelo;4;$2.000;;7,5;34;26;4
+2121;16/12/2025;Envigado;Buñuelo;4;$2.000;Nequi;6,4;38;66;4
+2122;17/12/2025;Envigado;Buñuelo;3;$2.000;daviplata;5,8;32;47;5
+2123;17/12/2025;Sabaneta;Pan de bono;4;$2.500;Tarjeta;5,8;43;68;5
+2124;17/12/2025;MEDELLIN;Almojábana;1;$2.800;Daviplata;4,7;33;24;5
+2125;17/12/2025;BELLO ;Pan de bono;1;$2.500;Daviplata;6,2;58;52;4
+2126;17/12/2025;Itagui;Croissant;1;$4.500;Efectivo;6,2;42;45;4
+2127;17/12/2025;Medellin;Sándwich;4;$9.500;Nequi;5,7;30;23;5
+2128;17/12/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;2,4;17;52;5
+2129;18/12/2025;Bello;Buñuelo;3;$2.000;Efectivo;7,7;35;43;5
+2130;18/12/2025;Itagüí;Almojábana;3;$2.800;Nequi;6,1;41;21;4
+2131;18/12/2025;medellín;Pan de bono;2;$2.500;Nequi;1,0;16;22;5
+2132;18/12/2025;Envigado;Buñuelo;2;$2.000;EFECTIVO;3,9;32;43;4
+2133;18/12/2025;Envigado;Almojábana;6;$2.800;Nequi;4,1;67;23;3
+2134;18/12/2025;Medellín;Almojábana;1;$2.800;;1,6;20;19;5
+2135;18/12/2025;Medellín;Sándwich;2;$9.500;Tarjeta;2,6;17;46;5
+2136;18/12/2025;Envigado;Jugo natural;1;$6.000;Nequi;7,2;45;21;3
+2137;18/12/2025;SABANETA;Pan de bono;4;$2.500;Nequi;5,4;30;22;5
+2138;18/12/2025;Sabaneta;Pan de bono;3;$2.500;Daviplata;5,4;24;23;5
+2139;19/12/2025;Medellín;Pan de bono;5;$2.500;Tarjeta;5,2;28;38;5
+2140;19/12/2025;sabaneta ;Croissant;6;$4.500;DaviPlata;7,2;86;23;3
+2141;19/12/2025;Bello;Pan de bono;4;$2.500;Tarjeta;10,5;57;21;3
+2142;19/12/2025;medellin;Café;2;$3.200;Efectivo;6,8;39;51;5
+2143;19/12/2025;Bello;Pan de bono;2;$2.500;Efectivo;8,2;52;20;4
+2144;19/12/2025;Itagüí;Buñuelo;5;$2.000;;7,5;36;17;5
+2145;19/12/2025;Envigado;Jugo natural;1;6.000;Nequi;4,2;26;22;5
+2146;19/12/2025;Bello;Pan de bono;1;$2.500;Efectivo;8,9;62;19;4
+2147;20/12/2025;Medellín;Buñuelo;2;;Daviplata;1,2;12;43;5
+2148;20/12/2025;Itagüí;Torta de chocolate;1;$7.500;Nequi;5,9;39;19;5
+2149;20/12/2025;Medellín;Pan de bono;5;$2.500;Efectivo;2,4;19;17;5
+2150;20/12/2025;Medellín;Croissant;3;$4.500;Efectivo;5,6;31;43;5
+2151;20/12/2025;Bello;Almojábana;2;2.800;Tarjeta;9,2;65;52;2
+2152;20/12/2025;Medellín;Buñuelo;1;$2.000;Efectivo;3,8;24;45;5
+2153;20/12/2025;Medellín;Buñuelo;2;$2.000;tarjeta;4,1;31;50;5
+2154;20/12/2025;Medellín;Pan de bono;3;$2.500;Tarjeta;2,4;19;20;5
+2155;20/12/2025;Envigado;Café;3;$3.200;Nequi;4,4;28;21;4
+2156;21/12/2025;MEDELLIN;Pan de bono;1;$2.500;NEQUI;1,9;25;22;5
+2157;21/12/2025;Medellín;Croissant;1;4.500;Efectivo;2,4;15;43;5
+2158;21/12/2025;Envigado;Croissant;2;$4.500;daviplata;3,8;20;38;5
+2159;21/12/2025;Itagui;Torta de chocolate;2;7.500;Daviplata;5,5;27;65;5
+2160;21/12/2025;Medellín;Pan de bono;2;$2.500;Efectivo;2,6;19;47;5
+2161;22/12/2025;MEDELLIN;Jugo natural;4;$6.000;Nequi;6,2;34;18;5
+2162;22/12/2025;Envigado;Buñuelo;6;$2.000;Efectivo;2,8;30;44;4
+2163;22/12/2025;Envigado;Café;2;$3.200;Efectivo;3,6;27;38;5
+2164;22/12/2025;Bello;Torta de chocolate;3;$7.500;Nequi;6,2;46;24;4
+2159;21/12/2025;Itagui;Torta de chocolate;2;7.500;Daviplata;5,5;27;65;5
+2165;22/12/2025;Medellin;Sándwich;1;9.500;nequi;5,7;37;28;5
+2166;23/12/2025;MEDELLIN;Almojábana;1;$2.800;tarjeta;2,6;19;42;5
+2167;23/12/2025;Sabaneta;Buñuelo;4;$2.000;Nequi;5,4;36;67;4
+2168;23/12/2025;Sabaneta;Jugo natural;5;$6.000;nequi;7,1;39;45;5
+2169;23/12/2025;Medellin;Café;5;3.200;Efectivo;6,6;41;23;4
+2170;23/12/2025;Sabaneta;Buñuelo;3;2.000;tarjeta;6,9;46;40;5
+2171;24/12/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;1,8;22;40;5
+2172;24/12/2025; Medellín ;Jugo natural;2;$6.000;Tarjeta;4,9;31;41;5
+2173;24/12/2025;Sabaneta;Almojábana;2;$2.800;Efectivo;6,0;38;16;4
+2173;24/12/2025;Sabaneta;Almojábana;2;$2.800;Efectivo;6,0;38;16;4
+2174;24/12/2025;ENVIGADO;Café;1;$3.200;;4,6;26;38;5
+2175;24/12/2025;Envigado;Buñuelo;3;$2.000;Nequi;5,9;32;16;5
+2176;24/12/2025;Medellín;Café;3;$3.200;Efectivo;5,7;30;61;4
+2177;24/12/2025;Medellín;Torta de chocolate;5;$7.500;NEQUI;1,1;14;16;4
+2178;25/12/2025;Medellín;Café;2;$3.200;Daviplata;3,2;16;63;5
+2179;25/12/2025;ITAGUI;Buñuelo;1;$2.000;Daviplata;5,3;37;58;4
+2180;25/12/2025;Itagui;Buñuelo;3;2.000;Daviplata;5,4;40;32;4
+2181;26/12/2025;Itagüí;Croissant;5;$4.500;Efectivo;4,7;28;38;5
+2176;24/12/2025;Medellín;Café;3;$3.200;Efectivo;5,7;30;61;4
+2182;26/12/2025;Medellín;Sándwich;5;$9.500;;1,9;17;59;5
+2183;26/12/2025;Medellín;Almojábana;2;2.800;Nequi;3,1;16;43;5
+2184;26/12/2025;Itagüí;Buñuelo;5;$2.000;Nequi;7,7;42;60;4
+2185;27/12/2025;Medellín;Jugo natural;4;$6.000;;4,1;22;19;4
+2186;27/12/2025;Medellín;Café;2;$3.200;EFECTIVO;2,2;16;46;5
+2187;27/12/2025;Envigado;Buñuelo;3;$2.000;Efectivo;6,0;36;47;4
+2188;27/12/2025;Itagui;Sándwich;2;$9.500;efectivo;4,1;35;24;5
+2189;27/12/2025;Sabaneta;Café;2;3.200;Nequi;6,4;33;17;5
+2190;27/12/2025;MEDELLIN;Café;4;$3.200;Daviplata;4,2;31;30;5
+2191;27/12/2025;Medellín;Sándwich;1;$9.500;Efectivo;4,8;26;47;5
+2192;27/12/2025;BELLO ;Café;1;$3.200;Efectivo;6,3;38;42;3
+2193;28/12/2025;Envigado;Pan de bono;3;$2.500;Nequi;6,3;42;43;4
+2194;28/12/2025;Medellín;Buñuelo;6;$2.000;Tarjeta;5,7;34;23;4
+2195;28/12/2025;sabaneta ;Café;1;$3.200;Efectivo;7,4;38;40;4
+2196;28/12/2025;Medellín;Pan de bono;1;$2.500;Tarjeta;4,2;21;33;4
+2197;28/12/2025;Medellín;Torta de chocolate;2;$7.500;Nequi;3,9;26;23;5
+2198;28/12/2025;Bello;Sándwich;2;$9.500;Tarjeta;7,3;50;40;5
+2199;29/12/2025;MEDELLIN;Sándwich;2;$9.500;Efectivo;2,0;19;48;5
+2200;29/12/2025;Itagui;Croissant;3;$4.500;;5,8;33;21;5
+2201;29/12/2025;Bello;Buñuelo;3;2.000;daviplata;8,4;63;;3
+2202;29/12/2025;Medellín;Sándwich;4;$9.500;Daviplata;5,8;33;38;4
+2203;30/12/2025;Envigado;Almojábana;3;$2.800;nequi;6,0;28;23;4
+2204;30/12/2025;Envigado;Sándwich;1;$9.500;Efectivo;4,2;28;27;5
+2205;30/12/2025;Envigado;Buñuelo;6;$2.000;Efectivo;2,7;18;52;5
+2206;30/12/2025;Envigado;Pan de bono;4;$2.500;DAVIPLATA;5,6;31;22;5
+2207;31/12/2025;SABANETA;Buñuelo;5;$2.000;EFECTIVO;7,8;42;23;4
+2208;31/12/2025;Medellín;Jugo natural;1;$6.000;Efectivo;4,0;22;42;5
+2209;31/12/2025;Medellin;Sándwich;1;9.500;Efectivo;2,9;20;63;5
+2210;31/12/2025;envigado;Pan de bono;2;$2.500;Tarjeta;6,3;38;;4

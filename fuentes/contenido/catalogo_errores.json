@@ -1,0 +1,382 @@
+{
+  "descripcion": "Datos sintéticos creados para el curso por fuentes/generar_datos.py. La empresa «Pan de Datos» es ficticia; ninguna cifra es real.",
+  "semilla": 2025,
+  "archivo": "datos/domicilios_sucio.csv",
+  "formato": {
+    "separador": ";",
+    "decimal": ",",
+    "codificacion": "UTF-8 con BOM (para que Excel muestre bien las tildes)",
+    "fin_de_linea": "CRLF"
+  },
+  "filas_sucias": 1250,
+  "pedidos_unicos": 1210,
+  "duplicados": 40,
+  "filas_finales_esperadas": 1180,
+  "encabezados_sucios": [
+    "ID Pedido",
+    " Fecha",
+    "Municipio ",
+    "PRODUCTO",
+    "Cantidad",
+    "Precio Unitario",
+    "Metodo Pago",
+    "Distancia KM",
+    "Tiempo Entrega",
+    "Edad Cliente",
+    "Calificacion"
+  ],
+  "nombres_limpios": [
+    "id_pedido",
+    "fecha",
+    "municipio",
+    "producto",
+    "cantidad",
+    "precio_unitario",
+    "metodo_pago",
+    "distancia_km",
+    "tiempo_entrega",
+    "edad_cliente",
+    "calificacion"
+  ],
+  "variantes_texto": {
+    "municipio": {
+      "en_archivo": {
+        "Medellín": 403,
+        "Envigado": 169,
+        "Bello": 130,
+        "Itagüí": 116,
+        "Sabaneta": 108,
+        "medellin": 42,
+        "MEDELLIN": 35,
+        "Itagui": 31,
+        "Medellin": 29,
+        " Medellín ": 27,
+        "itagui": 24,
+        "BELLO ": 24,
+        "ENVIGADO": 23,
+        "SABANETA": 19,
+        "envigado": 18,
+        "ITAGUI": 17,
+        "bello": 14,
+        "medellín": 12,
+        "sabaneta ": 9
+      },
+      "tras_paso_2": {
+        "Medellín": 391,
+        "Envigado": 165,
+        "Bello": 125,
+        "Itagüí": 111,
+        "Sabaneta": 105,
+        "medellin": 41,
+        "MEDELLIN": 33,
+        "Medellin": 29,
+        "Itagui": 28,
+        " Medellín ": 26,
+        "BELLO ": 24,
+        "ENVIGADO": 23,
+        "itagui": 21,
+        "SABANETA": 19,
+        "envigado": 18,
+        "ITAGUI": 16,
+        "bello": 14,
+        "medellín": 12,
+        "sabaneta ": 9
+      }
+    },
+    "metodo_pago": {
+      "en_archivo": {
+        "Nequi": 364,
+        "Efectivo": 252,
+        "Tarjeta": 189,
+        "Daviplata": 111,
+        "nequi": 64,
+        "efectivo": 38,
+        "NEQUI": 36,
+        "tarjeta": 31,
+        "EFECTIVO": 31,
+        "DaviPlata": 25,
+        "Nequi ": 22,
+        "TARJETA": 21,
+        "daviplata": 17,
+        "DAVIPLATA": 13
+      },
+      "tras_paso_2": {
+        "Nequi": 347,
+        "Efectivo": 244,
+        "Tarjeta": 183,
+        "Daviplata": 108,
+        "nequi": 62,
+        "efectivo": 37,
+        "NEQUI": 35,
+        "EFECTIVO": 31,
+        "tarjeta": 30,
+        "DaviPlata": 25,
+        "Nequi ": 22,
+        "TARJETA": 20,
+        "daviplata": 17,
+        "DAVIPLATA": 13
+      }
+    },
+    "precio_unitario": {
+      "con_signo_tras_paso_2": 1072,
+      "sin_signo_tras_paso_2": 126,
+      "ejemplos": [
+        "$2.000",
+        "$2.500",
+        "$2.800",
+        "$3.200",
+        "$4.500",
+        "$6.000",
+        "$7.500",
+        "$9.500",
+        "2.000",
+        "2.500",
+        "2.800",
+        "3.200",
+        "4.500",
+        "6.000",
+        "7.500",
+        "9.500"
+      ]
+    }
+  },
+  "faltantes_por_columna": {
+    "en_archivo": {
+      "precio_unitario": 12,
+      "metodo_pago": 36,
+      "edad_cliente": 60
+    },
+    "tras_paso_2": {
+      "precio_unitario": 12,
+      "metodo_pago": 36,
+      "edad_cliente": 60
+    }
+  },
+  "imposibles_por_columna": {
+    "tiempo_entrega": {
+      "total": 10,
+      "valores": {
+        "999": 4,
+        "0": 3,
+        "-15": 1,
+        "-8": 1,
+        "-4": 1
+      },
+      "regla": "fuera de 1 a 180 minutos"
+    },
+    "calificacion": {
+      "total": 8,
+      "valores": {
+        "0": 3,
+        "10": 3,
+        "45": 2
+      },
+      "regla": "fuera de 1 a 5"
+    }
+  },
+  "pasos": {
+    "E": {
+      "forma_sin_parametros": [
+        1250,
+        1
+      ],
+      "forma": [
+        1250,
+        11
+      ]
+    },
+    "1": {
+      "columnas": [
+        "id_pedido",
+        "fecha",
+        "municipio",
+        "producto",
+        "cantidad",
+        "precio_unitario",
+        "metodo_pago",
+        "distancia_km",
+        "tiempo_entrega",
+        "edad_cliente",
+        "calificacion"
+      ]
+    },
+    "2": {
+      "duplicados": 40,
+      "forma_despues": [
+        1210,
+        11
+      ]
+    },
+    "3": {
+      "municipio_antes": {
+        "Medellín": 391,
+        "Envigado": 165,
+        "Bello": 125,
+        "Itagüí": 111,
+        "Sabaneta": 105,
+        "medellin": 41,
+        "MEDELLIN": 33,
+        "Medellin": 29,
+        "Itagui": 28,
+        " Medellín ": 26,
+        "BELLO ": 24,
+        "ENVIGADO": 23,
+        "itagui": 21,
+        "SABANETA": 19,
+        "envigado": 18,
+        "ITAGUI": 16,
+        "bello": 14,
+        "medellín": 12,
+        "sabaneta ": 9
+      },
+      "municipio_despues": {
+        "Medellín": 532,
+        "Envigado": 206,
+        "Itagüí": 176,
+        "Bello": 163,
+        "Sabaneta": 133
+      },
+      "metodo_pago_antes": {
+        "Nequi": 347,
+        "Efectivo": 244,
+        "Tarjeta": 183,
+        "Daviplata": 108,
+        "nequi": 62,
+        "efectivo": 37,
+        "NEQUI": 35,
+        "EFECTIVO": 31,
+        "tarjeta": 30,
+        "DaviPlata": 25,
+        "Nequi ": 22,
+        "TARJETA": 20,
+        "daviplata": 17,
+        "DAVIPLATA": 13
+      },
+      "metodo_pago_despues": {
+        "Nequi": 466,
+        "Efectivo": 312,
+        "Tarjeta": 233,
+        "Daviplata": 163
+      },
+      "metodo_pago_faltantes": 36
+    },
+    "4": {
+      "precio_unitario_faltantes": 12,
+      "precio_min": 2000,
+      "precio_max": 9500
+    },
+    "5": {
+      "forma_despues": [
+        1210,
+        13
+      ],
+      "columnas_nuevas": [
+        "mes",
+        "total"
+      ],
+      "fecha_min": "2025-01-03",
+      "fecha_max": "2025-12-31",
+      "total_faltantes": 12
+    },
+    "6": {
+      "faltantes_antes": {
+        "id_pedido": 0,
+        "fecha": 0,
+        "municipio": 0,
+        "producto": 0,
+        "cantidad": 0,
+        "precio_unitario": 12,
+        "metodo_pago": 36,
+        "distancia_km": 0,
+        "tiempo_entrega": 0,
+        "edad_cliente": 60,
+        "calificacion": 0,
+        "mes": 0,
+        "total": 12
+      },
+      "sin_dato": 36,
+      "filas_eliminadas": 12,
+      "forma_despues": [
+        1198,
+        13
+      ]
+    },
+    "7": {
+      "tiempo_entrega_min": -15,
+      "tiempo_entrega_max": 999,
+      "calificacion_min": 0,
+      "calificacion_max": 45,
+      "filas_eliminadas_tiempo": 10,
+      "forma_tras_tiempo": [
+        1188,
+        13
+      ],
+      "filas_eliminadas_calificacion": 8,
+      "forma_despues": [
+        1180,
+        13
+      ]
+    },
+    "L": {
+      "forma": [
+        1180,
+        13
+      ]
+    }
+  },
+  "final": {
+    "productos": {
+      "Pan de bono": 271,
+      "Buñuelo": 193,
+      "Café": 163,
+      "Almojábana": 147,
+      "Sándwich": 129,
+      "Jugo natural": 113,
+      "Croissant": 94,
+      "Torta de chocolate": 70
+    },
+    "municipios": {
+      "Medellín": 520,
+      "Envigado": 199,
+      "Itagüí": 171,
+      "Bello": 159,
+      "Sabaneta": 131
+    },
+    "metodo_pago": {
+      "Nequi": 455,
+      "Efectivo": 302,
+      "Tarjeta": 228,
+      "Daviplata": 159,
+      "Sin dato": 36
+    },
+    "edad_cliente_faltantes": 60,
+    "ventas_por_mes": {
+      "1": 897300,
+      "2": 654800,
+      "3": 943700,
+      "4": 967400,
+      "5": 995400,
+      "6": 1247600,
+      "7": 1299600,
+      "8": 1068500,
+      "9": 1000600,
+      "10": 1121400,
+      "11": 1142800,
+      "12": 1697700
+    },
+    "pedidos_por_mes": {
+      "1": 84,
+      "2": 60,
+      "3": 84,
+      "4": 88,
+      "5": 91,
+      "6": 112,
+      "7": 115,
+      "8": 94,
+      "9": 86,
+      "10": 95,
+      "11": 104,
+      "12": 167
+    }
+  }
+}

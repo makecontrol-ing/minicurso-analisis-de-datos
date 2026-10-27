@@ -1,0 +1,555 @@
+[
+  {
+    "id": "seccion-taller",
+    "layout": "seccion",
+    "titulo": "Taller: de la base sucia a la base limpia",
+    "etiqueta": "BLOQUE 3 · TALLER ETL",
+    "texto": "35 minutos en Google Colab: leer el archivo, corregir siete errores y guardar la base lista para analizar.",
+    "notas": "[0:30 – 0:31] Decir: empieza la parte práctica. Durante 35 minutos vamos a limpiar la base de una panadería y en los 17 siguientes la vamos a graficar. Dinámica: cada diapositiva del taller muestra el código de la celda y, en negrita verde, el método que va en el hueco ___ del cuaderno. Hacer ya: quien no lo haya hecho, que abra el enlace del taller (diapositiva 2), descargue los dos archivos de la carpeta «taller» y entre a Colab con su cuenta mientras presento el caso y la base; a las 0:35 subimos todo juntos. Escribir: nada todavía. Deben ver: Colab abierto en el navegador. Error frecuente: entrar a Colab sin iniciar sesión con la cuenta de Google; sin sesión no se puede subir el cuaderno."
+  },
+  {
+    "id": "caso-pan-de-datos",
+    "layout": "cifras",
+    "titulo": "«Pan de Datos»: 1.250 registros de 2025 con errores sembrados",
+    "etiqueta": "BLOQUE 3 · EL CASO",
+    "cifras": [
+      {
+        "valor": "1.250",
+        "leyenda": "filas en el archivo sucio, de pedidos a domicilio de 2025 (40 están repetidas)"
+      },
+      {
+        "valor": "11",
+        "leyenda": "columnas: fecha, municipio, producto, precio, pago, distancia, tiempo…"
+      },
+      {
+        "valor": "7",
+        "leyenda": "tipos de error para corregir, además de leer bien el archivo"
+      },
+      {
+        "valor": "1.180",
+        "leyenda": "pedidos que deben quedar al final: así se comprueba la limpieza"
+      }
+    ],
+    "texto": "«Pan de Datos» es una panadería ficticia con domicilios en Medellín, Bello, Itagüí, Envigado y Sabaneta. Los datos son sintéticos: se crearon para este curso y no son cifras reales.",
+    "notas": "[0:31 – 0:33] Decir: somos el equipo de análisis de «Pan de Datos» y la dueña quiere saber qué se vende, cuándo, a quién y dónde se demoran los domicilios. Aclarar que la empresa es ficticia y que los datos son sintéticos, creados para el curso con errores sembrados a propósito, parecidos a los de una base digitada a mano. Dar la meta: de 1.250 filas sucias deben llegar a 1.180 limpias; si su número coincide, limpiaron bien. Escribir: nada; quien va atrasado sigue descargando los archivos. Deben ver: las cuatro cifras. Error frecuente: creer que limpiar es borrar todo lo que tenga problemas; en el taller solo se eliminan 70 filas (40 duplicadas, 12 sin precio y 18 con valores imposibles) y todo lo demás se corrige."
+  },
+  {
+    "id": "columnas-base",
+    "layout": "tabla",
+    "titulo": "Once columnas: siete traen errores en sus valores",
+    "etiqueta": "BLOQUE 3 · LA BASE",
+    "columnas": [
+      "Encabezado en el CSV",
+      "Qué guarda",
+      "Ejemplo del archivo",
+      "Problema"
+    ],
+    "columnas_codigo": [
+      0,
+      2
+    ],
+    "filas": [
+      [
+        "ID Pedido",
+        "Número del pedido",
+        "1001",
+        "—"
+      ],
+      [
+        "' Fecha'",
+        "Día del pedido",
+        "03/01/2025",
+        "Es texto, no fecha"
+      ],
+      [
+        "'Municipio '",
+        "Municipio de entrega",
+        "medellin",
+        "19 formas de escribir 5"
+      ],
+      [
+        "PRODUCTO",
+        "Uno de 8 productos",
+        "Pan de bono",
+        "—"
+      ],
+      [
+        "Cantidad",
+        "Unidades, de 1 a 6",
+        "5",
+        "—"
+      ],
+      [
+        "Precio Unitario",
+        "Precio de una unidad",
+        "$2.800",
+        "Texto con $ y punto; 12 vacíos"
+      ],
+      [
+        "Metodo Pago",
+        "Efectivo, Nequi, Tarjeta o Daviplata",
+        "NEQUI",
+        "14 variantes; 36 vacíos"
+      ],
+      [
+        "Distancia KM",
+        "Kilómetros recorridos",
+        "7,1",
+        "—"
+      ],
+      [
+        "Tiempo Entrega",
+        "Minutos hasta entregar",
+        "64",
+        "Imposibles: -15, 0, 999"
+      ],
+      [
+        "Edad Cliente",
+        "Edad en años",
+        "23",
+        "60 vacíos"
+      ],
+      [
+        "Calificacion",
+        "Nota del cliente, de 1 a 5",
+        "4",
+        "Imposibles: 0, 10, 45"
+      ]
+    ],
+    "nota": "Además: 40 filas repetidas (paso 2), coma decimal en Distancia KM (paso E) y encabezados con espacios o mayúsculas (paso 1).",
+    "notas": "[0:33 – 0:35] Decir: recorrer la tabla de arriba abajo; cada fila del CSV es un pedido y cada columna, una variable. Señalar los espacios escondidos en ' Fecha' y 'Municipio ' (por eso van entre comillas) y que ID Pedido, PRODUCTO, Cantidad y Distancia KM traen valores sanos. Conectar con los tipos de variable del bloque 1: municipio y producto son categóricas; distancia, tiempo y edad son numéricas; calificación es ordinal. Escribir: nada. Deben ver: la tabla. Si se quiere mostrar el archivo crudo, abrirlo en el visor de Colab o en el Bloc de notas, no en Excel: Excel convierte «$2.800» en número y las fechas en fechas, y así no se ven los errores de los pasos 4 y 5. Error frecuente: confundir el encabezado sucio con el nombre limpio; después del paso 1, 'Precio Unitario' se llama precio_unitario y así hay que escribirlo."
+  },
+  {
+    "id": "prepara-colab",
+    "layout": "lista_numerada",
+    "titulo": "Prepara tu Colab en tres minutos",
+    "etiqueta": "BLOQUE 3 · MANOS A LA OBRA",
+    "items": [
+      {
+        "negrita": "Descarga los dos archivos.",
+        "texto": "`taller_estudiante.ipynb` y `domicilios_sucio.csv`, de la carpeta «taller» del enlace: {enlace}"
+      },
+      {
+        "negrita": "Abre Colab.",
+        "texto": "Entra a `colab.research.google.com` con tu cuenta de Google."
+      },
+      {
+        "negrita": "Sube el cuaderno.",
+        "texto": "Archivo → Subir cuaderno → `taller_estudiante.ipynb`."
+      },
+      {
+        "negrita": "Sube los datos.",
+        "texto": "Ícono de carpeta (Archivos) en la barra izquierda → arrastra `domicilios_sucio.csv`."
+      },
+      {
+        "negrita": "Ejecuta la primera celda.",
+        "texto": "`import pandas as pd` con Shift + Enter. Si no sale error, estás listo."
+      }
+    ],
+    "notas": "[0:35 – 0:38] Antes de la clase: dejar listo el enlace del taller (Drive o correo) con tres carpetas: «taller» (taller_estudiante.ipynb y domicilios_sucio.csv), «respaldo» (domicilios_limpio.csv, para el punto de control) y «solución» (taller_solucion.ipynb), y escribir el enlace corto en las diapositivas 2, 19 y 36. Decir: hacer los cinco pasos en la pantalla proyectada, despacio, y esperar a que la mayoría tenga el visto bueno; quien ya descargó los archivos y abrió Colab va directo al paso 3. Colab avisa que los archivos subidos se borran al cerrar la sesión: aceptar. Si al ejecutar la primera celda aparece el aviso «Este cuaderno no lo creó Google», aceptar con «Ejecutar de todos modos» (confirmarlo en el ensayo). Escribir: nada; import pandas as pd ya está escrito, solo se ejecuta. Deben ver: domicilios_sucio.csv en el panel de archivos y un número [1] junto a la primera celda. Error frecuente: soltar el CSV dentro de la carpeta sample_data en vez de la raíz, o descargarlo dos veces y que quede como «domicilios_sucio (1).csv»; en ambos casos read_csv dará FileNotFoundError. Plan B: si Colab o la red fallan, seguir en modo demostración: cada diapositiva del taller trae el código, el resultado y la figura real, y se puede proyectar taller_solucion.ipynb, que ya está ejecutado; los estudiantes hacen el cuaderno en casa. Llevar los tres archivos en USB y en el portátil. Quien no tenga cuenta de Google o no recuerde la clave trabaja en pareja con un compañero."
+  },
+  {
+    "id": "mapa-etl",
+    "layout": "flujo",
+    "titulo": "El taller sigue el ETL: extraer, transformar y cargar",
+    "etiqueta": "BLOQUE 3 · MAPA DEL TALLER",
+    "pasos": [
+      {
+        "titulo": "E · Extraer",
+        "texto": "Leer el CSV con separador ; y coma decimal.",
+        "codigo": [
+          "read_csv()",
+          "shape"
+        ]
+      },
+      {
+        "titulo": "T · Pasos 1 a 3",
+        "texto": "Nombres de columnas, filas duplicadas y texto inconsistente.",
+        "codigo": [
+          "str.strip()",
+          "drop_duplicates()"
+        ]
+      },
+      {
+        "titulo": "T · Pasos 4 y 5",
+        "texto": "Números y fechas que llegaron como texto.",
+        "codigo": [
+          "to_numeric()",
+          "to_datetime()"
+        ]
+      },
+      {
+        "titulo": "T · Pasos 6 y 7",
+        "texto": "Datos faltantes y valores imposibles.",
+        "codigo": [
+          "fillna()",
+          "between()"
+        ]
+      },
+      {
+        "titulo": "L · Cargar",
+        "texto": "Revisar la base limpia y guardarla en un archivo nuevo.",
+        "codigo": [
+          "info()",
+          "to_csv()"
+        ]
+      }
+    ],
+    "nota": "Cada paso tiene el mismo ritmo: diagnosticar con un método, corregir y comprobar.",
+    "notas": "[0:38 – 0:39] Decir: este es el mapa de los próximos 26 minutos; es el mismo ETL del ciclo del análisis, ahora con código. Abajo de cada caja está el método clave de ese tramo. Cada paso tiene tres momentos: 1) diagnóstico, una celda que muestra el problema; 2) corrección; 3) comprobación, volver a mirar. Escribir: nada. Deben ver: en el cuaderno, los encabezados Paso E, Paso 1… Paso 7 y Paso L. Error frecuente: corregir sin diagnosticar; si no miramos primero, no sabemos qué arreglar ni si quedó bien."
+  },
+  {
+    "id": "paso-e",
+    "layout": "paso_etl",
+    "titulo": "Sin sep=';', todo el archivo cae en una sola columna",
+    "etiqueta": "BLOQUE 3 · PASO E · EXTRAER",
+    "problema": "El archivo separa con `;` y usa coma decimal, como Excel en Colombia. `pd.read_csv` sin parámetros espera comas y da `(1250, 1)`: una sola columna.",
+    "ejemplo": [
+      "ID Pedido; Fecha;…",
+      "1001;03/01/2025;Bello;…",
+      "7,1"
+    ],
+    "diagnostico": "df.head() y df.shape",
+    "metodo": "read_csv(sep=';', decimal=',')",
+    "codigo": "df = pd.read_csv('domicilios_sucio.csv', sep=';', decimal=',')\ndf.head()",
+    "resultado": "`df.shape` pasa de `(1250, 1)` a `(1250, 11)`. Distancia KM ya es número (pandas la muestra como `7.1`); Precio Unitario sigue como texto.",
+    "notas": "[0:39 – 0:43] Decir: primero provocamos el error a propósito, porque es el más común al abrir un CSV hecho en Excel en Colombia. Escribir: read_csv en el primer hueco y shape en el siguiente: sale (1250, 1). Mostrar en la salida que cada fila quedó amontonada en una sola columna y partida en la coma de la distancia. Luego, en la celda de la solución, escribir ; y , entre las comillas de sep y decimal, y shape otra vez. Deben ver: una tabla de 11 columnas y (1250, 11). Error frecuente: FileNotFoundError, porque el CSV no está subido o tiene otro nombre; o borrar las comillas al llenar sep='___' (debe quedar sep=';')."
+  },
+  {
+    "id": "paso-1",
+    "layout": "paso_etl",
+    "titulo": "Nombres sin espacios ni mayúsculas en una sola línea",
+    "etiqueta": "BLOQUE 3 · PASO 1 · NOMBRES DE COLUMNAS",
+    "problema": "Los encabezados traen espacios a los lados, mayúsculas y espacios internos. Para pandas, `' Fecha'` y `'fecha'` son columnas distintas.",
+    "ejemplo": [
+      "' Fecha'",
+      "'Municipio '",
+      "'PRODUCTO'",
+      "'Precio Unitario'",
+      "'Metodo Pago'"
+    ],
+    "diagnostico": "df.columns",
+    "metodo": "str.strip().str.lower().str.replace()",
+    "codigo": "df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')\ndf.columns",
+    "resultado": "Los 11 nombres quedan limpios: `id_pedido`, `fecha`, `municipio`, `producto`, `precio_unitario`, `metodo_pago`… `calificacion`.",
+    "notas": "[0:43 – 0:45] Decir: diagnóstico con df.columns, sin paréntesis porque es un atributo, no un método. Leer la cadena de izquierda a derecha: strip quita los espacios de los extremos, lower pasa a minúsculas y replace cambia el espacio interno por guion bajo. Desde aquí cada columna se escribe con el nombre limpio. Escribir: columns en el diagnóstico; strip, lower y replace en los tres huecos. Deben ver: Index con id_pedido, fecha… calificacion. Error frecuente: escribir df.columns() con paréntesis (TypeError: 'Index' object is not callable) o borrar un .str de la cadena (AttributeError)."
+  },
+  {
+    "id": "paso-2",
+    "layout": "paso_etl",
+    "titulo": "40 pedidos estaban registrados dos veces",
+    "etiqueta": "BLOQUE 3 · PASO 2 · FILAS DUPLICADAS",
+    "problema": "Hay filas idénticas, como un pedido digitado dos veces. Si no se quitan, los pedidos y las ventas se cuentan doble.",
+    "ejemplo": [
+      "1002 · Bello · Jugo natural",
+      "1002 · Bello · Jugo natural",
+      "1013 · Itagüí · Croissant ×2"
+    ],
+    "diagnostico": "df.duplicated().sum()",
+    "metodo": "drop_duplicates()",
+    "codigo": "df = df.drop_duplicates()\ndf.shape",
+    "resultado": "`df.duplicated().sum()` da 40. Tras `drop_duplicates()`, `df.shape` pasa de `(1250, 11)` a `(1210, 11)`.",
+    "notas": "[0:45 – 0:47] Decir: duplicated() marca con True cada fila que es copia exacta de una anterior y sum() cuenta los True. El pedido 1002 aparece idéntico en los índices 1 y 7 de pandas (renglones 3 y 9 en Excel); el 1013, en los índices 13 y 19. Escribir: duplicated en el diagnóstico y drop_duplicates en la corrección. Deben ver: np.int64(40), que es simplemente el número 40, y (1210, 11). Si alguien mostró df solo en una celda antes de este paso, en los pasos 3 a 6 puede salir un aviso rosado SettingWithCopyWarning: no cambia el resultado y se evita usando df.head(). Error frecuente: escribir solo df.drop_duplicates() sin el df = adelante: muestra la tabla sin duplicados, pero df no cambia y el shape sigue en 1250."
+  },
+  {
+    "id": "paso-3",
+    "layout": "paso_etl",
+    "titulo": "Diecinueve formas de escribir cinco municipios",
+    "etiqueta": "BLOQUE 3 · PASO 3 · TEXTO INCONSISTENTE",
+    "problema": "`value_counts()` cuenta cada variante por aparte: medellin, MEDELLIN y ' Medellín ' parecen tres municipios. El pago tiene 14 variantes.",
+    "ejemplo": [
+      "medellin",
+      "MEDELLIN",
+      "' Medellín '",
+      "Itagui",
+      "'BELLO '"
+    ],
+    "diagnostico": "df['municipio'].value_counts()",
+    "metodo": "str.strip().str.title() y replace()",
+    "codigo": "df['municipio'] = df['municipio'].str.strip().str.title()\ndf['municipio'] = df['municipio'].replace({'Medellin': 'Medellín', 'Itagui': 'Itagüí'})\ndf['metodo_pago'] = df['metodo_pago'].str.strip().str.title()",
+    "resultado": "Municipio: de 19 variantes a 5 (Medellín 532, Envigado 206, Itagüí 176, Bello 163, Sabaneta 133). Pago: de 14 a 4.",
+    "notas": "[0:47 – 0:51] Decir: value_counts muestra 19 municipios donde debería haber 5. strip quita espacios y title deja mayúscula inicial, pero no pone tildes: por eso Medellin e Itagui se corrigen con replace y un diccionario {'sucio': 'limpio'}. Después, lo mismo con metodo_pago, que solo necesita strip y title (tercera línea de la diapositiva; en el cuaderno va en su propia celda, con value_counts debajo). En su value_counts, Nequi sale dos veces (347 y 22): el segundo trae un espacio invisible al final; es el momento de mostrar por qué strip va primero. Escribir: value_counts; strip, title y replace; value_counts para comprobar; luego value_counts, strip y title en metodo_pago. Deben ver: 5 municipios y 4 métodos de pago (Nequi 466, Efectivo 312, Tarjeta 233, Daviplata 163; los 36 vacíos no aparecen en value_counts). Error frecuente: invertir el diccionario ({'Medellín': 'Medellin'}) o escribir mal la tilde de Itagüí."
+  },
+  {
+    "id": "paso-4",
+    "layout": "paso_etl",
+    "titulo": "Con «$2.800» como texto no se puede sumar",
+    "etiqueta": "BLOQUE 3 · PASO 4 · NÚMEROS COMO TEXTO",
+    "problema": "`df.dtypes` muestra `precio_unitario` como `object`, es decir, texto, por el signo $ y el punto de miles. Un texto no se puede multiplicar.",
+    "ejemplo": [
+      "$2.800",
+      "$9.500",
+      "2.000",
+      "(vacío)"
+    ],
+    "diagnostico": "df.dtypes",
+    "metodo": "str.replace() y pd.to_numeric()",
+    "codigo": "df['precio_unitario'] = df['precio_unitario'].str.replace('$', '')\ndf['precio_unitario'] = df['precio_unitario'].str.replace('.', '')\ndf['precio_unitario'] = pd.to_numeric(df['precio_unitario'])",
+    "resultado": "`precio_unitario` pasa de `object` a `float64`: de 2.000 a 9.500 pesos. Los 12 vacíos quedan como `NaN`, sin error.",
+    "notas": "[0:51 – 0:54] Decir: object es la forma de pandas 2 de decir texto (en pandas 3 sale str). Hay 1.072 precios con $ y 126 sin $; replace sobre un precio sin $ no cambia nada, así que la misma línea sirve para todos. Son tres líneas con el mismo patrón: quitar el $, quitar el punto y convertir. Quitar el punto es clave: '2.800' convertido tal cual sería 2,8 pesos. Escribir: dtypes; replace, replace y to_numeric; dtypes otra vez. Deben ver: precio_unitario float64. Error frecuente: ejecutar dos veces la celda: la segunda sale AttributeError: Can only use .str accessor with string values, porque la columna ya es número. No pasa nada: seguir con la siguiente celda. Control del tiempo: si a las 0:54 la mayoría no terminó el paso 4, dejar esta diapositiva a la vista para que copien la celda resuelta y seguir."
+  },
+  {
+    "id": "paso-5",
+    "layout": "paso_etl",
+    "titulo": "Una fecha de verdad permite sacar el mes",
+    "etiqueta": "BLOQUE 3 · PASO 5 · FECHAS COMO TEXTO",
+    "problema": "`fecha` llegó como texto: así no se puede sacar el mes ni ordenar en el tiempo. Tampoco existe aún el valor total de cada pedido.",
+    "ejemplo": [
+      "03/01/2025",
+      "13/07/2025",
+      "31/12/2025"
+    ],
+    "diagnostico": "df.dtypes",
+    "comprobacion": "df.head()",
+    "metodo": "pd.to_datetime(format='%d/%m/%Y') y dt.month",
+    "codigo": "df['fecha'] = pd.to_datetime(df['fecha'], format='%d/%m/%Y')\ndf['mes'] = df['fecha'].dt.month\ndf['total'] = df['cantidad'] * df['precio_unitario']",
+    "resultado": "`fecha` queda como `datetime64`, del 3 de enero al 31 de diciembre de 2025. Se crean `mes` y `total`: 13 columnas.",
+    "notas": "[0:54 – 0:57] Decir: format='%d/%m/%Y' le dice a pandas el orden día/mes/año; sin él, pandas supone mes/día/año por la primera fecha y se detiene con un ValueError en 13/01/2025. .dt.month saca el mes de cada fecha. total = cantidad × precio se calcula para todas las filas a la vez, sin bucles. Escribir: to_datetime y month; luego head en la celda de comprobación (está en la diapositiva, debajo del diagnóstico). Deben ver: fecha como 2025-01-03 y las columnas mes y total al final (primera fila: 5 × 2800 = 14000). Error frecuente: escribir month() con paréntesis (TypeError) o %y en minúscula en el formato (ValueError)."
+  },
+  {
+    "id": "paso-6",
+    "layout": "paso_etl",
+    "titulo": "Cada dato faltante se trata distinto",
+    "etiqueta": "BLOQUE 3 · PASO 6 · DATOS FALTANTES",
+    "problema": "`df.isna().sum()` cuenta vacíos: 36 en `metodo_pago`, 12 en `precio_unitario` (y en `total`) y 60 en `edad_cliente`. No hay una receta única.",
+    "ejemplo": [
+      "1009 · sin precio",
+      "1019 · sin pago",
+      "1016 · sin edad"
+    ],
+    "diagnostico": "df.isna().sum()",
+    "metodo": "fillna('Sin dato') y dropna(subset=...)",
+    "codigo": "df['metodo_pago'] = df['metodo_pago'].fillna('Sin dato')\ndf = df.dropna(subset=['precio_unitario'])\ndf.shape",
+    "resultado": "36 pagos quedan como 'Sin dato' y salen 12 pedidos sin precio: `(1198, 13)`. La edad conserva sus 60 vacíos.",
+    "notas": "[0:57 – 1:00] Decir: explicar las tres decisiones. Pago: el pedido sí ocurrió, solo falta el dato, así que se rellena con 'Sin dato' y no se pierde la venta. Precio: sin precio no hay total, así que se quita la fila (12 de 1.210, menos del 1 %). Edad: se deja vacía, porque pandas la ignora al promediar y al graficar, y borrar esos 60 pedidos quitaría ventas reales. Escribir: isna; fillna y dropna; isna otra vez. Deben ver: (1198, 13) y, en el segundo isna, solo edad_cliente con 60. Error frecuente: usar df = df.dropna() sin subset: también borra los pedidos sin edad y quedan 1.138 filas en vez de 1.198."
+  },
+  {
+    "id": "paso-7",
+    "layout": "paso_etl",
+    "titulo": "Nadie espera 999 minutos ni califica con 45",
+    "etiqueta": "BLOQUE 3 · PASO 7 · VALORES IMPOSIBLES",
+    "problema": "`describe()` delata lo imposible: `tiempo_entrega` va de -15 a 999 minutos y la calificación llega a 0 y a 45, en una escala de 1 a 5.",
+    "ejemplo": [
+      "tiempo -15",
+      "tiempo 0",
+      "tiempo 999",
+      "calificación 10",
+      "calificación 45"
+    ],
+    "diagnostico": "df.describe()",
+    "metodo": "between()",
+    "codigo": "df = df[df['tiempo_entrega'].between(1, 180)]\ndf = df[df['calificacion'].between(1, 5)]\ndf.shape",
+    "resultado": "Salen 10 tiempos y 8 calificaciones imposibles: `(1180, 13)`. Quedan tiempos de 10 a 98 min y notas de 2 a 5.",
+    "notas": "[1:00 – 1:03] Decir: en describe, mirar las filas min y max. between(1, 180) devuelve True o False por fila y df[...] se queda con los True; 180 minutos es un límite generoso. Distinguir imposible de raro: 98 minutos es raro pero posible y se queda (lo veremos como atípico en la caja). Escribir: describe; between dos veces; describe otra vez. Deben ver: (1180, 13), la meta anunciada al principio. Error frecuente: leer la fila mean en vez de min y max, o aplicar between(1, 5) a tiempo_entrega: deja la base vacía, porque ningún tiempo real está entre 1 y 5 minutos."
+  },
+  {
+    "id": "paso-l",
+    "layout": "paso_etl",
+    "titulo": "1.180 pedidos limpios, guardados en un archivo nuevo",
+    "etiqueta": "BLOQUE 3 · PASO L · CARGAR",
+    "problema": "La base limpia solo existe en la memoria de Colab. Antes de guardarla, `info()` confirma filas, tipos y vacíos de cada columna.",
+    "ejemplo": [
+      "1.250 → 1.180 filas",
+      "11 → 13 columnas",
+      "precio: texto → número"
+    ],
+    "diagnostico": "df.info()",
+    "metodo": "to_csv(index=False)",
+    "codigo": "df.info()\ndf.to_csv('domicilios_limpio.csv', index=False)",
+    "resultado": "`info()`: 1.180 filas y 13 columnas; solo `edad_cliente` tiene vacíos (1.120 datos). Queda guardado `domicilios_limpio.csv`.",
+    "notas": "[1:03 – 1:05] Decir: balance del ETL: de 1.250 a 1.180 filas; salieron 40 duplicadas, 12 sin precio, 10 tiempos y 8 calificaciones imposibles (70 en total) y todo lo demás se corrigió. index=False evita guardar el índice como una columna más. El archivo aparece en el panel de archivos (a veces hay que actualizarlo); para conservarlo, clic derecho → Descargar, porque Colab lo borra al cerrar. Es un archivo para pandas (comas y punto decimal): con doble clic, un Excel en español lo abre en una sola columna; en Excel se abre con Datos → Desde texto/CSV. Escribir: info y to_csv. Deben ver: el resumen de info y domicilios_limpio.csv en el panel. Control del tiempo: a la 1:05, quien no haya llegado al paso L usa el punto de control del inicio de «Análisis gráfico»: sube domicilios_limpio.csv de la carpeta «respaldo» del enlace y ejecuta esa celda (debe dar (1180, 13)). Error frecuente: guardar sin index=False (al volver a leerlo aparece la columna Unnamed: 0) o cerrar Colab sin descargar el archivo."
+  },
+  {
+    "id": "seccion-analisis",
+    "layout": "seccion",
+    "titulo": "Análisis: cinco preguntas, cinco gráficas",
+    "etiqueta": "BLOQUE 4 · ANÁLISIS GRÁFICO",
+    "texto": "Con la base limpia, cada gráfica es una instrucción de pandas que responde una pregunta de negocio de «Pan de Datos».",
+    "notas": "[1:05 – 1:06] Decir: ya tenemos datos confiables; ahora sí vale la pena graficar. Cada gráfica es una sola instrucción .plot partida en renglones, y el único concepto nuevo es groupby. Recordar las seis preguntas para leer una gráfica: título, ejes y unidades, escala, fuente, pregunta y decisión. Escribir: nada. Avisar: en Colab las gráficas salen con el estilo por defecto (otra letra, otro tamaño y marco completo); los datos y la forma son los mismos que en las diapositivas. Deben ver: la sección «Análisis gráfico» del cuaderno y su punto de control. Error frecuente: si Colab se reinició, df ya no existe (NameError: name 'df' is not defined); solución: Entorno de ejecución → Ejecutar anteriores; si además desapareció el CSV del panel, volver a arrastrarlo. Quien va atrasado, o si Ejecutar anteriores se detiene en un hueco sin llenar, usa el punto de control: subir domicilios_limpio.csv (carpeta «respaldo») y ejecutar la celda del punto de control."
+  },
+  {
+    "id": "grafica-barras-taller",
+    "layout": "grafica_taller",
+    "titulo": "Pan de bono lidera; la torta de chocolate es la última",
+    "etiqueta": "BLOQUE 4 · GRÁFICA 1 · BARRAS",
+    "pregunta": "¿Qué productos se piden más?",
+    "codigo": "df['producto'].value_counts().plot(\n    kind='barh', title='Pedidos por producto', color='#06784F')",
+    "figura": "figuras/taller_barras.png",
+    "lectura": "Pan de bono es el más pedido: 271 pedidos, 1,4 veces los 193 del Buñuelo. Torta de chocolate es la última, con 70. Ojo: el eje cuenta pedidos, no pesos.",
+    "pregunta_grupo": "¿El producto menos pedido es también el que menos dinero deja? ¿Cómo lo averiguarían?",
+    "notas": "[1:06 – 1:09] Decir: value_counts cuenta los pedidos de cada producto y .plot los dibuja; barras horizontales porque los nombres son largos. barh dibuja el primero de la lista abajo: por eso Pan de bono, el mayor, queda en la base. Escribir: barh dentro de las comillas de kind. Deben ver: 8 barras verdes, la más larga la de Pan de bono. Error frecuente: escribir kind=barh sin comillas (NameError) o 'bar' (barras verticales con los nombres girados: funciona, pero se lee peor). Respuesta a la pregunta: no. La torta deja 1.425.000 pesos en el año, porque cuesta 7.500; el que menos dinero deja es la Almojábana (1.100.400), muy cerca del Buñuelo (1.106.000). Se averigua sumando total por producto con groupby, como en la gráfica siguiente."
+  },
+  {
+    "id": "grafica-linea-taller",
+    "layout": "grafica_taller",
+    "titulo": "Diciembre vende 2,6 veces lo que vende febrero",
+    "etiqueta": "BLOQUE 4 · GRÁFICA 2 · LÍNEAS",
+    "pregunta": "¿Cómo cambian las ventas durante el año?",
+    "codigo": "df.groupby('mes')['total'].sum().plot(\n    kind='line', marker='o', color='#06784F',\n    title='Ventas por mes', ylabel='Pesos')",
+    "figura": "figuras/taller_linea.png",
+    "lectura": "Las ventas tocan fondo en febrero (654.800 pesos), suben en junio y julio y llegan al pico en diciembre (1.697.700). El eje no empieza en cero (en líneas se acepta, porque importa la forma), así que lean los valores; «1e6» significa millones.",
+    "pregunta_grupo": "¿Qué harían con el personal y el inventario en diciembre? ¿Y qué probarían en febrero?",
+    "notas": "[1:09 – 1:12] Decir: groupby('mes') junta los pedidos de cada mes, ['total'] elige la columna y sum() suma las ventas. Leer el eje: «1e6» encima significa millones de pesos. El eje no empieza en cero; en una línea se acepta, porque importa la forma, pero hay que leer los valores: por la altura, diciembre parece unas 20 veces febrero, pero vende 2,6 veces; por eso se leen los valores y no solo el dibujo. Datos sintéticos: en una panadería real habría que confirmarlo con varios años. Escribir: groupby. Deben ver: 12 puntos con el valle en 2 y el pico en 12. Error frecuente: groupby('Mes') con mayúscula (KeyError: 'Mes') o mean() en vez de sum(), que da el promedio por pedido y no las ventas del mes."
+  },
+  {
+    "id": "grafica-histograma-taller",
+    "layout": "grafica_taller",
+    "titulo": "Los clientes forman dos grupos de edad, no uno",
+    "etiqueta": "BLOQUE 4 · GRÁFICA 3 · HISTOGRAMA",
+    "pregunta": "¿Quiénes son nuestros clientes?",
+    "codigo": "df['edad_cliente'].plot(\n    kind='hist', bins=20, color='#06784F',\n    title='Edad de los clientes', ylabel='Pedidos')",
+    "figura": "figuras/taller_histograma.png",
+    "lectura": "La forma tiene dos jorobas: 420 pedidos de clientes de 19 a 25 años y 324 de 38 a 48, con un valle entre 29 y 35 (solo 59 pedidos). Los 60 pedidos sin edad no se cuentan.",
+    "pregunta_grupo": "El promedio de edad es 34,5 años. ¿Describe bien a un cliente típico?",
+    "notas": "[1:12 – 1:15] Decir: bins=20 corta el rango de 15 a 75 años en 20 intervalos de 3 años; cada barra cuenta pedidos, no personas. La distribución es bimodal: dos grupos, jóvenes y adultos. Los 60 vacíos de edad que dejamos en el paso 6 simplemente no se dibujan. Escribir: hist dentro de las comillas de kind. Deben ver: dos montañas, una alrededor de 22 años y otra alrededor de 42. Error frecuente: leerlo como barras de categorías; aquí el eje horizontal es una variable numérica cortada en intervalos que se tocan. Respuesta a la pregunta: no. El promedio, 34,5, cae justo en el valle, donde hay pocos clientes; para decisiones de mercadeo conviene pensar en dos públicos distintos."
+  },
+  {
+    "id": "grafica-dispersion-taller",
+    "layout": "grafica_taller",
+    "titulo": "A más distancia, más tiempo de entrega",
+    "etiqueta": "BLOQUE 4 · GRÁFICA 4 · DISPERSIÓN",
+    "pregunta": "¿Tardamos más cuando el pedido va más lejos?",
+    "codigo": "df.plot(\n    kind='scatter', x='distancia_km', y='tiempo_entrega',\n    title='Distancia contra tiempo de entrega', color='#06784F')",
+    "figura": "figuras/taller_dispersion.png",
+    "lectura": "La nube sube de izquierda a derecha: con 2 km o menos la entrega tarda 17 min en mediana y con 8 km o más, 55,5 min. Los puntos muy por encima de la nube son atrasos que vale la pena revisar.",
+    "pregunta_grupo": "Si un cliente pide desde 10 km, ¿qué tiempo de entrega le prometerían?",
+    "notas": "[1:15 – 1:18] Decir: cada punto es un pedido; x es la distancia y y el tiempo. La relación es positiva y fuerte (correlación de 0,82). Recordar que correlación no es causalidad, aunque aquí la explicación es razonable: recorrer más kilómetros toma más tiempo. Escribir: scatter dentro de las comillas de kind. Deben ver: una nube que sube, entre 0,6 y 11,2 km. Error frecuente: invertir x y y (la gráfica sale, pero la pregunta cambia) o escribir mal un nombre de columna (KeyError). Respuesta a la pregunta: entre 9,5 y 10,5 km hay 19 pedidos; su mediana es 60 min y la mitad central tarda entre 55,5 y 68 min, así que prometer «menos de una hora» fallaría en cerca de la mitad de esos pedidos."
+  },
+  {
+    "id": "grafica-caja-taller",
+    "layout": "grafica_taller",
+    "titulo": "Bello es el municipio más lento y el más impredecible",
+    "etiqueta": "BLOQUE 4 · GRÁFICA 5 · CAJA Y BIGOTES",
+    "pregunta": "¿Dónde se demoran más los domicilios?",
+    "codigo": "df.boxplot(column='tiempo_entrega', by='municipio', color='#06784F')",
+    "figura": "figuras/taller_caja.png",
+    "lectura": "Bello tiene la mediana más alta (52 min; Medellín, 24) y la caja más larga (de 44 a 60 min). Los círculos son atípicos legítimos, no errores. En Colab sale además el título automático «Boxplot grouped by municipio».",
+    "pregunta_grupo": "¿Bello es lento solo porque queda más lejos? ¿Con qué datos lo comprobarían?",
+    "notas": "[1:18 – 1:22] Decir: repasar la anatomía del bloque 2: la línea dentro de la caja es la mediana, la caja guarda el 50 % central y los círculos son atípicos. Bello: mediana 52 min y rango intercuartílico de 16 min, el mayor; su atípico más alto es 98 min. Avisar que pandas pone solo un título en inglés («Boxplot grouped by municipio») encima de 'tiempo_entrega'; no es un error y en la diapositiva se quitó para ganar espacio. Escribir: boxplot. Avisar que en pandas las cajas salen verticales (en la figura de teoría estaban acostadas) y que la mediana es la línea dentro de cada caja, del mismo grosor que las demás. Deben ver: cinco cajas, la de Bello más alta y más larga. Error frecuente: by='Municipio' con mayúscula (KeyError) o borrar atípicos como si fueran errores. Respuesta a la pregunta: en parte. La mediana de distancia de Bello es 8,0 km contra 3,6 en Medellín, pero entre pedidos de 6 a 8 km Bello sigue tardando más (mediana 49 min contra unos 37 en los demás). Si el grupo va adelantado, resolver el reto en clase; si no, queda para casa. Reto opcional del cuaderno: las entregas calificadas con 2 tardaron en promedio 69,3 min y las calificadas con 5, 26,8 min."
+  },
+  {
+    "id": "resumen-metodos",
+    "layout": "tabla",
+    "titulo": "Cada método del taller resuelve un problema concreto",
+    "etiqueta": "BLOQUE 5 · RESUMEN DE MÉTODOS",
+    "columnas": [
+      "Método o atributo",
+      "Para qué sirve",
+      "Paso"
+    ],
+    "columnas_codigo": [
+      0
+    ],
+    "filas": [
+      [
+        "pd.read_csv(sep=';', decimal=',')",
+        "Leer un CSV con punto y coma y coma decimal",
+        "E"
+      ],
+      [
+        "head() · shape · columns · dtypes · info()",
+        "Mirar la tabla, su tamaño, sus nombres, sus tipos y sus vacíos",
+        "E a L"
+      ],
+      [
+        "columns.str.strip().str.lower().str.replace()",
+        "Dejar nombres de columnas cómodos de escribir",
+        "1"
+      ],
+      [
+        "duplicated() · drop_duplicates()",
+        "Contar y quitar filas repetidas",
+        "2"
+      ],
+      [
+        "value_counts()",
+        "Contar cuántas veces aparece cada valor",
+        "3"
+      ],
+      [
+        "str.strip().str.title() · replace()",
+        "Unificar un texto escrito de varias formas",
+        "3"
+      ],
+      [
+        "str.replace() · pd.to_numeric()",
+        "Convertir «$2.800» en el número 2800",
+        "4"
+      ],
+      [
+        "pd.to_datetime() · dt.month",
+        "Convertir texto en fecha y sacar el mes",
+        "5"
+      ],
+      [
+        "isna() · fillna() · dropna()",
+        "Contar, rellenar o quitar datos faltantes",
+        "6"
+      ],
+      [
+        "describe() · between()",
+        "Ver mínimos y máximos; quedarse con un rango válido",
+        "7"
+      ],
+      [
+        "to_csv(index=False)",
+        "Guardar la base limpia en un archivo",
+        "L"
+      ],
+      [
+        "groupby() · plot(kind=...)",
+        "Resumir por grupos y graficar",
+        "Análisis"
+      ]
+    ],
+    "nota": "Cuaderno de solución, para repasar en casa: carpeta «solución» de {enlace}",
+    "notas": "[1:22 – 1:25] Decir: esta es la caja de herramientas del día; con estos métodos se resuelve buena parte de la limpieza de cualquier base tabular. Insistir en el patrón y no en memorizar: diagnosticar, corregir, comprobar. Escribir: nada; pueden tomarle foto a la tabla. Decir dónde quedan los materiales: en el enlace del taller, la carpeta «solución» tiene el cuaderno resuelto y la carpeta «respaldo», la base limpia. Deben ver: su cuaderno completo, con 1.180 filas y las cinco gráficas. Error frecuente: copiar la limpieza de otra base sin diagnosticar: cada base tiene sus propios errores y hay que mirarla primero."
+  },
+  {
+    "id": "lista-chequeo",
+    "layout": "lista_numerada",
+    "titulo": "Seis revisiones antes de analizar cualquier base",
+    "etiqueta": "BLOQUE 5 · LISTA DE CHEQUEO",
+    "items": [
+      {
+        "negrita": "¿Se leyó bien?",
+        "texto": "`head()` y `shape`: ¿salen las columnas que esperabas?"
+      },
+      {
+        "negrita": "¿Los nombres son cómodos?",
+        "texto": "Sin espacios ni mayúsculas: `strip`, `lower` y `replace`."
+      },
+      {
+        "negrita": "¿Hay filas repetidas?",
+        "texto": "`duplicated().sum()` antes de contar o sumar."
+      },
+      {
+        "negrita": "¿Cada columna tiene su tipo?",
+        "texto": "`dtypes`: los números como número y las fechas como fecha."
+      },
+      {
+        "negrita": "¿Qué falta y qué hago con eso?",
+        "texto": "`isna().sum()` y decidir por columna: rellenar, quitar o dejar."
+      },
+      {
+        "negrita": "¿Hay texto inconsistente o valores imposibles?",
+        "texto": "`value_counts()` para categorías; `describe()` para mínimos y máximos."
+      }
+    ],
+    "notas": "[1:25 – 1:27] Decir: esta lista resume el taller y sirve para cualquier base, del trabajo o de la universidad. Recorrerla rápido y conectar cada punto con su paso: 1 con el paso E, 2 con el 1, 3 con el 2, 4 con los pasos 4 y 5, 5 con el 6 y 6 con los pasos 3 y 7. Escribir: nada. Deben ver: la lista; pueden guardarla con una foto. Error frecuente: creer que la limpieza termina en un solo intento; en la práctica se revisa, se corrige y se vuelve a revisar."
+  },
+  {
+    "id": "cierre",
+    "layout": "cierre",
+    "titulo": "Gracias",
+    "etiqueta": "PREGUNTAS · PARA SEGUIR APRENDIENDO",
+    "lineas": [
+      "Documentación de pandas: pandas.pydata.org/docs",
+      "Kaggle Learn, cursos gratuitos de pandas y visualización: kaggle.com/learn",
+      "Google Colab, para practicar desde el navegador: colab.research.google.com",
+      "Reto para casa, al final del cuaderno: ¿califican peor cuando el domicilio tarda más?"
+    ],
+    "firma": "Andrés David Galeano Quintero · Facultad de Minas, Sede Medellín",
+    "notas": "[1:27 – 1:30] Decir: gracias y abrir el espacio de preguntas. Recomendar los tres recursos: la documentación de pandas (guía «10 minutes to pandas»), los cursos gratuitos de Kaggle Learn y Colab para seguir practicando sin instalar nada. Recordar el reto opcional del final del cuaderno y que la solución está en la carpeta «solución» del enlace. Escribir: nada. Deben ver: los recursos en pantalla. Error frecuente: perder el trabajo; antes de irse, Archivo → Guardar una copia en Drive y descargar domicilios_limpio.csv, porque Colab borra los archivos subidos al cerrar la sesión."
+  }
+]
